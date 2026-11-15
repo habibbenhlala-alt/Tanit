@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b5d46">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<title>TANIT — Apprendre autrement</title>
+<style>
+:root{--g9:#06382b;--g7:#0b5d46;--g5:#169a72;--g1:#e4f3ec;--sand:#f3e9c6;--bg:#f6faf7;--ink:#10241d;--mut:#5d7168;--card:#fff;--ok:#1b8a4b;--no:#c0392b}
+*{box-sizing:border-box;margin:0}
+html,body{height:100%}
+body{font-family:system-ui,"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;padding-bottom:76px}
+header{background:var(--g9);color:#fff;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:5}
+header a{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.14em;font-size:1.25rem}
+header small{display:block;font-weight:400;letter-spacing:0;font-size:.72rem;color:var(--sand);margin-top:-6px}
+button,.btn{font:inherit;cursor:pointer;border:0}
+#lang{background:var(--g7);color:#fff;border-radius:20px;padding:4px 14px}
+main{max-width:720px;margin:auto;padding:16px}
+h1{font-size:1.35rem;margin:6px 0 12px}h2{font-size:1.1rem;margin:18px 0 8px;color:var(--g7)}
+.hero{background:linear-gradient(160deg,var(--g9),var(--g7));color:#fff;border-radius:18px;padding:26px 20px;margin-bottom:16px}
+.hero h1{font-size:1.5rem;margin:0 0 6px}.hero p{color:var(--sand)}
+.list{display:grid;gap:10px}
+.item{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid #d7e6de;border-radius:14px;padding:14px;color:inherit;text-decoration:none}
+.item .ic{font-size:1.6rem;width:44px;height:44px;display:grid;place-items:center;background:var(--g1);border-radius:12px}
+.item b{display:block}.item span{color:var(--mut);font-size:.88rem}
+.empty{background:var(--g1);border-radius:14px;padding:18px;color:var(--g9);text-align:center}
+.fr{direction:ltr;text-align:left;font-weight:600;border-left:4px solid var(--g5);padding:6px 10px;background:#fff;border-radius:8px 8px 0 0;margin-top:12px}
+.ar{direction:rtl;text-align:right;background:var(--g1);padding:6px 10px;border-radius:0 0 8px 8px;color:var(--g9)}
+.q{background:#fff;border:1px solid #d7e6de;border-radius:14px;padding:12px;margin:10px 0}
+.q label{display:block;padding:8px 10px;border-radius:10px;margin-top:6px;border:1px solid #d7e6de}
+.q label.ok{background:#d9f2e3;border-color:var(--ok)}.q label.no{background:#fbe0dc;border-color:var(--no)}
+.q em{display:block;color:var(--mut);font-size:.88rem;margin-top:6px}
+.btn{background:var(--g7);color:#fff;border-radius:12px;padding:11px 20px;margin-top:12px;display:inline-block;text-decoration:none}
+.btn.alt{background:var(--g1);color:var(--g9)}
+input[type=search]{width:100%;padding:12px;border:1px solid #bcd3c7;border-radius:12px;font:inherit;margin-bottom:10px}
+.bar{height:10px;background:#d7e6de;border-radius:6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--g5)}
+.back{color:var(--g7);text-decoration:none;font-size:.92rem}
+nav{position:fixed;bottom:0;inset-inline:0;background:#fff;border-top:1px solid #cfe0d6;display:flex;justify-content:space-around;padding:6px 0 max(6px,env(safe-area-inset-bottom))}
+nav a{flex:1;text-align:center;text-decoration:none;color:var(--mut);font-size:.74rem;padding:2px}
+nav a b{display:block;font-size:1.3rem;font-weight:400}
+nav a.on{color:var(--g7);font-weight:700}
+iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;margin-top:8px}
+:focus-visible{outline:3px solid var(--g5);outline-offset:2px}
+</style>
+</head>
+<body>
+<header><a href="#/">TANIT<small>Apprendre autrement</small></a><button id="lang"></button></header>
+<main id="app"></main>
+<nav id="nav"></nav>
+<script>
+const S={home:["الرئيسية","Accueil","🏠"],lib:["الدروس","Cours","📚"],dict:["القاموس","Lexique","🔤"],prog:["تقدمي","Progrès","📈"],news:["جديد","Actualités","📰"]};
+const TX={slogan:["نفهموا، نتعلموا، ونتقدموا مع بعضنا 🇹🇳","Nous comprenons, nous apprenons, nous progressons ensemble 🇹🇳"],
+ levels:["اختر مستواك","Choisis ton niveau"],soon:["الدروس قادمة قريباً. تابع صفحة الجديد.","Les cours arrivent bientôt. Suis les actualités."],
+ back:["رجوع","Retour"],sum:["الملخص","Résumé"],quiz:["اختبر نفسك","Teste-toi"],check:["صحّح إجاباتي","Corriger"],
+ video:["شاهد الفيديو","Voir la vidéo"],search:["ابحث عن مصطلح…","Rechercher un terme…"],none:["لا شيء بعد.","Rien pour l’instant."],
+ score:["النتيجة","Score"],done:["دروس منجزة","Cours terminés"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."]};
+let lang=localStorage.getItem('tl')||'ar';
+const L=()=>lang==='ar'?0:1,t=k=>TX[k][L()],pick=o=>o[lang];
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let prog={};try{prog=JSON.parse(localStorage.getItem('tp')||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem('tp',JSON.stringify(prog))}catch(e){}};
+const cache={};
+async function get(f){if(cache[f])return cache[f];try{const r=await fetch(f);if(!r.ok)throw 0;return cache[f]=await r.json()}catch(e){return null}}
+const app=document.getElementById('app');
+
+async function route(){
+  document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+  document.getElementById('lang').textContent=lang==='ar'?'Français':'العربية';
+  const p=(location.hash.slice(2)||'').split('/'),v=p[0]||'home';
+  const tab={home:'home',lib:'lib',l:'lib',s:'lib',lesson:'lib',dict:'dict',prog:'prog',news:'news'}[v]||'home';
+  document.getElementById('nav').innerHTML=Object.keys(S).map(k=>`<a href="#/${k==='home'?'':k}" class="${k===tab?'on':''}"><b>${S[k][2]}</b>${S[k][L()]}</a>`).join('');
+  const C=await get('content.json');
+  if(!C){app.innerHTML=`<div class="empty">⚠️ content.json</div>`;return}
+  window.scrollTo(0,0);
+  if(v==='home'){app.innerHTML=`<div class="hero"><h1>Apprendre autrement</h1><p>${t('slogan')}</p></div><h2>${t('levels')}</h2>`+levels(C)}
+  else if(v==='lib')app.innerHTML=`<h1>${S.lib[L()]}</h1>`+levels(C);
+  else if(v==='l')app.innerHTML=subjects(C,p[1]);
+  else if(v==='s')app.innerHTML=lessonsList(C,p[1],p[2]);
+  else if(v==='lesson')await lesson(C,p[1]);
+  else if(v==='dict')await dict();
+  else if(v==='prog')app.innerHTML=progress(C);
+  else if(v==='news')await news();
+}
+const levels=C=>`<div class="list">${C.levels.map(l=>`<a class="item" href="#/l/${l.id}"><div class="ic">🎓</div><div><b>${pick(l)}</b><span>${l.subjects.length} ${lang==='ar'?'مواد':'matières'}</span></div></a>`).join('')}</div>`;
+const back=h=>`<a class="back" href="${h}">${lang==='ar'?'→':'←'} ${t('back')}</a>`;
+function subjects(C,id){const l=C.levels.find(x=>x.id===id);if(!l)return `<div class="empty">404</div>`;
+  return back('#/lib')+`<h1>${pick(l)}</h1><div class="list">${l.subjects.map(s=>`<a class="item" href="#/s/${l.id}/${s.id}"><div class="ic">${s.icon}</div><div><b>${pick(s)}</b><span>${s.lessons.length} ${t('lessons')}</span></div></a>`).join('')}</div>`}
+function lessonsList(C,lid,sid){const l=C.levels.find(x=>x.id===lid),s=l&&l.subjects.find(x=>x.id===sid);if(!s)return `<div class="empty">404</div>`;
+  return back('#/l/'+lid)+`<h1>${s.icon} ${pick(s)}</h1>`+(s.lessons.length?`<div class="list">${s.lessons.map(x=>`<a class="item" href="#/lesson/${x.id}"><div class="ic">${prog[x.id]?'✅':'📖'}</div><div><b>${pick(x)}</b>${prog[x.id]?`<span>${t('score')}: ${prog[x.id].score}%</span>`:''}</div></a>`).join('')}</div>`:`<div class="empty">${t('soon')}</div>`)}
+function find(C,id){for(const l of C.levels)for(const s of l.subjects){const x=s.lessons.find(y=>y.id===id);if(x)return{l,s,x}}}
+async function lesson(C,id){const f=find(C,id);if(!f){app.innerHTML=`<div class="empty">404</div>`;return}
+  const d=await get(f.x.file);if(!d){app.innerHTML=`<div class="empty">⚠️ ${esc(f.x.file)}</div>`;return}
+  const blk=a=>(a||[]).map(b=>`<div class="fr" lang="fr">${esc(b.fr)}</div><div class="ar">${esc(b.ar)}</div>`).join('');
+  app.innerHTML=back(`#/s/${f.l.id}/${f.s.id}`)+`<h1>${esc(f.x.fr)}<br><small>${esc(f.x.ar)}</small></h1>`+
+   (d.video?`<h2>🎬 ${t('video')}</h2><div id="vid"><button class="btn alt" id="pv">▶ ${t('video')}</button></div>`:'')+
+   blk(d.sections)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
+   (d.quiz&&d.quiz.length?`<h2>✍️ ${t('quiz')}</h2><div id="qz">${d.quiz.map((q,i)=>`<div class="q"><b>${esc(q.q)}</b>${q.options.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${esc(o)}</label>`).join('')}</div>`).join('')}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
+  const pv=document.getElementById('pv');if(pv)pv.onclick=()=>{document.getElementById('vid').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}" allowfullscreen loading="lazy"></iframe>`};
+  const ck=document.getElementById('ck');if(ck)ck.onclick=()=>{let ok=0;
+    d.quiz.forEach((q,i)=>{const box=document.querySelectorAll('#qz .q')[i],sel=box.querySelector('input:checked'),ls=box.querySelectorAll('label');
+      ls.forEach(x=>x.classList.remove('ok','no'));ls[q.answer].classList.add('ok');
+      if(sel&&+sel.value===q.answer)ok++;else if(sel)ls[+sel.value].classList.add('no');
+      if(q.explain&&!box.querySelector('em'))box.insertAdjacentHTML('beforeend',`<em>💡 ${esc(q.explain)}</em>`)});
+    const sc=Math.round(ok/d.quiz.length*100);prog[id]={score:Math.max(sc,(prog[id]||{}).score||0),date:Date.now()};save();
+    document.getElementById('res').innerHTML=`<div class="empty" style="margin-top:12px"><b>${t('score')}: ${ok}/${d.quiz.length} (${sc}%)</b></div>`};
+}
+async function dict(){const D=await get('dictionary.json')||[];
+  app.innerHTML=`<h1>${S.dict[L()]}</h1><input type="search" id="sq" placeholder="${t('search')}"><div id="dl" class="list"></div>`;
+  const draw=q=>{q=q.trim().toLowerCase();const r=D.filter(x=>!q||x.fr.toLowerCase().includes(q)||x.ar.includes(q));
+    document.getElementById('dl').innerHTML=r.length?r.map(x=>`<div class="item"><div style="flex:1"><b dir="ltr" lang="fr">${esc(x.fr)}</b><span dir="rtl" style="display:block">${esc(x.ar)}</span></div></div>`).join(''):`<div class="empty">${D.length?t('noresult'):t('soon')}</div>`};
+  draw('');document.getElementById('sq').oninput=e=>draw(e.target.value)}
+async function news(){const N=await get('news.json')||[];
+  app.innerHTML=`<h1>${S.news[L()]}</h1>`+(N.length?`<div class="list">${N.map(n=>`<div class="item"><div><b>${esc(pick(n.title||n))}</b><span>${esc(n.date||'')}</span>${n.text?`<p>${esc(pick(n.text))}</p>`:''}</div></div>`).join('')}</div>`:`<div class="empty">${t('none')}</div>`)}
+function progress(C){let tot=0;C.levels.forEach(l=>l.subjects.forEach(s=>tot+=s.lessons.length));const d=Object.keys(prog).length;
+  return `<h1>${S.prog[L()]}</h1><div class="item" style="display:block"><b>${t('done')}: ${d} / ${tot}</b><div class="bar" style="margin-top:8px"><i style="width:${tot?d/tot*100:0}%"></i></div></div>`+
+  (d?`<h2>${t('score')}</h2><div class="list">${Object.keys(prog).map(k=>{const f=find(C,k);return f?`<a class="item" href="#/lesson/${k}"><div class="ic">✅</div><div><b>${pick(f.x)}</b><span>${prog[k].score}%</span></div></a>`:''}).join('')}</div>`:`<div class="empty" style="margin-top:12px">${t('none')}</div>`)}
+document.getElementById('lang').onclick=()=>{lang=lang==='ar'?'fr':'ar';try{localStorage.setItem('tl',lang)}catch(e){}route()};
+addEventListener('hashchange',route);route();
+if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+</script>
+</body>
+</html>
