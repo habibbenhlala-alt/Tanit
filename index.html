@@ -8,7 +8,7 @@
 <link rel="icon" href="icon.svg">
 <title>TANIT — Apprendre autrement</title>
 <style>
-:root{--g9:#06382b;--g7:#0b5d46;--g5:#169a72;--g1:#e4f3ec;--sand:#f3e9c6;--bg:#f6faf7;--ink:#10241d;--mut:#5d7168;--card:#fff;--ok:#1b8a4b;--no:#c0392b}
+:root{--g9:#06382b;--g7:#0b5d46;--g5:#169a72;--g1:#e4f3ec;--sand:#f3e9c6;--bg:#f6faf7;--ink:#10241d;--mut:#5d7168;--card:#fff;--ok:#1b8a4b;--no:#c0392b;--sun:#fff3c4}
 *{box-sizing:border-box;margin:0}
 html,body{height:100%}
 body{font-family:system-ui,"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;padding-bottom:76px}
@@ -28,6 +28,17 @@ h1{font-size:1.35rem;margin:6px 0 12px}h2{font-size:1.1rem;margin:18px 0 8px;col
 .empty{background:var(--g1);border-radius:14px;padding:18px;color:var(--g9);text-align:center}
 .fr{direction:ltr;text-align:left;font-weight:600;border-left:4px solid var(--g5);padding:6px 10px;background:#fff;border-radius:8px 8px 0 0;margin-top:12px}
 .ar{direction:rtl;text-align:right;background:var(--g1);padding:6px 10px;border-radius:0 0 8px 8px;color:var(--g9)}
+.part{display:flex;align-items:center;gap:12px;background:linear-gradient(160deg,var(--g9),var(--g7));color:#fff;border-radius:16px;padding:12px 14px;margin:26px 0 6px}
+.part .pi{font-size:2rem;width:52px;height:52px;display:grid;place-items:center;background:rgba(255,255,255,.14);border-radius:14px;flex:none}
+.part b{display:block;direction:ltr;text-align:left;font-size:1.05rem}
+.part span{display:block;direction:rtl;text-align:right;color:var(--sand);font-size:.95rem}
+.part div:last-child{flex:1}
+.card{background:#fff;border:1px solid #d7e6de;border-radius:18px;padding:14px;margin:12px 0;box-shadow:0 2px 0 #d7e6de}
+.card .big{width:68px;height:68px;font-size:2.4rem;display:grid;place-items:center;background:var(--g1);border-radius:50%;margin:0 auto 8px}
+.card .cf{direction:ltr;text-align:left;font-weight:700;font-size:1.08rem;line-height:1.5}
+.card .ca{direction:rtl;text-align:right;background:var(--g1);color:var(--g9);border-radius:12px;padding:8px 12px;margin-top:8px;font-size:1.02rem}
+.card .tip{background:var(--sun);border-radius:12px;padding:8px 12px;margin-top:8px;font-size:.95rem}
+.card img{width:100%;height:auto;display:block;margin-top:10px;border-radius:12px}
 .q{background:#fff;border:1px solid #d7e6de;border-radius:14px;padding:12px;margin:10px 0}
 .q label{display:block;padding:8px 10px;border-radius:10px;margin-top:6px;border:1px solid #d7e6de}
 .q label.ok{background:#d9f2e3;border-color:var(--ok)}.q label.no{background:#fbe0dc;border-color:var(--no)}
@@ -57,7 +68,8 @@ const TX={slogan:["نفهموا، نتعلموا، ونتقدموا مع بعض�
  levels:["اختر مستواك","Choisis ton niveau"],soon:["الدروس قادمة قريباً. تابع صفحة الجديد.","Les cours arrivent bientôt. Suis les actualités."],
  back:["رجوع","Retour"],sum:["الملخص","Résumé"],quiz:["اختبر نفسك","Teste-toi"],check:["صحّح إجاباتي","Corriger"],
  video:["شاهد الفيديو","Voir la vidéo"],search:["ابحث عن مصطلح…","Rechercher un terme…"],none:["لا شيء بعد.","Rien pour l’instant."],
- score:["النتيجة","Score"],done:["دروس منجزة","Cours terminés"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."],figs:["رسوم توضيحية","Schémas"]};
+ score:["النتيجة","Score"],done:["دروس منجزة","Cours terminés"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."],figs:["رسوم توضيحية","Schémas"],
+ m3:["برافو يا بطل! 🏆 Bravo !","Bravo champion ! 🏆"],m2:["ممتاز، قريب برشا! 💪 Presque !","Presque parfait ! 💪"],m1:["ما تخافش، عاود اقرا الدرس وجرّب مرة أخرى 🌱","Pas de souci, relis le cours et réessaie 🌱"]};
 let lang=localStorage.getItem('tl')||'ar';
 const L=()=>lang==='ar'?0:1,t=k=>TX[k][L()],pick=o=>o[lang];
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -93,13 +105,15 @@ function lessonsList(C,lid,sid){const l=C.levels.find(x=>x.id===lid),s=l&&l.subj
   return back('#/l/'+lid)+`<h1>${s.icon} ${pick(s)}</h1>`+(s.lessons.length?`<div class="list">${s.lessons.map(x=>`<a class="item" href="#/lesson/${x.id}"><div class="ic">${prog[x.id]?'✅':'📖'}</div><div><b>${pick(x)}</b>${prog[x.id]?`<span>${t('score')}: ${prog[x.id].score}%</span>`:''}</div></a>`).join('')}</div>`:`<div class="empty">${t('soon')}</div>`)}
 function find(C,id){for(const l of C.levels)for(const s of l.subjects){const x=s.lessons.find(y=>y.id===id);if(x)return{l,s,x}}}
 const figs=a=>(a&&a.length)?`<h2>🖼️ ${t('figs')}</h2>`+a.map(f=>`<figure><img src="${esc(f.src)}" alt="${esc(f.fr)}" loading="lazy"><figcaption class="ar" style="margin-top:6px">${esc(f.fr)}<br>${esc(f.ar)}</figcaption></figure>`).join(''):'';
+const card=c=>`<div class="card"><div class="big">${c.ic||'📘'}</div><div class="cf" lang="fr">${esc(c.fr)}</div><div class="ca">${esc(c.ar)}</div>${c.img?`<img src="${esc(c.img)}" alt="${esc(c.fr)}" loading="lazy">`:''}${c.tip?`<div class="tip">💡 ${esc(c.tip)}</div>`:''}</div>`;
+const parts=a=>(a||[]).map(p=>`<div class="part"><div class="pi">${p.ic||'📘'}</div><div><b lang="fr">${esc(p.fr)}</b><span>${esc(p.ar)}</span></div></div>`+(p.cards||[]).map(card).join('')).join('');
 async function lesson(C,id){const f=find(C,id);if(!f){app.innerHTML=`<div class="empty">404</div>`;return}
   const d=await get(f.x.file);if(!d){app.innerHTML=`<div class="empty">⚠️ ${esc(f.x.file)}</div>`;return}
   const blk=a=>(a||[]).map(b=>`<div class="fr" lang="fr">${esc(b.fr)}</div><div class="ar">${esc(b.ar)}</div>`).join('');
   app.innerHTML=back(`#/s/${f.l.id}/${f.s.id}`)+`<h1>${esc(f.x.fr)}<br><small>${esc(f.x.ar)}</small></h1>`+
    (d.video?`<h2>🎬 ${t('video')}</h2><div id="vid"><button class="btn alt" id="pv">▶ ${t('video')}</button></div>`:'')+
-   blk(d.sections)+figs(d.figs)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
-   (d.quiz&&d.quiz.length?`<h2>✍️ ${t('quiz')}</h2><div id="qz">${d.quiz.map((q,i)=>`<div class="q"><b>${esc(q.q)}</b>${q.options.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${esc(o)}</label>`).join('')}</div>`).join('')}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
+   parts(d.parts)+blk(d.sections)+figs(d.figs)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
+   (d.quiz&&d.quiz.length?`<div class="part"><div class="pi">✍️</div><div><b>${TX.quiz[1]}</b><span>${TX.quiz[0]}</span></div></div><div id="qz">${d.quiz.map((q,i)=>`<div class="q"><b>${esc(q.q)}</b>${q.options.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${esc(o)}</label>`).join('')}</div>`).join('')}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
   const pv=document.getElementById('pv');if(pv)pv.onclick=()=>{document.getElementById('vid').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}" allowfullscreen loading="lazy"></iframe>`};
   const ck=document.getElementById('ck');if(ck)ck.onclick=()=>{let ok=0;
     d.quiz.forEach((q,i)=>{const box=document.querySelectorAll('#qz .q')[i],sel=box.querySelector('input:checked'),ls=box.querySelectorAll('label');
@@ -107,7 +121,8 @@ async function lesson(C,id){const f=find(C,id);if(!f){app.innerHTML=`<div class=
       if(sel&&+sel.value===q.answer)ok++;else if(sel)ls[+sel.value].classList.add('no');
       if(q.explain&&!box.querySelector('em'))box.insertAdjacentHTML('beforeend',`<em>💡 ${esc(q.explain)}</em>`)});
     const sc=Math.round(ok/d.quiz.length*100);prog[id]={score:Math.max(sc,(prog[id]||{}).score||0),date:Date.now()};save();
-    document.getElementById('res').innerHTML=`<div class="empty" style="margin-top:12px"><b>${t('score')}: ${ok}/${d.quiz.length} (${sc}%)</b></div>`};
+    const msg=sc===100?t('m3'):sc>=60?t('m2'):t('m1');
+    document.getElementById('res').innerHTML=`<div class="empty" style="margin-top:12px"><b>${t('score')}: ${ok}/${d.quiz.length} (${sc}%)</b><br>${msg}</div>`};
 }
 async function dict(){const D=await get('dictionary.json')||[];
   app.innerHTML=`<h1>${S.dict[L()]}</h1><input type="search" id="sq" placeholder="${t('search')}"><div id="dl" class="list"></div>`;
