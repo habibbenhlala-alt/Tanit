@@ -3,6 +3,7 @@
 "fr":"L’absorption d’eau",
 "ar":"امتصاص الماء",
 "video":"",
+"figs":[{"src":"fig-racine.svg","fr":"Les zones de la racine","ar":"مناطق الجذر"},{"src":"fig-osmose.svg","fr":"L’osmose","ar":"الأسموز: الماء ينتقل نحو الوسط الأكثر تركيزًا"},{"src":"fig-turgescence.svg","fr":"Turgescence et plasmolyse","ar":"امتلاء الخلية وانكماشها"}],
 "sections":[
 {"fr":"Introduction : L’eau est un aliment indispensable à la plante qu’elle absorbe par ses racines.","ar":"الماء مادة أساسية وضرورية للنبات، والنبات ياخذ الماء عن طريق جذوره."},
 {"fr":"Problématique : Comment mettre en évidence l’absorption d’eau ?","ar":"كيفاش نثبتو بالتجربة إنّ النبات يمتصّ الماء؟"},
@@ -35,7 +36,7 @@
 ],
 "quiz":[
 {"q":"Par quelle partie la plante absorbe-t-elle surtout l’eau ? / أي جزء يمتص الماء أساسًا؟","options":["Coiffe","Poils absorbants","Zone subéreuse"],"answer":1,"explain":"الماء يُمتص أساسًا على مستوى الشعيرات الماصّة."},
-{"fr":"","q":"Que devient le niveau de l’eau après 24 h dans l’expérience ? / ماذا يحدث لمستوى الماء بعد 24 ساعة؟","options":["Il diminue","Il augmente","Il ne change pas"],"answer":0,"explain":"مستوى الماء ينقص، وهذا يثبت أن النبات يمتص الماء."},
+{"q":"Que devient le niveau de l’eau après 24 h dans l’expérience ? / ماذا يحدث لمستوى الماء بعد 24 ساعة؟","options":["Il diminue","Il augmente","Il ne change pas"],"answer":0,"explain":"مستوى الماء ينقص، وهذا يثبت أن النبات يمتص الماء."},
 {"q":"L’osmose : l’eau passe du milieu … vers le milieu … / الماء ينتقل من الوسط … إلى الوسط …","options":["plus concentré → moins concentré","moins concentré → plus concentré","aucun passage"],"answer":1,"explain":"من الوسط الأقل تركيزًا إلى الأكثر تركيزًا."},
 {"q":"Une cellule qui perd de l’eau subit une… / خلية تفقد الماء تصير لها…","options":["turgescence","germination","plasmolyse"],"answer":2,"explain":"فقدان الماء = Plasmolyse، ودخوله = Turgescence."},
 {"q":"Quel est le rôle de la coiffe ? / ما دور القلنسوة؟","options":["Protéger l’extrémité de la racine","Absorber l’eau","Réaliser l’osmose"],"answer":0,"explain":"القلنسوة تحمي طرف الجذر أثناء نموه في التربة."}
