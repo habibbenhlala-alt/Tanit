@@ -42,6 +42,8 @@ nav a{flex:1;text-align:center;text-decoration:none;color:var(--mut);font-size:.
 nav a b{display:block;font-size:1.3rem;font-weight:400}
 nav a.on{color:var(--g7);font-weight:700}
 iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;margin-top:8px}
+figure{margin:10px 0;background:#fff;border:1px solid #d7e6de;border-radius:14px;padding:10px}
+figure img{width:100%;height:auto;display:block}
 :focus-visible{outline:3px solid var(--g5);outline-offset:2px}
 </style>
 </head>
@@ -55,7 +57,7 @@ const TX={slogan:["نفهموا، نتعلموا، ونتقدموا مع بعض�
  levels:["اختر مستواك","Choisis ton niveau"],soon:["الدروس قادمة قريباً. تابع صفحة الجديد.","Les cours arrivent bientôt. Suis les actualités."],
  back:["رجوع","Retour"],sum:["الملخص","Résumé"],quiz:["اختبر نفسك","Teste-toi"],check:["صحّح إجاباتي","Corriger"],
  video:["شاهد الفيديو","Voir la vidéo"],search:["ابحث عن مصطلح…","Rechercher un terme…"],none:["لا شيء بعد.","Rien pour l’instant."],
- score:["النتيجة","Score"],done:["دروس منجزة","Cours terminés"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."]};
+ score:["النتيجة","Score"],done:["دروس منجزة","Cours terminés"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."],figs:["رسوم توضيحية","Schémas"]};
 let lang=localStorage.getItem('tl')||'ar';
 const L=()=>lang==='ar'?0:1,t=k=>TX[k][L()],pick=o=>o[lang];
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -90,12 +92,13 @@ function subjects(C,id){const l=C.levels.find(x=>x.id===id);if(!l)return `<div c
 function lessonsList(C,lid,sid){const l=C.levels.find(x=>x.id===lid),s=l&&l.subjects.find(x=>x.id===sid);if(!s)return `<div class="empty">404</div>`;
   return back('#/l/'+lid)+`<h1>${s.icon} ${pick(s)}</h1>`+(s.lessons.length?`<div class="list">${s.lessons.map(x=>`<a class="item" href="#/lesson/${x.id}"><div class="ic">${prog[x.id]?'✅':'📖'}</div><div><b>${pick(x)}</b>${prog[x.id]?`<span>${t('score')}: ${prog[x.id].score}%</span>`:''}</div></a>`).join('')}</div>`:`<div class="empty">${t('soon')}</div>`)}
 function find(C,id){for(const l of C.levels)for(const s of l.subjects){const x=s.lessons.find(y=>y.id===id);if(x)return{l,s,x}}}
+const figs=a=>(a&&a.length)?`<h2>🖼️ ${t('figs')}</h2>`+a.map(f=>`<figure><img src="${esc(f.src)}" alt="${esc(f.fr)}" loading="lazy"><figcaption class="ar" style="margin-top:6px">${esc(f.fr)}<br>${esc(f.ar)}</figcaption></figure>`).join(''):'';
 async function lesson(C,id){const f=find(C,id);if(!f){app.innerHTML=`<div class="empty">404</div>`;return}
   const d=await get(f.x.file);if(!d){app.innerHTML=`<div class="empty">⚠️ ${esc(f.x.file)}</div>`;return}
   const blk=a=>(a||[]).map(b=>`<div class="fr" lang="fr">${esc(b.fr)}</div><div class="ar">${esc(b.ar)}</div>`).join('');
   app.innerHTML=back(`#/s/${f.l.id}/${f.s.id}`)+`<h1>${esc(f.x.fr)}<br><small>${esc(f.x.ar)}</small></h1>`+
    (d.video?`<h2>🎬 ${t('video')}</h2><div id="vid"><button class="btn alt" id="pv">▶ ${t('video')}</button></div>`:'')+
-   blk(d.sections)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
+   blk(d.sections)+figs(d.figs)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
    (d.quiz&&d.quiz.length?`<h2>✍️ ${t('quiz')}</h2><div id="qz">${d.quiz.map((q,i)=>`<div class="q"><b>${esc(q.q)}</b>${q.options.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${esc(o)}</label>`).join('')}</div>`).join('')}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
   const pv=document.getElementById('pv');if(pv)pv.onclick=()=>{document.getElementById('vid').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}" allowfullscreen loading="lazy"></iframe>`};
   const ck=document.getElementById('ck');if(ck)ck.onclick=()=>{let ok=0;
@@ -114,7 +117,7 @@ async function dict(){const D=await get('dictionary.json')||[];
 async function news(){const N=await get('news.json')||[];
   app.innerHTML=`<h1>${S.news[L()]}</h1>`+(N.length?`<div class="list">${N.map(n=>`<div class="item"><div><b>${esc(pick(n.title||n))}</b><span>${esc(n.date||'')}</span>${n.text?`<p>${esc(pick(n.text))}</p>`:''}</div></div>`).join('')}</div>`:`<div class="empty">${t('none')}</div>`)}
 function progress(C){let tot=0;C.levels.forEach(l=>l.subjects.forEach(s=>tot+=s.lessons.length));const d=Object.keys(prog).length;
-  return `<h1>${S.prog[L()]}</h1><div class="item" style="display:block"><b>${t('done')}: ${d} / ${tot}</b><div class="bar" style="margin-top:8px"><i style="width:${tot?d/tot*100:0}%"></i></div></div>`+
+  return `<h1>${S.prog[L()]}</h1><div class="item" style="display:block"><b>${t('done')}: ${d} / ${tot}</b><div class="bar" style="margin-top:8px"><i style="width:${tot?Math.min(100,d/tot*100):0}%"></i></div></div>`+
   (d?`<h2>${t('score')}</h2><div class="list">${Object.keys(prog).map(k=>{const f=find(C,k);return f?`<a class="item" href="#/lesson/${k}"><div class="ic">✅</div><div><b>${pick(f.x)}</b><span>${prog[k].score}%</span></div></a>`:''}).join('')}</div>`:`<div class="empty" style="margin-top:12px">${t('none')}</div>`)}
 document.getElementById('lang').onclick=()=>{lang=lang==='ar'?'fr':'ar';try{localStorage.setItem('tl',lang)}catch(e){}route()};
 addEventListener('hashchange',route);route();
