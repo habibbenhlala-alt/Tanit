@@ -1,0 +1,6 @@
+{"levels":[{"id":"1","fr":"1ère année secondaire","ar":"السنة الأولى ثانوي","subjects":[
+{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[]},
+{"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
+{"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
+{"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}
+]}]}
