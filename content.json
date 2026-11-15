@@ -1,5 +1,7 @@
 {"levels":[{"id":"1","fr":"1ère année secondaire","ar":"السنة الأولى ثانوي","subjects":[
-{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[]},
+{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[
+{"id":"svt1-absorption","file":"lesson-svt1-absorption.json","fr":"L’absorption d’eau","ar":"امتصاص الماء"}
+]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
 {"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}
