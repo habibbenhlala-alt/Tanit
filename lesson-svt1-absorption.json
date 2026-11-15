@@ -1,0 +1,43 @@
+{
+"id":"svt1-absorption",
+"fr":"L’absorption d’eau",
+"ar":"امتصاص الماء",
+"video":"",
+"sections":[
+{"fr":"Introduction : L’eau est un aliment indispensable à la plante qu’elle absorbe par ses racines.","ar":"الماء مادة أساسية وضرورية للنبات، والنبات ياخذ الماء عن طريق جذوره."},
+{"fr":"Problématique : Comment mettre en évidence l’absorption d’eau ?","ar":"كيفاش نثبتو بالتجربة إنّ النبات يمتصّ الماء؟"},
+{"fr":"Par quelles structures la plante absorbe-t-elle de l’eau ?","ar":"بشنوّة بالضبط من أجزاء النبات يتم امتصاص الماء؟"},
+{"fr":"Comment mesurer l’absorption d’eau ?","ar":"كيفاش نعرفو ونقيسو كمية الماء اللي امتصّها النبات؟"},
+{"fr":"1. Mise en évidence de l’absorption d’eau","ar":"إثبات/إظهار إنّ النبات يمتصّ الماء."},
+{"fr":"Manipulation : Placer une plante dans un tube contenant de l’eau.","ar":"نحطّو نبات داخل أنبوب فيه ماء."},
+{"fr":"Repérer le niveau de l’eau.","ar":"نحددو مستوى الماء في بداية التجربة."},
+{"fr":"Observer le résultat 24 heures après.","ar":"بعد 24 ساعة، نشوفو شنوّة صار لمستوى الماء."},
+{"fr":"Observation : Le niveau de l’eau diminue après 24 heures.","ar":"بعد 24 ساعة، نلقاو مستوى الماء نقص."},
+{"fr":"Conclusion : La plante absorbe de l’eau.","ar":"النبات يمتصّ الماء."},
+{"fr":"2. Observation d’une jeune racine à la loupe binoculaire","ar":"نشوفو جذر صغير باستعمال العدسة الثنائية (loupe binoculaire) باش نعرفو تركيب الجذر."},
+{"fr":"Faire germer des graines de radis sur un papier filtre imbibé d’eau.","ar":"نخلّيو بذور الفجل تنبت فوق ورق ترشيح مبلّل بالماء."},
+{"fr":"Observer une graine germée à la loupe binoculaire.","ar":"نشوفو البذرة اللي نبتت باستعمال الـ loupe binoculaire."},
+{"fr":"Zone subéreuse","ar":"المنطقة المتفلّنة/المغطاة بطبقة واقية."},
+{"fr":"Zone pilifère","ar":"منطقة الشعيرات الجذرية، وهي منطقة مهمّة جدًا في موضوع الامتصاص."},
+{"fr":"Coiffe","ar":"قلنسوة الجذر، موجودة في طرف الجذر وتحميه أثناء نموّه داخل التربة."},
+{"fr":"3. Le mécanisme de l’absorption : L’eau du sol pénètre dans les poils absorbants puis passe de cellule en cellule vers l’intérieur de la racine.","ar":"الماء الموجود في التربة يدخل للشعيرات الماصّة، وبعدها ينتقل من خلية إلى أخرى نحو داخل الجذر."},
+{"fr":"L’osmose : L’osmose est le passage de l’eau à travers une membrane semi-perméable, du milieu le moins concentré en solutés vers le milieu le plus concentré.","ar":"الأسموز (التناضح) هي انتقال الماء عبر غشاء شبه نفوذ، من الوسط الأقل تركيزًا بالمواد المذابة إلى الوسط الأكثر تركيزًا."},
+{"fr":"La membrane semi-perméable laisse passer certaines substances et empêche le passage d’autres.","ar":"الغشاء شبه النفوذ يسمح لبعض المواد بالمرور، ويمنع مواد أخرى. وهذا مهم خاطر الماء ينجم يعبر الغشاء، بينما بعض المواد المذابة ما تعبرش بنفس الطريقة."},
+{"fr":"L’osmomètre permet de mettre en évidence le passage de l’eau à travers une membrane semi-perméable.","ar":"الـOsmomètre هو جهاز نستعملوه باش نوضحوا ونثبتوا ظاهرة انتقال الماء عبر غشاء شبه نفوذ."},
+{"fr":"Milieu moins concentré → eau → Milieu plus concentré","ar":"وسط أقل تركيزًا ← الماء ← وسط أكثر تركيزًا."},
+{"fr":"4. La turgescence : Lorsque l’eau entre dans une cellule végétale, la cellule devient turgescente. Entrée importante d’eau dans la cellule.","ar":"كي يدخل الماء للخلية النباتية، تولّي الخلية Turgescente، يعني ممتلئة بالماء ومشدودة."},
+{"fr":"La plasmolyse : Lorsque la cellule perd de l’eau, elle se plasmolyse. Perte d’eau par la cellule.","ar":"كي الخلية تفقد الماء، تصيرلها Plasmolyse، يعني محتواها ينكمش."}
+],
+"summary":[
+{"fr":"L’eau est absorbée principalement au niveau des poils absorbants de la racine.","ar":"الماء يتم امتصاصه أساسًا على مستوى الشعيرات الماصّة."},
+{"fr":"L’osmose explique le passage de l’eau à travers les membranes cellulaires.","ar":"الأسموز تفسر انتقال الماء عبر أغشية الخلايا."},
+{"fr":"Les poils absorbants augmentent la surface d’échange entre la racine et le sol.","ar":"الشعيرات الماصّة تزيد مساحة التبادل بين الجذر والتربة."}
+],
+"quiz":[
+{"q":"Par quelle partie la plante absorbe-t-elle surtout l’eau ? / أي جزء يمتص الماء أساسًا؟","options":["Coiffe","Poils absorbants","Zone subéreuse"],"answer":1,"explain":"الماء يُمتص أساسًا على مستوى الشعيرات الماصّة."},
+{"fr":"","q":"Que devient le niveau de l’eau après 24 h dans l’expérience ? / ماذا يحدث لمستوى الماء بعد 24 ساعة؟","options":["Il diminue","Il augmente","Il ne change pas"],"answer":0,"explain":"مستوى الماء ينقص، وهذا يثبت أن النبات يمتص الماء."},
+{"q":"L’osmose : l’eau passe du milieu … vers le milieu … / الماء ينتقل من الوسط … إلى الوسط …","options":["plus concentré → moins concentré","moins concentré → plus concentré","aucun passage"],"answer":1,"explain":"من الوسط الأقل تركيزًا إلى الأكثر تركيزًا."},
+{"q":"Une cellule qui perd de l’eau subit une… / خلية تفقد الماء تصير لها…","options":["turgescence","germination","plasmolyse"],"answer":2,"explain":"فقدان الماء = Plasmolyse، ودخوله = Turgescence."},
+{"q":"Quel est le rôle de la coiffe ? / ما دور القلنسوة؟","options":["Protéger l’extrémité de la racine","Absorber l’eau","Réaliser l’osmose"],"answer":0,"explain":"القلنسوة تحمي طرف الجذر أثناء نموه في التربة."}
+]
+}
