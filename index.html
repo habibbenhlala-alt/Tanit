@@ -43,6 +43,9 @@ h1{font-size:1.35rem;margin:6px 0 12px}h2{font-size:1.1rem;margin:18px 0 8px;col
 .q label{display:block;padding:8px 10px;border-radius:10px;margin-top:6px;border:1px solid #d7e6de}
 .q label.ok{background:#d9f2e3;border-color:var(--ok)}.q label.no{background:#fbe0dc;border-color:var(--no)}
 .q em{display:block;color:var(--mut);font-size:.88rem;margin-top:6px}
+.q .correction{margin-top:10px;padding:10px 12px;border-radius:10px;background:#e4f3ec;color:var(--g9);border:1px solid #b8dfc9;font-size:.94rem}
+.q .correction.wrong{background:#fff3e0;border-color:#f0d19a;color:#704b12}
+.q .correction b{display:block;margin-bottom:3px}
 .btn{background:var(--g7);color:#fff;border-radius:12px;padding:11px 20px;margin-top:12px;display:inline-block;text-decoration:none}
 .btn.alt{background:var(--g1);color:var(--g9)}
 input[type=search]{width:100%;padding:12px;border:1px solid #bcd3c7;border-radius:12px;font:inherit;margin-bottom:10px}
@@ -115,14 +118,59 @@ async function lesson(C,id){const f=find(C,id);if(!f){app.innerHTML=`<div class=
    parts(d.parts)+blk(d.sections)+figs(d.figs)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
    (d.quiz&&d.quiz.length?`<div class="part"><div class="pi">✍️</div><div><b>${TX.quiz[1]}</b><span>${TX.quiz[0]}</span></div></div><div id="qz">${d.quiz.map((q,i)=>`<div class="q"><b>${esc(q.q)}</b>${q.options.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${esc(o)}</label>`).join('')}</div>`).join('')}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
   const pv=document.getElementById('pv');if(pv)pv.onclick=()=>{document.getElementById('vid').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}" allowfullscreen loading="lazy"></iframe>`};
-  const ck=document.getElementById('ck');if(ck)ck.onclick=()=>{let ok=0;
-    d.quiz.forEach((q,i)=>{const box=document.querySelectorAll('#qz .q')[i],sel=box.querySelector('input:checked'),ls=box.querySelectorAll('label');
-      ls.forEach(x=>x.classList.remove('ok','no'));ls[q.answer].classList.add('ok');
-      if(sel&&+sel.value===q.answer)ok++;else if(sel)ls[+sel.value].classList.add('no');
-      if(q.explain&&!box.querySelector('em'))box.insertAdjacentHTML('beforeend',`<em>💡 ${esc(q.explain)}</em>`)});
-    const sc=Math.round(ok/d.quiz.length*100);prog[id]={score:Math.max(sc,(prog[id]||{}).score||0),date:Date.now()};save();
+
+  // تصحيح التمارين: عرض إجابة التلميذ والإجابة الصحيحة والتفسير لكل سؤال.
+  const ck=document.getElementById('ck');if(ck)ck.onclick=()=>{
+    let ok=0,answered=0;
+    d.quiz.forEach((q,i)=>{
+      const box=document.querySelectorAll('#qz .q')[i];
+      const sel=box.querySelector('input:checked');
+      const ls=box.querySelectorAll('label');
+
+      ls.forEach(x=>x.classList.remove('ok','no'));
+      if(ls[q.answer])ls[q.answer].classList.add('ok');
+
+      const correct=String(q.options[q.answer]??'');
+      const chosen=sel?String(q.options[Number(sel.value)]??''):'';
+      const isCorrect=!!sel && Number(sel.value)===Number(q.answer);
+
+      if(sel){
+        answered++;
+        if(isCorrect)ok++;
+        else if(ls[Number(sel.value)])ls[Number(sel.value)].classList.add('no');
+      }
+
+      const old=box.querySelector('.correction');
+      if(old)old.remove();
+
+      const status=sel
+        ? (isCorrect?'✅ إجابتك صحيحة':'❌ إجابتك غير صحيحة')
+        : 'ℹ️ لم تختر إجابة';
+      const answerLine=sel
+        ? '<span>إجابتك: '+esc(chosen)+'</span><br>'
+        : '';
+
+      box.insertAdjacentHTML('beforeend',
+        '<div class="correction '+(sel&&!isCorrect?'wrong':'')+'">'+
+        '<b>'+status+'</b>'+
+        answerLine+
+        '<span><strong>الإجابة الصحيحة:</strong> '+esc(correct)+'</span>'+
+        (q.explain?'<br><span>💡 '+esc(q.explain)+'</span>':'')+
+        '</div>'
+      );
+    });
+
+    const sc=Math.round(ok/d.quiz.length*100);
+    prog[id]={score:Math.max(sc,(prog[id]||{}).score||0),date:Date.now()};
+    save();
     const msg=sc===100?t('m3'):sc>=60?t('m2'):t('m1');
-    document.getElementById('res').innerHTML=`<div class="empty" style="margin-top:12px"><b>${t('score')}: ${ok}/${d.quiz.length} (${sc}%)</b><br>${msg}</div>`};
+    document.getElementById('res').innerHTML=
+      '<div class="empty" style="margin-top:12px"><b>'+
+      t('score')+': '+ok+'/'+d.quiz.length+' ('+sc+'%)</b><br>'+
+      'أجبت عن '+answered+' من '+d.quiz.length+' أسئلة.<br>'+msg+
+      '</div>';
+    ck.textContent='أعد التصحيح';
+  };
 }
 async function dict(){const D=await get('dictionary.json')||[];
   app.innerHTML=`<h1>${S.dict[L()]}</h1><input type="search" id="sq" placeholder="${t('search')}"><div id="dl" class="list"></div>`;
