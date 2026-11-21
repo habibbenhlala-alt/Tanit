@@ -1,0 +1,46 @@
+{
+"id":"svt1-sels","fr":"Les besoins en sels minéraux","ar":"حاجيات النبتة من الأملاح المعدنية","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 21 إلى 24 وص 34",
+"parts":[
+{"ic":"🧂","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"🌱","fr":"En plus de l’eau, les végétaux verts consomment des sels minéraux pour croître et élaborer leurs propres matières.","ar":"زيادة على الماء، النبتة تحتاج أملاح معدنية باش تكبر وتصنع مادتها.","p":"ص 21"},
+{"ic":"❓","fr":"Quels sont les besoins qualitatifs en sels minéraux ? Quel est le rôle des engrais ?","ar":"سؤالان: شنوّة الأملاح اللي تحتاجها النبتة؟ وشنوّة دور الأسمدة؟","p":"ص 21"}]},
+{"ic":"🔥","fr":"1. La méthode analytique","ar":"1. الطريقة التحليلية","cards":[
+{"ic":"🔥","fr":"On brûle un végétal, on récupère les gaz et les cendres, puis on analyse leur composition chimique.","ar":"نحرقو نبتة، ونجمعو الغازات والرماد، وبعدها نحلّلوهم كيميائيًا.","p":"ص 21"},
+{"ic":"📋","fr":"Résultat : la composition élémentaire de la plante. Chez la luzerne, C, H, O, N, P et S représentent 99,59 % de la masse fraîche.","ar":"النتيجة: التركيب العنصري للنبتة. في الفصّة (luzerne) العناصر C وH وO وN وP وS تمثّل 99,59 % من الكتلة الطرية، والباقي (Ca، K، Mg، Fe…) كميات صغيرة.","p":"ص 21"}]},
+{"ic":"🧪","fr":"2. Le milieu synthétique de Knop","ar":"2. وسط Knop الاصطناعي","cards":[
+{"ic":"🧪","fr":"Principe : à partir de la composition élémentaire, on prépare une solution nutritive d’eau et de sels minéraux qui permet un développement normal.","ar":"نركّبو محلول مغذّي (ماء + أملاح) على حسب تركيب النبتة، باش تنمو نموّ عادي.","p":"ص 21"},
+{"ic":"🌽","fr":"En 1860, Knop cultive du maïs dans cette solution, bien éclairé.","ar":"في 1860 زرع Knop الذرة في هذا المحلول في مكان مضيء.","tip":"محلول Knop في كل لتر ماء مقطّر: 1 غ nitrate de calcium، و0,25 غ من كل من nitrate de potassium وsulfate de magnésium وphosphate monopotassique، و0,001 غ chlorure ferrique.","p":"ص 21"},
+{"ic":"🌸","fr":"Résultat : toutes les plantes se développent, fleurissent et produisent des graines.","ar":"النتيجة: كل النباتات نمت مليح، وأزهرت، وأعطت بذور تنجم تنبت من جديد.","p":"ص 21"}]},
+{"ic":"🌽","fr":"3. Les milieux carencés","ar":"3. الأوساط الناقصة","cards":[
+{"ic":"🧫","fr":"On cultive du maïs sur 6 milieux : un milieu complet (Knop) et 5 milieux sans azote, phosphore, potassium, magnésium ou fer.","ar":"نزرعو الذرة على 6 أوساط: وسط كامل (Knop) و5 أوساط ينقصها كل مرة عنصر: N أو P أو K أو Mg أو Fe.","p":"ص 22"},
+{"ic":"📊","fr":"Masse sèche pour 100 pieds après 3 semaines : Knop 162 g ; sans N 68 ; sans P 116 ; sans K 44 ; sans Mg 120 ; sans Fe 130.","ar":"الكتلة الجافة لـ100 نبتة بعد 3 أسابيع: Knop 162 غ، بلا N: 68، بلا P: 116، بلا K: 44، بلا Mg: 120، بلا Fe: 130.","p":"ص 22"},
+{"ic":"🍂","fr":"Feuilles : normales avec Knop ; chlorose sans N et sans Fe ; jaunissement à l’extrémité sans P ; nécrose sans K ; jaunissement du limbe entre les nervures sans Mg.","ar":"شكل الأوراق: عادية مع Knop. اصفرار عام (chlorose) بلا N وبلا Fe. اصفرار في الأطراف بلا P. موت الأنسجة (nécrose) بلا K. اصفرار بين العروق بلا Mg.","tip":"كل عنصر ناقص يضعف النبتة ويظهر عليها عرض مختلف.","p":"ص 22"}]},
+{"ic":"📈","fr":"4. La concentration en potassium","ar":"4. تركيز البوتاسيوم","cards":[
+{"ic":"📈","fr":"On cultive 13 lots de plantes sur des solutions de concentrations croissantes en potassium et on mesure la vitesse de croissance.","ar":"نزرعو 13 مجموعة نباتات في محاليل بتراكيز مختلفة من البوتاسيوم، ونقيسو سرعة النمو.","p":"ص 23"},
+{"ic":"🟢","fr":"La croissance augmente jusqu’à environ 500 mg/l, reste maximale entre 500 et 700 mg/l, puis diminue au-delà de 700 mg/l.","ar":"النمو يزيد حتى حوالي 500 ملغ/ل، ويكون أقصى بين 500 و700، وبعد 700 ينقص.","img":"fig-potassium.svg","p":"ص 23"},
+{"ic":"⚠️","fr":"Un manque d’un élément provoque une déficience ; un excès devient toxique.","ar":"النقص في العنصر يسبب déficience، والزيادة تولّي سمّية (toxicité).","tip":"النبتة تحتاج الجرعة الصحيحة: لا نقص ولا زيادة.","p":"ص 23 و34"}]},
+{"ic":"⚗️","fr":"5. Macroéléments et oligoéléments","ar":"5. العناصر الكبرى والصغرى","cards":[
+{"ic":"🟢","fr":"Macroéléments : l’azote, le phosphore, le soufre et le potassium.","ar":"العناصر الكبرى (macroéléments): الأزوت N والفوسفور P والكبريت S والبوتاسيوم K. تدخل في تركيب أعضاء النبتة وتشغيل خلاياها.","p":"ص 34"},
+{"ic":"🔵","fr":"Oligoéléments : le calcium, le magnésium, le zinc, le fer et le chlore.","ar":"العناصر الصغرى (oligoéléments) حسب الكتاب: Ca وMg وZn وFe وCl. تحتاجها النبتة بكميات صغيرة جدًا وتتدخل في سير عملها.","tip":"هذا التصنيف حسب الكتاب، فتأكد من أستاذك.","p":"ص 34"}]},
+{"ic":"📚","fr":"6. Les définitions","ar":"6. تعريفات","cards":[
+{"ic":"✅","fr":"Milieu synthétique complet : milieu nutritif artificiel qui contient tous les éléments minéraux pour une croissance normale.","ar":"الوسط الاصطناعي الكامل: فيه كل العناصر المعدنية اللازمة لنموّ عادي.","p":"ص 24"},
+{"ic":"❌","fr":"Milieu synthétique incomplet : il lui manque un ou plusieurs éléments indispensables.","ar":"الوسط الاصطناعي الناقص: ينقصه عنصر أو أكثر من العناصر الضرورية.","p":"ص 24"},
+{"ic":"🎯","fr":"Concentration optimale : celle qui donne la vitesse de croissance maximale.","ar":"التركيز الأمثل: اللي يعطي أقصى سرعة نمو.","p":"ص 24"},
+{"ic":"☠️","fr":"Concentration toxique : celle qui empoisonne la plante.","ar":"التركيز السامّ: اللي يسمّم النبتة.","p":"ص 24"},
+{"ic":"📉","fr":"Déficience : insuffisance d’un élément minéral qui limite la croissance.","ar":"النقص (déficience): عنصر معدني ما يكفيش، وهذا يحدّ من النمو.","p":"ص 24"}]},
+{"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
+{"ic":"⭐","fr":"La plante puise les sels minéraux dissous dans le sol par ses poils absorbants : la solution forme la sève brute.","ar":"النبتة تمتص الأملاح الذائبة في التربة بشعيراتها، والمحلول هذا هو العصارة الخام (sève brute).","p":"ص 34"},
+{"ic":"⭐","fr":"Les besoins sont déterminés par les cultures sur milieux synthétiques.","ar":"نعرفو حاجياتها بالزراعة على أوساط اصطناعية.","p":"ص 34"},
+{"ic":"⭐","fr":"Il faut des doses déterminées pour éviter les maladies par carence ou par excès.","ar":"لازم جرعات مضبوطة باش نتفادو أمراض النقص والزيادة.","p":"ص 34"}]}
+],
+"quiz":[
+{"q":"Quel est le principe de la méthode analytique ? / مبدأ الطريقة التحليلية؟","options":["Brûler un végétal et analyser les produits","Arroser la plante avec de l’eau salée","Mesurer la lumière"],"answer":0,"explain":"نحرقو النبتة ونحلّلو الغازات والرماد لنعرفو تركيبها (ص 21)."},
+{"q":"Quel a été le résultat de l’expérience de Knop ? / نتيجة تجربة Knop؟","options":["Les plantes se sont bien développées, ont fleuri et produit des graines","Les plantes sont mortes","Les plantes n’ont pas grandi"],"answer":0,"explain":"ص 21."},
+{"q":"Quel milieu a donné la plus faible masse sèche ? / أي وسط أعطى أقل كتلة جافة؟","options":["sans azote","sans potassium","sans fer"],"answer":1,"explain":"بلا K: 44 غ فقط (ص 22)."},
+{"q":"Au-delà de 700 mg/l de potassium, la croissance… / بعد 700 ملغ/ل من البوتاسيوم، النمو…","options":["diminue (toxicité)","augmente encore","reste nulle"],"answer":0,"explain":"الزيادة تولّي سامّة (ص 23)."},
+{"q":"N, P, S et K sont des… / N وP وS وK هي…","options":["macroéléments","oligoéléments","vitamines"],"answer":0,"explain":"ص 34."},
+{"q":"La solution de sels minéraux absorbée constitue… / محلول الأملاح الممتص هو…","options":["la sève brute","la lumière","l’amidon"],"answer":0,"explain":"ص 34."},
+{"q":"La concentration optimale est celle qui donne… / التركيز الأمثل هو اللي يعطي…","options":["la vitesse maximale de croissance","l’empoisonnement","la mort de la plante"],"answer":0,"explain":"ص 24."}
+]
+}
