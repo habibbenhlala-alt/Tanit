@@ -1,0 +1,38 @@
+{
+"id":"svt1-conduction","fr":"La conduction","ar":"نقل العصارة (الانتقال داخل النبتة)","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 25 إلى 27 وص 34",
+"parts":[
+{"ic":"🚰","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"💧","fr":"L’eau et les sels minéraux absorbés par les racines forment la sève brute, qui circule des racines vers les organes aériens.","ar":"الماء والأملاح اللي تمتصهم الجذور يكوّنو العصارة الخام (sève brute)، وهي تمشي من الجذور نحو الأعضاء الهوائية.","p":"ص 25"},
+{"ic":"❓","fr":"Quelles structures assurent cette conduction ?","ar":"السؤال: بأنهي أجزاء تمشي العصارة؟","p":"ص 25"}]},
+{"ic":"🌼","fr":"1. Mise en évidence de la conduction","ar":"1. نثبتو الانتقال بالتجربة","cards":[
+{"ic":"🧪","fr":"On plonge une tige de marguerite portant une fleur dans une solution d’éosine à 2 % pendant une demi-heure.","ar":"نغمّسو ساق مارغريت (فيها زهرة) في محلول éosine بتركيز 2 % لمدة نصف ساعة.","p":"ص 25"},
+{"ic":"🔎","fr":"On repère ensuite les traces d’éosine dans les pétales de la fleur.","ar":"بعدها نلقاو آثار الصبغة في بتلات الزهرة، وهذا يثبت أن السائل طلع في الساق حتى الزهرة.","tip":"الكتاب يطلب منك تحديد آثار الصبغة وتفسير النتيجة.","p":"ص 25"}]},
+{"ic":"🥕","fr":"2. Les vaisseaux dans la racine de carotte","ar":"2. الأوعية في جذر الجزر","cards":[
+{"ic":"🧪","fr":"On place une racine de carotte dans du bleu de méthylène à 1 % pendant 24 heures.","ar":"نحطّو جذر جزر في محلول bleu de méthylène بتركيز 1 % لمدة 24 ساعة.","p":"ص 25"},
+{"ic":"🔬","fr":"On observe ensuite une coupe transversale de la racine.","ar":"بعدها نشوفو مقطع عرضي للجذر: الصبغة تبيّن الأوعية الناقلة للعصارة.","p":"ص 25"}]},
+{"ic":"🎨","fr":"3. Observer les vaisseaux au microscope","ar":"3. نشوفو الأوعية بالمجهر","cards":[
+{"ic":"🟢","fr":"Le carmino-vert colore en vert les parois riches en lignine (bois) et en rose foncé celles riches en cellulose.","ar":"الـcarmino-vert صبغة: يلوّن بالأخضر الجدران الغنية بالليغنين (الخشب)، وبالوردي الغامق الغنية بالسيلولوز.","p":"ص 26"},
+{"ic":"🧱","fr":"Un vaisseau du bois est une file de cellules mortes réduites à leur paroi riche en lignine.","ar":"وعاء الخشب (vaisseau du bois) هو صف من خلايا ميتة ما بقى منها إلا الجدار الغني بالليغنين.","p":"ص 26 و27"},
+{"ic":"🌳","fr":"L’ensemble des vaisseaux du bois forme le xylème.","ar":"مجموع أوعية الخشب يكوّن الخشب الناقل: الـxylème.","tip":"نشوفوه في الجذر (الهليون)، وفي الساق (renoncule)، وفي عروق الورقة (houx).","p":"ص 26"}]},
+{"ic":"🌀","fr":"4. Les types de vaisseaux","ar":"4. أنواع الأوعية","cards":[
+{"ic":"🌀","fr":"Dans la tige de courge, on observe des vaisseaux annelés, spiralés et réticulés.","ar":"في ساق القرع نلقاو أوعية حلقية (annelés) وحلزونية (spiralés) وشبكية (réticulés).","p":"ص 27"}]},
+{"ic":"⬆️","fr":"5. La conduction verticale","ar":"5. الصعود نحو الأوراق","cards":[
+{"ic":"⬆️","fr":"La sève brute monte des racines jusqu’aux feuilles dans les vaisseaux du bois, sous l’effet de la poussée radiculaire et de l’aspiration foliaire.","ar":"العصارة الخام تطلع من الجذور حتى الأوراق في أوعية الخشب، بتأثير الدفع الجذري والسحب الورقي.","p":"ص 34"},
+{"ic":"🧱","fr":"Un vaisseau du bois est une file de cellules mortes et communicantes, aux parois renforcées par la lignine.","ar":"وعاء الخشب: صف خلايا ميتة ومتصلة ببعضها، جدرانها مقوّاة بالليغنين.","p":"ص 34"}]},
+{"ic":"🔗","fr":"6. Le voyage de l’eau","ar":"6. رحلة الماء داخل النبتة","cards":[
+{"ic":"🔄","fr":"Absorption, conduction latérale, montée de la sève, transpiration et aspiration foliaire forment un même circuit.","ar":"الامتصاص ثم الانتقال الجانبي في الجذر ثم الصعود في الخشب ثم النتح والسحب الورقي: كلها حلقة وحدة.","img":"fig-circuit.svg","tip":"الرسم ملخص توضيحي لربط الدروس.","p":"ص 33 و34"}]},
+{"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
+{"ic":"⭐","fr":"Xylème : ensemble de vaisseaux du bois qui conduisent la sève brute vers les feuilles.","ar":"الـxylème: مجموع أوعية الخشب اللي تنقل العصارة الخام نحو الأوراق.","p":"ص 27"},
+{"ic":"⭐","fr":"Sève brute : mélange d’eau et de sels minéraux qui circule de la racine vers les feuilles.","ar":"العصارة الخام: خليط ماء وأملاح معدنية تمشي من الجذر نحو الأوراق.","p":"ص 27"}]}
+],
+"quiz":[
+{"q":"Que contient la sève brute ? / شنوّة في العصارة الخام؟","options":["De l’eau et des sels minéraux","De l’amidon seulement","De l’huile"],"answer":0,"explain":"ص 27."},
+{"q":"Quel ensemble de vaisseaux conduit la sève brute ? / أي مجموعة أوعية تنقل العصارة الخام؟","options":["Le xylème","Les stomates","La coiffe"],"answer":0,"explain":"الـxylème: مجموع أوعية الخشب (ص 27)."},
+{"q":"Le carmino-vert colore en vert les parois riches en… / الـcarmino-vert يلوّن بالأخضر الجدران الغنية بـ…","options":["lignine","cellulose","eau"],"answer":0,"explain":"الأخضر = ليغنين (خشب)، والوردي = سيلولوز (ص 26)."},
+{"q":"Un vaisseau du bois est une file de cellules… / وعاء الخشب هو صف خلايا…","options":["mortes","vivantes et grosses","chlorophylliennes"],"answer":0,"explain":"خلايا ميتة جدارها غني بالليغنين (ص 26)."},
+{"q":"Que montre l’expérience de la marguerite dans l’éosine ? / شنوّة تثبت تجربة المارغريت في الإيوزين؟","options":["La sève brute monte dans la tige jusqu’aux pétales","La plante fabrique de l’éosine","Les racines absorbent la lumière"],"answer":0,"explain":"آثار الصبغة في البتلات تثبت صعود السائل (ص 25)."},
+{"q":"La montée de la sève brute est due à… / صعود العصارة الخام سببه…","options":["la poussée radiculaire et l’aspiration foliaire","la gravité seulement","le vent seulement"],"answer":0,"explain":"ص 34."},
+{"q":"Quel type de vaisseau observe-t-on dans la tige de courge ? / أي نوع وعاء نلقاو في ساق القرع؟","options":["annelé","cubique","étoilé"],"answer":0,"explain":"حلقي، وأيضاً حلزوني وشبكي (ص 27)."}
+]
+}
