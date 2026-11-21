@@ -1,9 +1,21 @@
-{"levels":[{"id":"1","fr":"1ère année secondaire","ar":"السنة الأولى ثانوي","subjects":[
+{"levels":[
+{"id":"7","fr":"7ème année","ar":"7 إعدادي","subjects":[
+{"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
+{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[]},
+{"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]}]},
+{"id":"8","fr":"8ème année","ar":"8 إعدادي","subjects":[
+{"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
+{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[]},
+{"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]}]},
+{"id":"9","fr":"9ème année","ar":"9 إعدادي","subjects":[
+{"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
+{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[]},
+{"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]}]},
+{"id":"1","fr":"1ère année secondaire","ar":"1 ثانوي","subjects":[
 {"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[
 {"id":"svt1-absorption","file":"lesson-svt1-absorption.json","fr":"L’absorption d’eau","ar":"امتصاص الماء"},
-{"id":"svt1-transpiration","file":"lesson-svt1-transpiration.json","fr":"La transpiration","ar":"النتح"}
-]},
+{"id":"svt1-transpiration","file":"lesson-svt1-transpiration.json","fr":"La transpiration","ar":"النتح"}]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
-{"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}
-]}]}
+{"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}]}
+]}
