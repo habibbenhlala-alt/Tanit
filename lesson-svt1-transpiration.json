@@ -1,0 +1,59 @@
+{
+"id":"svt1-transpiration",
+"fr":"La transpiration",
+"ar":"النتح",
+"video":"",
+"parts":[
+{"ic":"📌","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"💨","fr":"La plante perd une partie de l’eau absorbée par ses racines sous forme de vapeur d’eau.","ar":"النبات ياخذ الماء من جذوره، أما جزء من الماء هذا يخرج منه على شكل بخار ماء."},
+{"ic":"🌱","fr":"La transpiration est la perte d’eau de la plante sous forme de vapeur d’eau.","ar":"النتح هو فقدان النبات للماء في شكل بخار ماء.","tip":"النتح = La transpiration"}
+]},
+{"ic":"🔬","fr":"I. Mise en évidence de la transpiration","ar":"أولاً: كيفاش نثبتو النتح؟","cards":[
+{"ic":"🛍️","fr":"On place une plante dans un sac plastique transparent et on ferme bien le sac.","ar":"نحطّو نبتة داخل كيس بلاستيك شفاف ونسكّروه مليح.","img":"fig-transpiration.svg"},
+{"ic":"💧","fr":"Après quelques heures, on observe des gouttelettes d’eau sur la paroi intérieure du sac.","ar":"بعد ساعات، نلقاو قطرات ماء على الجهة الداخلية للكيس."},
+{"ic":"✅","fr":"Conclusion : la plante rejette de l’eau sous forme de vapeur.","ar":"النبات يطرح الماء في شكل بخار، والبخار يتكاثف ويولّي قطرات ماء.","tip":"La plante transpire."}
+]},
+{"ic":"🍃","fr":"II. Où se fait la transpiration ?","ar":"ثانياً: منين يصير النتح؟","cards":[
+{"ic":"❓","fr":"Par où la plante perd-elle son eau ?","ar":"منين بالضبط النبات يفقد الماء؟ معظم الماء يخرج من الأوراق."},
+{"ic":"🍃","fr":"Les stomates sont de petites ouvertures situées principalement sur les feuilles.","ar":"الثغور هي فتحات صغيرة موجودة خاصة في الأوراق. ومن خلالها يخرج بخار الماء."},
+{"ic":"⭐","fr":"La transpiration se fait principalement au niveau des stomates.","ar":"النتح يصير أساسًا على مستوى الثغور."}
+]},
+{"ic":"🔎","fr":"III. Le stomate","ar":"ثالثاً: الثغر","cards":[
+{"ic":"👀","fr":"Deux cellules stomatiques entourent une ouverture : l’ostiole.","ar":"الثغر موش مجرد ثقب عادي. يتكوّن من زوز خلايا حارسة (cellules stomatiques)، ووسطهم فتحة الثغر (ostiole).","tip":"Cellule stomatique → Ostiole ← Cellule stomatique","img":"fig-stomate.svg"},
+{"ic":"🟢","fr":"Quand le stomate est ouvert, la vapeur d’eau sort de la feuille.","ar":"كي الثغر ينفتح، بخار الماء يخرج من الورقة."},
+{"ic":"🔴","fr":"Quand le stomate est fermé, la perte d’eau diminue.","ar":"كي الثغر ينغلق، فقدان الماء ينقص.","tip":"الخلايا الحارسة هي اللي تتحكم في فتح الثغر وغلقه."}
+]},
+{"ic":"☀️","fr":"IV. Les facteurs qui influencent la transpiration","ar":"رابعاً: شنوّة اللي يأثر على النتح؟","cards":[
+{"ic":"🌤️","fr":"La transpiration n’a pas toujours la même intensité.","ar":"النتح موش ديما بنفس القوة. يتأثر بالوسط الخارجي: الضوء والحرارة والرطوبة والريح.","img":"fig-facteurs.svg"},
+{"ic":"☀️","fr":"La lumière favorise généralement l’ouverture des stomates.","ar":"الضوء عادة يساعد على فتح الثغور، لذلك النتح يكون أكبر في وجود الضوء."},
+{"ic":"🌡️","fr":"Quand la température augmente, la transpiration augmente généralement.","ar":"كي ترتفع الحرارة، عادةً النتح يزيد."},
+{"ic":"💧","fr":"Quand l’air est humide, la transpiration diminue. Quand l’air est sec, elle augmente.","ar":"كي يكون الهواء فيه رطوبة كبيرة، فقدان الماء ينقص. أما إذا الهواء جاف، النتح يزيد."},
+{"ic":"💨","fr":"Le vent favorise la transpiration.","ar":"الريح تعاون على فقدان الماء وتزيد النتح."}
+]},
+{"ic":"🔗","fr":"Relation avec la leçon 1","ar":"العلاقة مع الدرس الأول","cards":[
+{"ic":"🌱","fr":"Racines → absorbent l’eau → tige → feuilles → transpiration","ar":"في الدرس الأول: الجذور تمتص الماء. وفي الدرس الثاني: الأوراق تفقد جزء من الماء هذا عن طريق النتح."},
+{"ic":"🔄","fr":"La transpiration favorise l’absorption de l’eau par les racines.","ar":"النبات يفقد الماء من فوق، لذلك يواصل ياخذ الماء من تحت باش يعوّضه.","tip":"Transpiration → perte d’eau → besoin de remplacer cette eau → absorption par les racines"},
+{"ic":"⭐","fr":"Plus la transpiration est importante, plus l’absorption d’eau peut être importante.","ar":"كلما زاد النتح، ينجم يزيد امتصاص الماء لتعويض الماء المفقود."}
+]},
+{"ic":"⬆️","fr":"L’aspiration foliaire","ar":"السحب الورقي","cards":[
+{"ic":"💧","fr":"La transpiration crée une force d’aspiration qui favorise la montée de l’eau vers les feuilles.","ar":"النتح يعمل قوة تسحب الماء نحو الأوراق."},
+{"ic":"🔄","fr":"Absorption → montée de l’eau → transpiration → aspiration de l’eau","ar":"وهذي هي الحلقة اللي تربط الدرس 1 بالدرس 2.","img":"fig-circuit.svg"}
+]},
+{"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
+{"ic":"⭐","fr":"La transpiration = perte d’eau sous forme de vapeur.","ar":"النتح = فقدان الماء في شكل بخار."},
+{"ic":"⭐","fr":"Elle se fait principalement au niveau des stomates des feuilles.","ar":"تصير أساسًا عبر ثغور الأوراق."},
+{"ic":"⭐","fr":"Elle dépend de plusieurs facteurs : lumière, température, humidité et vent.","ar":"تتأثر بالضوء والحرارة والرطوبة والريح."}
+]}
+],
+"quiz":[
+{"q":"La transpiration se fait uniquement au niveau des racines. / النتح يصير فقط على مستوى الجذور.","options":["Vrai","Faux"],"answer":1,"explain":"Faux: النتح يصير أساسًا على مستوى الأوراق."},
+{"q":"Une forte humidité de l’air favorise la transpiration. / الرطوبة العالية تزيد النتح.","options":["Vrai","Faux"],"answer":1,"explain":"Faux: الرطوبة العالية تنقص النتح."},
+{"q":"Sous quelle forme l’eau sort-elle de la plante ? / الماء يخرج من النبات في شكل…","options":["vapeur d’eau","glace","eau liquide"],"answer":0,"explain":"الماء يخرج في شكل بخار ماء."},
+{"q":"Quel phénomène l’expérience du sac plastique met-elle en évidence ? / التجربة بالكيس تثبت…","options":["la transpiration","l’osmose","la plasmolyse"],"answer":0,"explain":"قطرات الماء على الكيس تثبت النتح."},
+{"q":"Quel effet la lumière a-t-elle sur la transpiration ? / شنوّة تأثير الضوء على النتح؟","options":["Elle la favorise","Elle la diminue","Aucun effet"],"answer":0,"explain":"الضوء يساعد على فتح الثغور فيزيد النتح."},
+{"q":"Plante A : chaleur, air sec, vent. Plante B : température modérée, air humide, pas de vent. Laquelle transpire le plus ? / أي نبتة تنتح أكثر؟","options":["La plante A","La plante B","Les deux pareil"],"answer":0,"explain":"الحرارة العالية والهواء الجاف والريح تزيد فقدان الماء."},
+{"q":"Quand le stomate est fermé, la perte d’eau… / كي ينغلق الثغر، فقدان الماء…","options":["diminue","augmente","ne change pas"],"answer":0,"explain":"غلق الثغور يقلّل فقدان الماء."},
+{"q":"Que crée la transpiration au niveau des feuilles ? / شنوّة يخلق النتح في الأوراق؟","options":["une force d’aspiration","une force de poussée vers le bas","de la lumière"],"answer":0,"explain":"النتح يعمل قوة تسحب الماء نحو الأوراق: السحب الورقي."},
+{"q":"Quel est le bon ordre ? / الترتيب الصحيح؟","options":["transpiration → perte d’eau par les feuilles → montée de l’eau → absorption par les racines","absorption par les racines → transpiration → montée de l’eau → perte d’eau","montée de l’eau → absorption par les racines → transpiration → perte d’eau"],"answer":0,"explain":"النتح يسبب فقدان الماء من الأوراق، وهذا يساعد على صعود الماء وبالتالي امتصاصه من الجذور."}
+]
+}
