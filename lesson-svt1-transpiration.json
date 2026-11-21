@@ -1,58 +1,49 @@
 {
-"id":"svt1-absorption","fr":"L’absorption d’eau","ar":"امتصاص الماء","video":"",
-"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 10 إلى 16 وص 33",
+"id":"svt1-transpiration","fr":"La transpiration","ar":"النتح","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 17 إلى 20 وص 33 و34",
 "parts":[
-{"ic":"💧","fr":"Pourquoi l’eau ?","ar":"علاش الماء؟","cards":[
-{"ic":"💧","fr":"L’eau est un aliment indispensable à la plante qu’elle absorbe par ses racines.","ar":"الماء ماكلة ضرورية للنبتة، وتشربه بجذورها.","p":"ص 10"},
-{"ic":"📌","fr":"Absorption d’eau : entrée d’eau dans la plante par le système racinaire.","ar":"الامتصاص: دخول الماء للنبتة عن طريق الجذور.","p":"ص 12"}]},
-{"ic":"❓","fr":"Trois questions","ar":"ثلاثة أسئلة نجاوبو عليها","cards":[
-{"ic":"🧪","fr":"Comment mettre en évidence l’absorption d’eau ?","ar":"كيفاش نثبتو بالتجربة إنّ النبتة تشرب الماء؟","p":"ص 10"},
-{"ic":"🔍","fr":"Par quelles structures la plante absorbe-t-elle de l’eau ?","ar":"بأنهي جزء من النبتة تشرب الماء؟","p":"ص 10"},
-{"ic":"📏","fr":"Comment mesurer l’absorption d’eau ?","ar":"كيفاش نقيسو كمية الماء اللي شربتها؟","p":"ص 10"}]},
-{"ic":"🔬","fr":"1. L’expérience","ar":"1. التجربة: النبتة تشرب الماء","cards":[
-{"ic":"🪴","fr":"On place une plante dans un tube contenant de l’eau et on repère le niveau de l’eau.","ar":"نحطّو النبتة في أنبوب فيه ماء ونعلّمو مستوى الماء في الأول.","p":"ص 10"},
-{"ic":"⏰","fr":"On observe le résultat 24 heures après : le niveau de l’eau a baissé.","ar":"بعد 24 ساعة نشوفو مستوى الماء: نقص!","img":"fig-experience.svg","p":"ص 10"},
-{"ic":"✅","fr":"Conclusion : la plante absorbe de l’eau.","ar":"الخلاصة: النبتة تمتص الماء.","p":"ص 10"}]},
-{"ic":"🌱","fr":"2. La racine de près","ar":"2. نشوفو الجذر عن قرب","cards":[
-{"ic":"🌱","fr":"On fait germer des graines de radis sur un papier filtre imbibé d’eau, puis on observe à la loupe binoculaire.","ar":"نخلّيو بذور الفجل تنبت على ورقة مبلّلة بالماء، ونشوفوها بالعدسة (loupe binoculaire).","p":"ص 10"},
-{"ic":"🔎","fr":"La jeune racine a trois zones : la zone subéreuse, la zone pilifère et la coiffe.","ar":"الجذر الصغير فيه 3 مناطق: المنطقة المتفلّنة، ومنطقة الشعيرات، والقلنسوة.","img":"fig-racine.svg","p":"ص 10"}]},
-{"ic":"🧪","fr":"3. Où se fait l’absorption ? (Rosène)","ar":"3. منين تتمّ عملية الامتصاص؟ (تجربة Rosène)","cards":[
-{"ic":"🧫","fr":"On prépare 5 tubes : A avec de l’eau, B, C, D et E avec de l’eau et de l’huile.","ar":"نحضّرو 5 أنابيب: A فيه ماء فقط، وB وC وD وE فيهم ماء وزيت.","p":"ص 11"},
-{"ic":"🌿","fr":"Dans chaque tube, une partie différente de la racine est plongée dans l’eau, le reste dans l’huile. On observe après 24 heures.","ar":"في كل أنبوب نحطّو جزء مختلف من الجذر في الماء والباقي في الزيت، ونستنّاو 24 ساعة.","tip":"الأنبوب A فيه الجذر كله في الماء، ونقارنو بيه بقية الأنابيب.","p":"ص 11"},
-{"ic":"✅","fr":"Conclusion : l’absorption d’eau se fait au niveau des poils absorbants de la zone pilifère.","ar":"الخلاصة: الامتصاص يصير على مستوى الشعيرات الماصّة في منطقة الشعيرات.","p":"ص 13"}]},
-{"ic":"📏","fr":"4. Mesurer l’absorption","ar":"4. كيفاش نقيسو الامتصاص؟","cards":[
-{"ic":"🧪","fr":"Le potomètre est un appareil qui mesure l’absorption d’eau (potos = boisson, mètre = mesure).","ar":"الـpotomètre جهاز نقيسو بيه كمية الماء اللي تمتصها النبتة.","p":"ص 11"},
-{"ic":"📍","fr":"On repère la position de l’index dans le tube capillaire toutes les 10 minutes pendant 30 minutes.","ar":"نسجّلو موقع المؤشر في الأنبوب الشعري كل 10 دقائق طيلة 30 دقيقة.","tip":"الكتاب يطلب منك تفسير حركة المؤشر وحساب سرعة الامتصاص.","p":"ص 11 و12"}]},
-{"ic":"🧵","fr":"5. Les poils absorbants","ar":"5. الشعيرات الماصّة","cards":[
-{"ic":"🔬","fr":"Un poil absorbant est une cellule de l’épiderme de la racine : paroi, cytoplasme, noyau et vacuole.","ar":"الشعيرة الماصّة هي خلية من بشرة الجذر، فيها جدار وهيولى ونواة وفجوة.","p":"ص 13 و16"},
-{"ic":"📐","fr":"Diamètre de 12 à 15 μm, longueur de 1 à plusieurs mm, jusqu’à 2000 poils par cm² chez les graminées.","ar":"قطرها بين 12 و15 ميكرومتر، وطولها من 1 مم إلى عدة مم، وفي النباتات النجيلية يصل عددها إلى 2000 في كل سم².","p":"ص 13"},
-{"ic":"🌾","fr":"Chez le seigle, les poils donnent une surface de contact d’environ 400 m² avec la solution du sol.","ar":"عند الجاودار (seigle) تعطي الشعيرات مساحة تلامس مع التربة حوالي 400 م².","tip":"مساحة كبيرة = امتصاص أكثر.","p":"ص 13 و33"}]},
-{"ic":"🎈","fr":"6. Les échanges d’eau de la cellule","ar":"6. الخلية تتبادل الماء","cards":[
-{"ic":"🫘","fr":"Des pois chiches plongés dans l’eau gonflent ; des olives plongées dans l’eau très salée deviennent crénelées.","ar":"حمّص في الماء يتنفّخ، وزيتون في ماء مالح برشا يتكرمش.","p":"ص 13"},
-{"ic":"🔬","fr":"On observe au microscope des cellules d’oignon violet placées dans une solution de NaCl à 2, 9 et 20 g/l.","ar":"نشوفو بالمجهر خلايا بصل بنفسجي في محلول ملح NaCl بتركيز 2 و9 و20 غ/ل.","p":"ص 14"},
-{"ic":"🎈","fr":"À 9 g/l : cellules normales. À 2 g/l : cellules turgescentes. À 20 g/l : cellules plasmolysées.","ar":"عند 9: خلايا عادية. عند 2: خلايا ممتلئة (Turgescentes). عند 20: خلايا منكمشة (Plasmolysées).","img":"fig-turgescence.svg","p":"ص 14"}]},
-{"ic":"⚖️","fr":"7. L’osmose","ar":"7. الأسموز","cards":[
-{"ic":"🧪","fr":"L’osmomètre : un tube fermé par une membrane de cellophane contient du sulfate de cuivre et plonge dans de l’eau pure.","ar":"الـosmomètre: أنبوب مسدود بغشاء سيلوفان، فيه محلول كبريتات النحاس، ونغمّسوه في ماء صافي.","p":"ص 15"},
-{"ic":"📈","fr":"Le niveau de la solution monte : l’eau a traversé la membrane. Ce passage s’appelle l’osmose.","ar":"مستوى المحلول يطلع: الماء عدّى من الغشاء. وهذا العبور اسمه الأسموز.","p":"ص 15"},
-{"ic":"⚖️","fr":"Osmose : passage d’eau à travers une membrane semi-perméable du milieu le moins concentré vers le milieu le plus concentré.","ar":"الأسموز: الماء يعدّي من الوسط الأقلّ تركيزًا للوسط الأكثر تركيزًا عبر غشاء شبه نفوذ.","img":"fig-osmose.svg","p":"ص 16"},
-{"ic":"🔁","fr":"Milieu hypotonique : moins concentré. Milieu hypertonique : plus concentré. L’échange s’arrête à l’équilibre : l’isotonie.","ar":"وسط hypotonique: أقلّ تركيزًا. وسط hypertonique: أكثر تركيزًا. وتوقف التبادل كي يتساووا: isotonie.","p":"ص 16 و33"},
-{"ic":"💪","fr":"La pression osmotique est la force qui fait passer l’eau : P = n R T.","ar":"الضغط الأسموزي هو القوة اللي تعدّي الماء، وتكبر كي يكبر الفرق في التركيز.","p":"ص 16 و33"}]},
-{"ic":"🚰","fr":"8. Du sol vers l’intérieur de la racine","ar":"8. كيفاش يدخل الماء للجذر؟","cards":[
-{"ic":"📊","fr":"Solution du sol : 0,5 atm. Dans les cellules de la racine : 0,7 → 1,4 → 1,8 → 2,1 → 2,8 → 3 atm.","ar":"محلول التربة ضغطه 0,5. وفي خلايا الجذر يكبر خطوة بخطوة من الشعيرة نحو الوسط حتى 3.","p":"ص 15"},
-{"ic":"➡️","fr":"L’eau passe de cellule en cellule, du poil absorbant vers le cylindre central : c’est la conduction latérale.","ar":"الماء يعدّي من خلية لخلية، من الشعيرة نحو الأسطوانة المركزية: هذا اسمه conduction latérale.","p":"ص 33"},
-{"ic":"💡","fr":"La solution vacuolaire du poil absorbant est hypertonique par rapport à la solution du sol : l’eau y pénètre par osmose.","ar":"محلول فجوة الشعيرة أكثر تركيزًا من محلول التربة، لذلك الماء يدخل إليها بالأسموز.","tip":"لهذا لازم محلول التربة يكون مخفّف.","p":"ص 33"}]},
+{"ic":"📌","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"💨","fr":"La plante verte perd de l’eau sous forme de vapeur surtout par les feuilles : on dit qu’elle transpire.","ar":"النبتة الخضراء تفقد الماء في شكل بخار، خاصة من الأوراق. وهذا نسميه النتح.","p":"ص 17"},
+{"ic":"❓","fr":"Par quelle(s) face(s) ? Quelles structures ? Quels facteurs ?","ar":"ثلاثة أسئلة: من أي وجه في الورقة؟ بأنهي أجزاء؟ وشنوّة اللي يأثر عليه؟","p":"ص 17"},
+{"ic":"📖","fr":"Transpiration : perte d’eau par la plante verte sous forme de vapeur.","ar":"النتح = فقدان الماء من النبتة الخضراء في شكل بخار.","p":"ص 20"}]},
+{"ic":"🔬","fr":"1. Par quelle face de la feuille ?","ar":"1. من أي وجه في الورقة؟","cards":[
+{"ic":"🧪","fr":"On fixe une lamelle de verre sur chaque face d’une feuille vivante, et on observe après 30 minutes.","ar":"نثبّتو شريحة زجاجية على كل وجه من ورقة حيّة ونستنّاو 30 دقيقة.","p":"ص 17"},
+{"ic":"💧","fr":"De la buée apparaît sur les deux faces : la feuille transpire par ses 2 faces.","ar":"يظهر بخار متكاثف على الوجهين: الورقة تنتح من وجهيها.","tip":"الكتاب يلاحظ فرقاً بين الوجهين ويطلب فرضية لتفسيره.","p":"ص 17"},
+{"ic":"⭐","fr":"La transpiration est plus importante sur la face inférieure que sur la face supérieure.","ar":"النتح أكبر في الوجه السفلي مقارنة بالوجه العلوي.","p":"ص 33"}]},
+{"ic":"🔎","fr":"2. Les structures responsables","ar":"2. بأنهي جزء يصير النتح؟","cards":[
+{"ic":"🔬","fr":"On observe au microscope l’épiderme inférieur d’une feuille de géranium : cellules épidermiques et stomates.","ar":"نشوفو بالمجهر بشرة الوجه السفلي لورقة جيرانيوم: خلايا بشرة وثغور.","p":"ص 17"},
+{"ic":"👀","fr":"Un stomate est formé d’un ostiole bordé de deux cellules stomatiques.","ar":"الثغر (stomate) فيه فتحة في الوسط (ostiole) وعلى جوانبها خليتان حارستان (cellules stomatiques).","img":"fig-stomate.svg","p":"ص 20"},
+{"ic":"🚪","fr":"Le diamètre de l’ostiole change selon les conditions du milieu. La vapeur d’eau sort par l’ostiole.","ar":"فتحة الثغر تتوسّع وتضيق حسب الظروف، وبخار الماء يخرج منها.","p":"ص 33"}]},
+{"ic":"☀️","fr":"3. Les facteurs","ar":"3. شنوّة اللي يأثر على النتح؟","cards":[
+{"ic":"🌿","fr":"Facteurs internes : la surface foliaire et la densité des stomates.","ar":"عوامل داخلية: مساحة الأوراق وعدد الثغور في وحدة المساحة. كلما زادوا، زاد النتح.","p":"ص 33"},
+{"ic":"🌤️","fr":"Facteurs externes : la lumière, la température (jusqu’à 25-30 °C), l’air sec et l’agitation de l’air augmentent la transpiration.","ar":"عوامل خارجية: الضوء، والحرارة (حتى 25 إلى 30 درجة)، والهواء الجاف، وحركة الهواء (الريح) تزيد النتح، لأنها تفتح الثغور.","img":"fig-facteurs.svg","p":"ص 33"},
+{"ic":"📉","fr":"Document 3 : à l’obscurité, la transpiration du tournesol varie avec l’humidité relative de l’air.","ar":"المنحنى 3 يدرس تأثير رطوبة الهواء على النتح عند عباد الشمس. الكتاب يطلب منك أن تستنتج الأثر بنفسك.","tip":"الرطوبة العالية تنقص النتح، والهواء الجاف يزيده.","p":"ص 18 و19"}]},
+{"ic":"🔗","fr":"4. Absorption et transpiration","ar":"4. العلاقة بين الامتصاص والنتح","cards":[
+{"ic":"🧪","fr":"Deux potomètres A et B : la plante p1 garde ses feuilles, la plante p2 en perd quelques-unes. Chaque partie aérienne est couverte d’un sac plastique.","ar":"جهازا potomètre: النبتة p1 بأوراقها كاملة، والنبتة p2 نزعنا منها بعض الأوراق، وغطّينا الجزء الهوائي بكيس بلاستيك.","img":"fig-transpiration.svg","p":"ص 19"},
+{"ic":"📊","fr":"Après 20 minutes, l’index s’est déplacé de 48 mm dans A et de 21 mm dans B.","ar":"بعد 20 دقيقة: المؤشر تحرّك 48 مم في A و21 مم في B.","p":"ص 20"},
+{"ic":"⭐","fr":"Plus la transpiration augmente, plus la vitesse d’absorption est importante.","ar":"كلما زاد النتح، زادت سرعة الامتصاص.","p":"ص 33"},
+{"ic":"🔄","fr":"La perte d’eau par les feuilles crée un appel d’eau au niveau des racines : c’est l’aspiration foliaire.","ar":"فقدان الماء من الأوراق يعمل شدّ للماء في الجذور، وهذا هو السحب الورقي (aspiration foliaire).","img":"fig-circuit.svg","tip":"الرسم ملخص توضيحي.","p":"ص 20 و34"}]},
+{"ic":"🍇","fr":"5. La poussée radiculaire","ar":"5. الدفع الجذري","cards":[
+{"ic":"🍇","fr":"Un rameau de vigne coupé au printemps laisse couler de la sève : on dit que la vigne pleure.","ar":"غصن كرمة مقطوع في الربيع يسيل منه العصارة: نقولو الكرمة تبكي.","p":"ص 20"},
+{"ic":"💪","fr":"La sève est poussée par la racine : c’est la poussée radiculaire. Dans la plante, l’eau est à la fois poussée et aspirée.","ar":"الجذر يدفع العصارة: هذا الدفع الجذري (poussée radiculaire). فالماء في النبتة يُدفَع من تحت ويُسحَب من فوق.","p":"ص 34"}]},
+{"ic":"⚠️","fr":"6. Le bilan hydrique","ar":"6. الميزان المائي","cards":[
+{"ic":"⚖️","fr":"Bilan hydrique : différence entre la quantité d’eau absorbée et la quantité d’eau perdue.","ar":"الميزان المائي = الماء الممتص ناقص الماء المفقود.","p":"ص 20"},
+{"ic":"🥀","fr":"Si l’eau manque dans le sol, le bilan hydrique est négatif : la plante se fane, sauf si on irrigue.","ar":"كي ينقص الماء في التربة، الميزان المائي يولّي سلبي، والنبتة تذبل إلا إذا نسقيوها.","p":"ص 34"}]},
 {"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
-{"ic":"⭐","fr":"L’absorption d’eau se fait par les poils absorbants de la zone pilifère.","ar":"الامتصاص يصير بالشعيرات الماصّة في منطقة الشعيرات.","p":"ص 13"},
-{"ic":"⭐","fr":"L’eau est absorbée par le mécanisme de l’osmose.","ar":"الماء يدخل بالأسموز.","p":"ص 33"},
-{"ic":"⭐","fr":"Les poils absorbants offrent une grande surface d’échange entre la plante et le sol.","ar":"الشعيرات توفّر مساحة تبادل كبيرة بين النبتة والتربة.","p":"ص 33"}]}
+{"ic":"⭐","fr":"La transpiration se fait par les stomates, surtout sur la face inférieure.","ar":"النتح يصير عبر الثغور، خاصة في الوجه السفلي.","p":"ص 33"},
+{"ic":"⭐","fr":"Elle dépend de facteurs internes et externes.","ar":"يتأثر بعوامل داخلية (الأوراق والثغور) وخارجية (الضوء والحرارة والهواء).","p":"ص 33"},
+{"ic":"⭐","fr":"Plus la transpiration est forte, plus l’absorption est rapide.","ar":"كلما قوي النتح، تسرّع الامتصاص.","p":"ص 33"}]}
 ],
 "quiz":[
-{"q":"Par quelle partie la plante absorbe-t-elle l’eau ? / بأنهي جزء تمتص النبتة الماء؟","options":["Coiffe","Poils absorbants","Zone subéreuse"],"answer":1,"explain":"الشعيرات الماصّة في منطقة الشعيرات (ص 13)."},
-{"q":"Après 24 h, que devient le niveau de l’eau ? / بعد 24 ساعة، مستوى الماء…","options":["Il diminue","Il augmente","Il ne change pas"],"answer":0,"explain":"ينقص، وهذا يثبت أن النبتة امتصت الماء (ص 10)."},
-{"q":"Osmose : l’eau passe du milieu … vers le milieu … / الأسموز: الماء يعدّي من الوسط … إلى الوسط …","options":["plus concentré → moins concentré","moins concentré → plus concentré","aucun passage"],"answer":1,"explain":"من الأقل تركيزًا إلى الأكثر تركيزًا (ص 16)."},
-{"q":"Des cellules d’oignon dans NaCl à 20 g/l deviennent… / خلايا بصل في NaCl بتركيز 20 غ/ل تصير…","options":["turgescentes","normales","plasmolysées"],"answer":2,"explain":"عند 20 غ/ل تفقد الخلايا الماء فتتكرمش: Plasmolyse (ص 14)."},
-{"q":"Que mesure le potomètre ? / شنوّة يقيس الـpotomètre؟","options":["l’absorption d’eau","la lumière","la température"],"answer":0,"explain":"يقيس كمية الماء اللي تمتصها النبتة (ص 11)."},
-{"q":"Dans l’expérience de Rosène, quelle zone absorbe l’eau ? / في تجربة Rosène، أي منطقة تمتص الماء؟","options":["La coiffe","La zone pilifère","La zone subéreuse"],"answer":1,"explain":"الامتصاص يصير في منطقة الشعيرات (ص 13)."},
-{"q":"La solution vacuolaire du poil absorbant est … par rapport à la solution du sol. / محلول فجوة الشعيرة … مقارنة بمحلول التربة.","options":["hypertonique","hypotonique","isotonique"],"answer":0,"explain":"أكثر تركيزًا، لذلك الماء يدخل بالأسموز (ص 33)."}
+{"q":"La transpiration se fait uniquement au niveau des racines. / النتح يصير فقط على مستوى الجذور.","options":["Vrai","Faux"],"answer":1,"explain":"Faux: النتح يصير خاصة في الأوراق (ص 17)."},
+{"q":"Une forte humidité de l’air favorise la transpiration. / الرطوبة العالية تزيد النتح.","options":["Vrai","Faux"],"answer":1,"explain":"Faux: الهواء الجاف هو اللي يزيد النتح (ص 33)."},
+{"q":"Sous quelle forme l’eau sort-elle de la plante ? / الماء يخرج من النبتة في شكل…","options":["vapeur d’eau","glace","eau liquide"],"answer":0,"explain":"بخار ماء (ص 17)."},
+{"q":"Quelle face de la feuille transpire le plus ? / أي وجه ينتح أكثر؟","options":["La face inférieure","La face supérieure","Pareil"],"answer":0,"explain":"النتح أكبر في الوجه السفلي (ص 33)."},
+{"q":"Quel effet la lumière a-t-elle sur la transpiration ? / تأثير الضوء على النتح؟","options":["Elle la favorise","Elle la diminue","Aucun effet"],"answer":0,"explain":"الضوء يفتح فتحات الثغور فيزيد النتح (ص 33)."},
+{"q":"Plante A : 28 °C, air sec et agité. Plante B : 15 °C, air humide, calme. Laquelle transpire le plus ? / أي نبتة تنتح أكثر؟","options":["La plante A","La plante B","Pareil"],"answer":0,"explain":"الحرارة (حتى 25-30°) والهواء الجاف والمتحرك تزيد النتح (ص 33)."},
+{"q":"Quand le stomate se ferme, la perte d’eau… / كي ينغلق الثغر، فقدان الماء…","options":["diminue","augmente","ne change pas"],"answer":0,"explain":"غلق الفتحة يقلل خروج البخار."},
+{"q":"Potomètres : dans lequel l’index se déplace-t-il le plus ? / في أي جهاز يتحرك المؤشر أكثر؟","options":["A (plante avec toutes ses feuilles)","B (feuilles enlevées)","Pareil"],"answer":0,"explain":"48 مم في A مقابل 21 مم في B: النتح الأكبر يعني امتصاصاً أسرع (ص 20)."},
+{"q":"Quand l’eau du sol manque, le bilan hydrique est… / كي ينقص الماء في التربة، الميزان المائي…","options":["négatif","positif","nul"],"answer":0,"explain":"سلبي، والنبتة تذبل (ص 34)."},
+{"q":"Que provoque la transpiration au niveau des racines ? / شنوّة يخلق النتح في الجذور؟","options":["un appel d’eau","une poussée vers le bas","de la lumière"],"answer":0,"explain":"فقدان الماء في الأوراق يعمل شدّ للماء، وهذا السحب الورقي (ص 34)."}
 ]
 }
