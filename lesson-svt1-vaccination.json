@@ -1,0 +1,34 @@
+{
+"id":"svt1-vaccination","fr":"La vaccination et l’immunité acquise","ar":"التلقيح والمناعة المكتسبة","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 123 إلى 126 وص 128 إلى 130",
+"parts":[
+{"ic":"🔁","fr":"1. Une maladie qu’on ne refait pas","ar":"1. أمراض ما نعاودوش نصابو بيها","cards":[
+{"ic":"👦","fr":"Un enfant qui a eu la rougeole ne la contractera plus : il a acquis une immunité contre cette maladie. Il en est de même pour la varicelle.","ar":"الطفل اللي مرض بالحصبة ما يعاودش يصاب بيها: اكتسب مناعة ضدها. وكذلك الجدري المائي (varicelle).","p":"ص 123"}]},
+{"ic":"💉","fr":"2. La découverte de la vaccination","ar":"2. اكتشاف التلقيح","cards":[
+{"ic":"🐄","fr":"En 1798, Jenner apprend que les fermières qui avaient eu la vaccine (variole bovine bénigne) échappaient aux épidémies de variole. La variole, maladie virale mortelle dans 50 % des cas, était très redoutée.","ar":"في 1798 عرف Jenner أن الفلاحات اللواتي أصبن بجدري البقر الخفيف (vaccine) ما يصابوش بوباء الجدري. والجدري مرض فيروسي يقتل في 50 % من الحالات.","p":"ص 123"},
+{"ic":"🧪","fr":"Il inocule à un enfant du pus d’une pustule de vache malade : l’enfant a un léger malaise puis va bien. L’année suivante, il lui inocule du pus de variole : il ne contracte pas la maladie. Cette pratique est appelée vaccination.","ar":"حقن طفلاً بقيح من بقرة مريضة: الطفل مرض قليلاً ثم تحسّن. وبعد سنة حقنه بقيح الجدري الحقيقي ولم يصب. وهذا سُمّي vaccination.","p":"ص 123"},
+{"ic":"🐔","fr":"En 1879, Pasteur remarque que l’injection d’une culture vieillie du microbe du choléra des poules ne tue pas les poules.","ar":"في 1879 لاحظ Pasteur أن حقن دجاج بمزرعة ميكروب كوليرا الدجاج المعمّرة لا يقتله.","p":"ص 124"},
+{"ic":"🔬","fr":"Expérience : lot A (témoin, sans traitement) et lot B (déjà injecté de culture vieillie) reçoivent la culture fraîche. Le lendemain, les poules A sont mortes, les poules B vivantes.","ar":"التجربة: المجموعة A (شاهد بلا معالجة) والمجموعة B (حُقنت قبل بالمزرعة المعمّرة) تتلقيان المزرعة الطرية. النتيجة: A ماتت، B عاشت.","tip":"المزرعة المعمّرة أصبحت ضعيفة (أي atténuée) وتحمي من المزرعة الطرية.","p":"ص 124"}]},
+{"ic":"🐭","fr":"3. L’immunité acquise (le tétanos)","ar":"3. المناعة المكتسبة","cards":[
+{"ic":"☠️","fr":"L’anatoxine tétanique est la toxine tétanique rendue inactive par la chaleur et le formol.","ar":"Anatoxine: سمّ التيتانوس بعد تعطيله بالحرارة والفورمول.","p":"ص 125"},
+{"ic":"🐁","fr":"Souris A : injection de toxine, elle meurt. Souris B : injection d’anatoxine puis de toxine, elle survit, même après deux injections de toxine.","ar":"الفأر A: حُقن بالسم فمات. الفأر B: حُقن أولاً بـanatoxine ثم بالسمّ فعاش حتى بعد حقنتين.","p":"ص 125"},
+{"ic":"🎯","fr":"Spécificité : la souris C, protégée par l’anatoxine tétanique, meurt si on lui injecte la toxine diphtérique.","ar":"الخصوصية: الفأر C المحمي بـanatoxine التيتانوس مات لما حقنوه بسمّ الدفتيريا.","tip":"المناعة المكتسبة تحمي من الميكروب نفسه فقط.","p":"ص 125 و129"},
+{"ic":"🧫","fr":"Les substances du sérum responsables de l’immunité acquise sont les anticorps, dirigés contre un antigène.","ar":"المواد التي في المصل وتعطي المناعة هي الأجسام المضادة (anticorps)، وهي موجّهة ضد antigène.","p":"ص 126"}]},
+{"ic":"🧠","fr":"4. La mémoire immunitaire","ar":"4. الذاكرة المناعية","cards":[
+{"ic":"🐢","fr":"Première infection : réponse primaire, lente, de faible intensité et de courte durée.","ar":"الإصابة الأولى: استجابة أولية بطيئة وضعيفة وقصيرة.","img":"fig-reponse.svg","p":"ص 129"},
+{"ic":"🚀","fr":"Deuxième infection par le même agent : réponse secondaire, rapide, forte et durable.","ar":"الإصابة الثانية بنفس الميكروب: استجابة ثانوية سريعة وقوية ومستمرة.","p":"ص 129"}]},
+{"ic":"📖","fr":"5. Définitions","ar":"5. تعريفات","cards":[
+{"ic":"💉","fr":"Vaccination : traitement préventif destiné à protéger contre un agent infectieux par l’injection d’une forme non pathogène.","ar":"التلقيح: علاج وقائي لحماية الجسم من ميكروب معيّن بحقن شكل غير ممرض منه.","p":"ص 128"},
+{"ic":"🧬","fr":"Vaccin : germe ou toxine atténué(e) qui permet d’acquérir une immunité. La vaccination est une application de la mémoire immunitaire.","ar":"اللقاح: ميكروب أو سمّ مضعّف يمنح مناعة. والتلقيح تطبيق للذاكرة المناعية.","p":"ص 128 و130"},
+{"ic":"🧲","fr":"Antigène : corps étranger capable d’induire une réponse immunitaire.","ar":"Antigène: جسم غريب يثير استجابة مناعية.","p":"ص 128"}]}
+],
+"quiz":[
+{"q":"Qui a pratiqué la première vaccination en 1798 ? / من أول من لقّح سنة 1798؟","options":["Pasteur","Jenner","Koch"],"answer":1,"explain":"ص 123."},
+{"q":"Qu’est-ce que l’anatoxine ? / ما هو anatoxine؟","options":["Une toxine rendue inactive","Un antibiotique","Un globule blanc"],"answer":0,"explain":"ص 125."},
+{"q":"La souris C protégée contre le tétanos meurt face à la toxine diphtérique. Quelle propriété ? / أي خاصية؟","options":["La mémoire","La spécificité","La digestion"],"answer":1,"explain":"ص 125 و129."},
+{"q":"Une réponse secondaire est… / الاستجابة الثانوية…","options":["lente et faible","rapide, forte et durable","absente"],"answer":1,"explain":"ص 129."},
+{"q":"Les anticorps sont dirigés contre… / الأجسام المضادة موجّهة ضد…","options":["un antigène","la lumière","les sels minéraux"],"answer":0,"explain":"ص 126."},
+{"q":"La vaccination est une application de… / التلقيح تطبيق لـ…","options":["la phagocytose","la mémoire immunitaire","l’inflammation"],"answer":1,"explain":"ص 130."},
+{"q":"Chez les poules de Pasteur, le lot B a survécu parce que… / نجت الدجاجة B لأنها…","options":["elle avait déjà reçu la culture vieillie","elle n’avait rien reçu","elle était plus grande"],"answer":0,"explain":"ص 124."}
+]
+}
