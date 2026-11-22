@@ -1,0 +1,32 @@
+{
+"id":"svt1-risques","fr":"Les risques des engrais chimiques et des pesticides","ar":"أخطار الأسمدة الكيميائية والمبيدات وحلولها","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 64 إلى 67 وص 70",
+"parts":[
+{"ic":"⚠️","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"🚜","fr":"Pour augmenter la production, l’agriculture moderne utilise parfois trop d’engrais chimiques et de pesticides.","ar":"باش تزيد الإنتاج، الفلاحة الحديثة تستعمل أحيانا برشا أسمدة كيميائية ومبيدات.","p":"ص 64"},
+{"ic":"❓","fr":"Ces produits présentent-ils des dangers pour la santé ? Comment les éviter ?","ar":"السؤال: هل فيها خطر على الصحة؟ وكيفاش نتفاداوه؟","p":"ص 64"}]},
+{"ic":"💧","fr":"1. La pollution par les nitrates","ar":"1. التلوث بالنترات","cards":[
+{"ic":"👶","fr":"De fortes doses de nitrates transforment l’hémoglobine en méthémoglobine, qui ne fixe plus l’oxygène ; la maladie atteint surtout les nourrissons.","ar":"كميات كبيرة من النترات تحوّل الهيموغلوبين إلى méthémoglobine ما تقدرش تحمل الأكسجين، والمرض يصيب خاصة الرضّع.","p":"ص 64"},
+{"ic":"🚰","fr":"Une eau potable doit contenir au plus 50 mg/l de nitrates ; entre 50 et 100 mg/l, elle est déconseillée aux femmes enceintes et aux nourrissons de moins de 6 mois ; au-delà de 100 mg/l, elle ne doit pas être consommée.","ar":"ماء الشرب: 50 ملغ/ل نترات على الأكثر. بين 50 و100 لا يُنصح به للحوامل والرضّع تحت 6 أشهر. وفوق 100 ما يتشربش.","p":"ص 64"}]},
+{"ic":"🧴","fr":"2. Les dangers des pesticides","ar":"2. أخطار المبيدات","cards":[
+{"ic":"📖","fr":"Un pesticide détruit, contrôle ou éloigne un organisme considéré comme nuisible : insecticides, herbicides, fongicides.","ar":"المبيد مادة كيميائية تقضي على كائن ضار أو تبعده: مبيدات الحشرات والأعشاب والفطريات.","p":"ص 64"},
+{"ic":"🧒","fr":"Les enfants sont plus vulnérables que les adultes aux pesticides.","ar":"الأطفال أكثر تأثرًا من الكبار بالمبيدات.","p":"ص 65"},
+{"ic":"🍓","fr":"Si la rémanence d’un fongicide n’est pas respectée, les fraises récoltées contiennent des résidus et provoquent des diarrhées.","ar":"إذا ما احترمناش مدة نشاط المبيد (rémanence)، الفراولة تحتوي بقايا المبيد وتسبب إسهال.","p":"ص 65"}]},
+{"ic":"🌿","fr":"3. Les engrais naturels","ar":"3. الأسمدة الطبيعية","cards":[
+{"ic":"♻️","fr":"Le compost est un engrais organique issu de la fermentation de débris animaux et végétaux.","ar":"الـcompost سماد عضوي ينتج عن تخمّر بقايا حيوانية ونباتية.","p":"ص 66"},
+{"ic":"🔄","fr":"Dans le sol, l’azote organique devient d’abord de l’ammoniaque, puis des nitrates ; l’ammoniaque est absorbé par la plante, ce qui réduit les nitrates.","ar":"في التربة، الأزوت العضوي يتحوّل أولاً إلى أمونياك ثم نترات. والنبتة تمتص الأمونياك، فتنقص النترات.","p":"ص 66"}]},
+{"ic":"🐞","fr":"4. La lutte biologique","ar":"4. المقاومة البيولوجية","cards":[
+{"ic":"🐞","fr":"Une coccinelle adulte mange environ 300 pucerons par jour.","ar":"الدعسوقة (coccinelle) الكبيرة تأكل حوالي 300 حشرة من نوع pucerons في النهار.","p":"ص 66"},
+{"ic":"🦋","fr":"Phéromones : on stérilise des mâles capturés avec des pièges, ou on diffuse des phéromones pour confondre les mâles.","ar":"Phéromones: نصطادو الذكور ونعقّموهم، أو ننشرو الفيرومونات الصناعية فيتلخبط الذكر ما يلقاش الأنثى.","p":"ص 67"}]},
+{"ic":"✅","fr":"5. Les bonnes pratiques","ar":"5. الممارسات الجيدة","cards":[
+{"ic":"📏","fr":"Utiliser les engrais chimiques selon les doses, sans excès d’azote ; utiliser des pesticides à courte durée d’activité ; respecter la rémanence.","ar":"نستعملو الأسمدة الكيميائية بالجرعات، دون زيادة في الأزوت. ونستعملو مبيدات قصيرة المدة، ونحترمو rémanence.","img":"fig-lutte.svg","p":"ص 70"}]}
+],
+"quiz":[
+{"q":"Quelle maladie est liée aux nitrates ? / أي مرض مرتبط بالنترات؟","options":["La méthémoglobine","La grippe","La carence en fer"],"answer":0,"explain":"ص 64."},
+{"q":"Teneur maximale en nitrates d’une eau potable / الحد الأقصى للنترات في ماء الشرب","options":["50 mg/l","500 mg/l","5 mg/l"],"answer":0,"explain":"ص 64."},
+{"q":"La rémanence est… / الـrémanence هي…","options":["la durée pendant laquelle le pesticide est actif","le prix du pesticide","la couleur du pesticide"],"answer":0,"explain":"ص 65 و70."},
+{"q":"Le compost est… / الـcompost هو…","options":["un engrais organique","un pesticide","un gaz"],"answer":0,"explain":"ص 66."},
+{"q":"Quelle solution de lutte biologique est citée ? / أي حل بيولوجي مذكور؟","options":["La coccinelle contre les pucerons","Plus de fongicides","Plus de nitrates"],"answer":0,"explain":"ص 66."},
+{"q":"Que fait la confusion des mâles ? / شنوّة تعمل confusion des mâles؟","options":["Elle limite les chances d’accouplement","Elle tue les plantes","Elle augmente les ravageurs"],"answer":0,"explain":"ص 67."}
+]
+}
