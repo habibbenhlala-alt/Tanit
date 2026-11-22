@@ -1,0 +1,34 @@
+{
+"id":"svt1-tetanos","fr":"Le tétanos et la prévention des maladies infectieuses","ar":"التيتانوس والوقاية من الأمراض المعدية","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 112 و113 و114",
+"parts":[
+{"ic":"⚡","fr":"1. Le tétanos","ar":"1. التيتانوس","cards":[
+{"ic":"🤕","fr":"Symptômes : 2 à 15 jours après la blessure, contraction des muscles des mâchoires puis généralisée. La mort peut survenir par asphyxie, à cause de la paralysie des muscles respiratoires.","ar":"الأعراض: بعد 2 إلى 15 يوماً من الجرح، تقلّص عضلات الفكّين ثم كامل الجسم. وقد يموت المصاب بالاختناق لشلل عضلات التنفس.","p":"ص 112"},
+{"ic":"🦠","fr":"L’agent : le bacille tétanique, une bactérie anaérobie qui se transforme en spores dans un milieu oxygéné. Les spores sont fréquentes dans la terre et la poussière.","ar":"المسبّب: العصيّة التيتانية، بكتيريا لاهوائية تتحوّل إلى أبواغ (spores) في وسط فيه أكسجين. والأبواغ كثيرة في التراب والغبار.","p":"ص 112"},
+{"ic":"🔩","fr":"Contamination : lors d’une blessure par un objet rouillé, les spores entrent dans l’organisme et deviennent des bacilles actifs qui se multiplient vite.","ar":"العدوى: عند جرح بشيء صدئ، تدخل الأبواغ وتتحوّل إلى عصيّات نشطة تتكاثر بسرعة.","img":"fig-tetanos.svg","p":"ص 112"},
+{"ic":"☠️","fr":"Le bacille reste dans la plaie mais fabrique la toxine tétanique, qui se répand dans l’organisme et se fixe sur le tissu nerveux.","ar":"العصيّة تبقى في الجرح، لكن تصنع سمّاً (toxine) ينتشر في الجسم ويلتصق بالنسيج العصبي.","tip":"خطورة المرض جاية من السمّ وليس من انتشار البكتيريا.","p":"ص 112"},
+{"ic":"💉","fr":"Prévention : vaccination avec un rappel tous les 5 ans. En cas de blessure suspecte : désinfecter soigneusement et recevoir le sérum antitétanique.","ar":"الوقاية: تلقيح مع تذكير كل 5 سنوات. وعند جرح مشبوه: تطهير جيد وحقن مصل ضد التيتانوس.","p":"ص 112"},
+{"ic":"🏥","fr":"Si des symptômes apparaissent (difficulté à respirer, à ouvrir la bouche), amener le malade au centre hospitalier le plus proche.","ar":"إذا ظهرت أعراض (صعوبة تنفس أو فتح الفم)، نوصّلو المريض لأقرب مستشفى.","p":"ص 112"}]},
+{"ic":"🧬","fr":"2. Comment les microbes agissent","ar":"2. كيف تؤثر الميكروبات؟","cards":[
+{"ic":"🦠","fr":"Les maladies infectieuses sont causées surtout par des bactéries et des virus.","ar":"الأمراض المعدية سببها خاصة البكتيريا والفيروسات.","p":"ص 114"},
+{"ic":"🧪","fr":"Les bactéries agissent par leur présence (bacille de Koch) ou par les toxines qu’elles sécrètent (bacilles tétanique et diphtérique).","ar":"البكتيريا تؤثر بوجودها (كوخ) أو بالسموم التي تفرزها (التيتانوس والدفتيريا).","p":"ص 114"},
+{"ic":"🏭","fr":"Les virus parasitent les cellules vivantes en utilisant leur matériel pour se multiplier, et finissent généralement par les détruire.","ar":"الفيروسات تتطفّل على الخلايا وتستعمل مادتها لتتكاثر، وفي الأخير تدمّرها غالباً.","p":"ص 114"}]},
+{"ic":"🚧","fr":"3. Les voies de contamination","ar":"3. طرق العدوى","cards":[
+{"ic":"🗺️","fr":"Voie respiratoire (grippe, tuberculose, SRAS), voie digestive (infections intestinales), voie sexuelle (SIDA, blennorragie, syphilis), voie sanguine (SIDA).","ar":"عبر التنفس (الأنفلونزا والسل)، عبر الهضم (التسمّم الغذائي)، عبر الاتصال الجنسي (السيدا والسيلان والزهري)، عبر الدم (السيدا).","img":"fig-contagion.svg","p":"ص 114"},
+{"ic":"🐀","fr":"Le chien, le chat, le rat, les mouches et les moustiques peuvent transmettre des agents pathogènes à l’homme.","ar":"الكلب والقط والفأر والذباب والبعوض ممكن تنقل ميكروبات للإنسان.","p":"ص 114"}]},
+{"ic":"🛡️","fr":"4. La prévention","ar":"4. الوقاية","cards":[
+{"ic":"🧼","fr":"Suivre les règles d’hygiène corporelle et alimentaire, et contribuer à la propreté de l’environnement.","ar":"احترام قواعد النظافة الجسمية والغذائية والمحافظة على نظافة المحيط.","p":"ص 114"},
+{"ic":"💉","fr":"Se vacciner contre certaines maladies : tuberculose, rougeole, poliomyélite.","ar":"التلقيح ضد بعض الأمراض: السل والحصبة وشلل الأطفال.","p":"ص 114"},
+{"ic":"🏥","fr":"En cas de blessure, piqûre ou morsure : aller au centre hospitalier le plus proche.","ar":"عند جرح أو لدغة أو عضّة: نمشيو لأقرب مستشفى للعلاج.","p":"ص 114"},
+{"ic":"📖","fr":"Tétanos : maladie grave, souvent mortelle, due au bacille tétanique ; elle peut survenir après une blessure même bénigne.","ar":"التيتانوس: مرض خطير غالباً مميت، سببه العصيّة التيتانية، وقد يظهر بعد جرح بسيط.","p":"ص 113"}]}
+],
+"quiz":[
+{"q":"Quel est l’agent du tétanos ? / مسبّب التيتانوس؟","options":["Un virus","Le bacille tétanique","Le bacille de Koch"],"answer":1,"explain":"ص 112."},
+{"q":"Quel facteur rend le tétanos si grave ? / ما سبب خطورة التيتانوس؟","options":["La toxine tétanique","Le manque d’eau","Le soleil"],"answer":0,"explain":"ص 112."},
+{"q":"Où trouve-t-on les spores du tétanos ? / وين نلقاو الأبواغ؟","options":["Dans la terre et la poussière","Seulement dans l’eau pure","Dans l’air pur uniquement"],"answer":0,"explain":"ص 112."},
+{"q":"Rappel du vaccin antitétanique : / موعد التذكير بالتلقيح:","options":["tous les 5 ans","tous les jours","jamais"],"answer":0,"explain":"ص 112."},
+{"q":"Quelle voie transmet le SIDA ? / أي طريق ينقل السيدا؟","options":["Sexuelle et sanguine","Seulement digestive","Aérienne uniquement"],"answer":0,"explain":"ص 114."},
+{"q":"Les virus… / الفيروسات…","options":["parasitent les cellules vivantes","fabriquent de l’amidon","vivent seulement dans le sol sec"],"answer":0,"explain":"ص 114."},
+{"q":"Quelle est la bonne mesure après une blessure suspecte ? / ما الإجراء بعد جرح مشبوه؟","options":["Désinfecter puis recevoir le sérum","Ne rien faire","Frotter avec de la terre"],"answer":0,"explain":"ص 112."}
+]
+}
