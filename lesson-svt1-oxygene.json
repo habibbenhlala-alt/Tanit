@@ -1,0 +1,30 @@
+{
+"id":"svt1-oxygene","fr":"L’origine de l’oxygène et la photosynthèse","ar":"مصدر الأكسجين ومراحل التركيب الضوئي","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 54 إلى 56 وص 68 و69",
+"parts":[
+{"ic":"🧪","fr":"1. D’où vient l’oxygène ?","ar":"1. منين يجي الأكسجين؟","cards":[
+{"ic":"🔬","fr":"Expérience 1 : des chlorelles reçoivent du CO2 contenant de l’oxygène radioactif. L’oxygène dégagé n’est pas radioactif, mais les glucides le sont.","ar":"التجربة 1: نعطيو الطحالب CO2 فيه أكسجين مشعّ. الأكسجين المتحرّر ما هوش مشعّ، أما السكريات فمشعّة.","p":"ص 55"},
+{"ic":"💧","fr":"Expérience 2 : l’eau contient l’oxygène radioactif. L’oxygène dégagé est radioactif, mais pas les glucides.","ar":"التجربة 2: الأكسجين المشعّ في الماء. الأكسجين المتحرّر مشعّ، والسكريات لا.","p":"ص 55"},
+{"ic":"🌑","fr":"Expérience 3 : la même expérience à l’obscurité ne dégage pas d’oxygène.","ar":"التجربة 3: كيف نعاودوها في الظلام، ما يتحرّرش أكسجين.","tip":"الاستنتاج: الأكسجين يجي من الماء، ويحتاج الضوء.","p":"ص 55"}]},
+{"ic":"⚡","fr":"2. La photolyse de l’eau","ar":"2. تفكيك الماء بالضوء","cards":[
+{"ic":"💥","fr":"Sous l’action de la lumière et en présence de chlorophylle, l’eau se décompose en oxygène, protons (H⁺) et électrons.","ar":"بالضوء ووجود الكلوروفيل، جزيء الماء يتفكك إلى أكسجين وبروتونات (H⁺) وإلكترونات.","img":"fig-photolyse.svg","p":"ص 55"},
+{"ic":"⚗️","fr":"2 H2O → O2 + 4 H⁺ + 4 e⁻ : c’est la photolyse de l’eau.","ar":"المعادلة: 2 H2O → O2 + 4 H⁺ + 4 e⁻، وهذا نسميه photolyse.","p":"ص 55 و68"},
+{"ic":"🌬️","fr":"L’oxygène est dégagé ; les protons servent avec le CO2 à fabriquer la matière organique.","ar":"الأكسجين يخرج، والبروتونات تُستعمل مع CO2 لصنع المادة العضوية.","p":"ص 55"}]},
+{"ic":"⏱️","fr":"3. Le déroulement","ar":"3. كيفاش يتمّ التركيب الضوئي؟","cards":[
+{"ic":"📉","fr":"Gaffron (1951) : du CO2 radioactif est donné à des algues très éclairées ; à l’obscurité, l’incorporation continue 15 à 20 secondes si l’éclairement préalable a duré au moins 10 minutes.","ar":"تجربة Gaffron: نعطيو CO2 مشعّ لطحالب مضاءة جيدًا. وكي نحطّوها في الظلام، الامتصاص يتواصل 15 إلى 20 ثانية إذا كان الضوء السابق 10 دقائق على الأقل.","p":"ص 56"},
+{"ic":"☀️","fr":"Phase photochimique : elle dépend directement de la lumière (photolyse de l’eau, stockage d’énergie chimique).","ar":"المرحلة الضوئية: تحتاج الضوء مباشرة (تفكيك الماء وتخزين الطاقة).","p":"ص 56 و68"},
+{"ic":"🌑","fr":"Phase sombre : la lumière n’est pas directement nécessaire ; on y incorpore le CO2 et on synthétise la matière organique.","ar":"المرحلة المظلمة: ما تحتاجش الضوء مباشرة، فيها يدخل CO2 وتُصنع المادة العضوية.","p":"ص 56 و68"}]},
+{"ic":"🏭","fr":"4. Le bilan","ar":"4. الخلاصة","cards":[
+{"ic":"🌿","fr":"Les chloroplastes sont de petites usines : la chlorophylle capte l’énergie lumineuse et la convertit en énergie chimique.","ar":"البلاستيدات الخضراء كأنها مصانع صغيرة: الكلوروفيل يلتقط الطاقة الضوئية ويحوّلها إلى طاقة كيميائية.","p":"ص 68"},
+{"ic":"🧮","fr":"6 CO2 + 6 H2O → C6H12O6 + 6 O2 (lumière, chlorophylle).","ar":"المعادلة الإجمالية: 6 CO2 + 6 H2O تعطي سكر الغلوكوز + 6 O2 بوجود الضوء والكلوروفيل.","p":"ص 68"},
+{"ic":"🌑","fr":"Sans lumière (éclairement nul), seule la respiration est mesurée : la plante absorbe de l’oxygène.","ar":"في الظلام نقيسو التنفس فقط: النبتة تمتص الأكسجين.","p":"ص 69"}]}
+],
+"quiz":[
+{"q":"D’où vient l’oxygène dégagé ? / منين يجي الأكسجين المتحرّر؟","options":["De l’eau","Du CO2","Du sol"],"answer":0,"explain":"ص 55."},
+{"q":"La photolyse de l’eau se produit… / تفكيك الماء يصير…","options":["à la lumière avec la chlorophylle","à l’obscurité","sans chlorophylle"],"answer":0,"explain":"ص 55."},
+{"q":"Les protons H⁺ servent à… / البروتونات تُستعمل في…","options":["fabriquer la matière organique avec le CO2","produire de l’oxygène seulement","disparaître"],"answer":0,"explain":"ص 55."},
+{"q":"La phase sombre dépend… / المرحلة المظلمة تحتاج…","options":["pas directement de la lumière","de la lumière seule","de rien"],"answer":0,"explain":"ص 56."},
+{"q":"Que mesure-t-on quand l’éclairement est nul ? / شنوّة نقيسو لما الضوء منعدم؟","options":["la respiration","la photosynthèse","la transpiration"],"answer":0,"explain":"ص 69."},
+{"q":"Quel est le premier produit de la photosynthèse ? / أول نواتج التركيب الضوئي؟","options":["des glucides simples","des lipides","des sels minéraux"],"answer":0,"explain":"ص 68."}
+]
+}
