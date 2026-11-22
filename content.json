@@ -24,7 +24,11 @@
 {"id":"svt1-oxygene","file":"lesson-svt1-oxygene.json","fr":"L’origine de l’oxygène","ar":"مصدر الأكسجين ومراحل التركيب"},
 {"id":"svt1-seve-elaboree","file":"lesson-svt1-seve-elaboree.json","fr":"La sève élaborée","ar":"العصارة الناضجة"},
 {"id":"svt1-intensite","file":"lesson-svt1-intensite.json","fr":"L’intensité photosynthétique","ar":"شدّة التركيب الضوئي"},
-{"id":"svt1-risques","file":"lesson-svt1-risques.json","fr":"Les risques des engrais et pesticides","ar":"أخطار الأسمدة والمبيدات"}]},
+{"id":"svt1-risques","file":"lesson-svt1-risques.json","fr":"Les risques des engrais et pesticides","ar":"أخطار الأسمدة والمبيدات"},
+{"id":"svt1-bouturage","file":"lesson-svt1-bouturage.json","fr":"Le bouturage","ar":"التعقيل"},
+{"id":"svt1-marcottage-greffage","file":"lesson-svt1-marcottage-greffage.json","fr":"Le marcottage et le greffage","ar":"الترقيد والتطعيم"},
+{"id":"svt1-importance","file":"lesson-svt1-importance.json","fr":"L’importance de la multiplication végétative","ar":"أهمية التكاثر الخضري"},
+{"id":"svt1-in-vitro","file":"lesson-svt1-in-vitro.json","fr":"La culture in vitro","ar":"الزراعة في المخبر"}]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
 {"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}]}
