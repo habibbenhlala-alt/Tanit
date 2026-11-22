@@ -1,0 +1,30 @@
+{
+"id":"svt1-bouturage","fr":"Le bouturage","ar":"التعقيل (البوتيراج)","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 74 إلى 77",
+"parts":[
+{"ic":"📚","fr":"Les acquis du collège","ar":"ما تعلمناه في الإعدادي","cards":[
+{"ic":"🌰","fr":"Reproduction sexuée : assurée par la graine.","ar":"التكاثر الجنسي يتمّ بالبذرة.","p":"ص 75"},
+{"ic":"🌿","fr":"Reproduction asexuée ou multiplication végétative : à partir d’organes végétatifs (tige, rhizome, tubercule, bulbe).","ar":"التكاثر اللاجنسي أو الخضري: يتمّ بأعضاء خضرية (ساق، جذمور، درنة، بصلة).","p":"ص 75"},
+{"ic":"3️⃣","fr":"Les modes de la multiplication végétative : le bouturage, le marcottage, le greffage.","ar":"أنواعه: التعقيل، والترقيد (marcottage)، والتطعيم (greffage).","p":"ص 75"}]},
+{"ic":"❓","fr":"Introduction","ar":"المشكلة","cards":[
+{"ic":"🍇","fr":"Chez le bananier, le grenadier, le figuier, la vigne, la pomme de terre ou le jasmin, la multiplication végétative est le seul moyen facile et rapide d’avoir une production importante.","ar":"عند الموز والرمان والتين والكرمة والبطاطا والياسمين، التكاثر الخضري هو الطريقة السهلة والسريعة الوحيدة لإنتاج كمية كبيرة.","p":"ص 76"},
+{"ic":"❓","fr":"Comment est-elle assurée ?","ar":"السؤال: كيفاش يتمّ هذا التكاثر؟","p":"ص 76"}]},
+{"ic":"✂️","fr":"1. Le bouturage","ar":"1. التعقيل","cards":[
+{"ic":"📖","fr":"Principe : un fragment d’organe de l’appareil végétatif, mis à terre, s’enracine et donne une nouvelle plante. Ce fragment s’appelle une bouture.","ar":"المبدأ: قطعة من عضو خضري، نغرسوها في التربة، فتتجذّر وتعطي نبتة جديدة. وهذه القطعة اسمها bouture.","img":"fig-bouture.svg","p":"ص 76"},
+{"ic":"🥔","fr":"Pomme de terre : le tubercule est une partie de tige souterraine qui porte des bourgeons. Un seul bourgeon isolé peut donner un plant normal.","ar":"البطاطا: الدرنة جزء من ساق تحت الأرض فيها براعم، وبرعم واحد معزول ينجم يعطي نبتة عادية منتجة للدرنات.","p":"ص 76"},
+{"ic":"🌺","fr":"Pélargonium : un rameau feuillé enfoncé dans de la terre humide forme des racines adventives près de la section et donne une nouvelle plante.","ar":"الجيرانيوم (pélargonium): غصن بأوراق في تربة رطبة يكوّن جذوراً عرضية قرب القطع، وتنمو منه نبتة جديدة.","p":"ص 76"}]},
+{"ic":"🫒","fr":"2. Le bouturage de l’olivier","ar":"2. تعقيل الزيتون","cards":[
+{"ic":"📏","fr":"Bouture semi-ligneuse : 15 à 17 cm, prélevée sur un rameau d’au moins un an, avec deux paires de feuilles au sommet.","ar":"عقلة شبه خشبية: طولها 15 إلى 17 سم من غصن عمره سنة على الأقل، مع الاحتفاظ بزوجين من الأوراق في الأعلى.","p":"ص 77"},
+{"ic":"🌡️","fr":"Pour l’enracinement : 23 à 25 °C et humidité supérieure à 80 %.","ar":"باش تتجذّر: حرارة بين 23 و25 درجة ورطوبة فوق 80 %.","p":"ص 77"},
+{"ic":"⏳","fr":"Après quelques semaines, un cal se forme ; vers 8 semaines, les racines apparaissent.","ar":"بعد أسابيع يتكوّن cal (نسيج ندبة)، وحوالي 8 أسابيع تظهر الجذور.","p":"ص 77"},
+{"ic":"🪵","fr":"Éclat de souche : la protubérance à la base du tronc est coupée en tronçons de 15 à 20 cm (500 g à 5 kg) qui s’enracinent une fois enterrés et irrigués.","ar":"Éclat de souche: ننتفخ في قاعدة الجذع، نقطّعوه إلى أجزاء 15 إلى 20 سم، وعند الغرس والسقي تتجذّر وتعطي نبتة مماثلة للأم.","p":"ص 77"}]}
+],
+"quiz":[
+{"q":"Comment appelle-t-on le fragment mis à terre ? / كيف نسمّي القطعة المغروسة؟","options":["Une bouture","Un greffon","Un clone"],"answer":0,"explain":"ص 76."},
+{"q":"Les racines formées sur une bouture sont… / الجذور المتكوّنة على العقلة هي…","options":["adventives","principales","aériennes"],"answer":0,"explain":"ص 76."},
+{"q":"Chez la pomme de terre, un bourgeon isolé peut donner… / برعم معزول من البطاطا ينجم يعطي…","options":["un plant normal","rien","une fleur seulement"],"answer":0,"explain":"ص 76."},
+{"q":"Humidité pour enraciner l’olivier / الرطوبة لتجذير الزيتون","options":["supérieure à 80 %","inférieure à 20 %","0 %"],"answer":0,"explain":"ص 77."},
+{"q":"Quels sont les trois modes de multiplication végétative ? / ثلاث طرق التكاثر الخضري؟","options":["bouturage, marcottage, greffage","semis, bouturage, pollinisation","greffage, irrigation, fertilisation"],"answer":0,"explain":"ص 75."},
+{"q":"Quand apparaissent les racines de la bouture d’olivier ? / متى تظهر جذور عقلة الزيتون؟","options":["Vers 8 semaines","Après 1 jour","Jamais"],"answer":0,"explain":"ص 77."}
+]
+}
