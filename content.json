@@ -37,7 +37,12 @@
 {"fr":"La diversité du monde microbien","ar":"الفصل 1: تنوّع عالم الميكروبات","lessons":[
 {"id":"svt1-protozoaires","file":"lesson-svt1-protozoaires.json","fr":"Le monde microbien et les protozoaires","ar":"عالم الميكروبات والأوليات"},
 {"id":"svt1-bacteries","file":"lesson-svt1-bacteries.json","fr":"Les bactéries","ar":"البكتيريا"},
-{"id":"svt1-champignons-virus","file":"lesson-svt1-champignons-virus.json","fr":"Champignons, virus et microbes utiles","ar":"الفطريات والفيروسات والميكروبات النافعة"}]}]},
+{"id":"svt1-champignons-virus","file":"lesson-svt1-champignons-virus.json","fr":"Champignons, virus et microbes utiles","ar":"الفطريات والفيروسات والميكروبات النافعة"}]},
+{"fr":"Les agents pathogènes et les maladies infectieuses","ar":"الفصل 2: العوامل الممرضة والأمراض المعدية","lessons":[
+{"id":"svt1-grippe","file":"lesson-svt1-grippe.json","fr":"La grippe et les maladies infectieuses","ar":"الأنفلونزا والأمراض المعدية"},
+{"id":"svt1-tuberculose","file":"lesson-svt1-tuberculose.json","fr":"La tuberculose pulmonaire","ar":"السل الرئوي"},
+{"id":"svt1-rougeole","file":"lesson-svt1-rougeole.json","fr":"La rougeole","ar":"الحصبة"},
+{"id":"svt1-tetanos","file":"lesson-svt1-tetanos.json","fr":"Le tétanos et la prévention","ar":"التيتانوس والوقاية"}]}]},
 {"id":"geologie","icon":"🪨","fr":"Géologie","ar":"الجيولوجيا","chapters":[]}]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
