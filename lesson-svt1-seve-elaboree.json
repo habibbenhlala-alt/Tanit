@@ -1,0 +1,33 @@
+{
+"id":"svt1-seve-elaboree","fr":"Le transport de la sève élaborée","ar":"نقل العصارة الناضجة","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 57 إلى 61 وص 68",
+"parts":[
+{"ic":"❓","fr":"1. Constatations","ar":"1. ملاحظات","cards":[
+{"ic":"🌱","fr":"À la lumière, la feuille produit de l’amidon. Quel serait son devenir ?","ar":"الورقة تصنع النشا في الضوء. وين يمشي النشا؟","p":"ص 57"},
+{"ic":"🥔","fr":"Les feuilles d’un plant de pomme de terre ont de l’amidon le soir, mais plus le matin suivant ; le tubercule en contient sans pouvoir le fabriquer.","ar":"أوراق البطاطا فيها نشا العشية، ما بقاش فيها الصباح. والدرنة فيها نشا وهي ما تنجمش تصنعه: يعني النشا ينتقل من الأوراق.","p":"ص 57"},
+{"ic":"☢️","fr":"Une feuille placée dans du CO2 radioactif : la radioactivité apparaît ensuite dans d’autres zones de la plante.","ar":"ورقة في CO2 مشعّ: الإشعاع يظهر بعد حين في مناطق أخرى من النبتة، وهذا يثبت انتقال المواد العضوية.","p":"ص 57"}]},
+{"ic":"🧵","fr":"2. Le phloème","ar":"2. أوعية اللحاء","cards":[
+{"ic":"🔬","fr":"Les vaisseaux de la sève élaborée forment le phloème : ce sont des tubes criblés.","ar":"أوعية العصارة الناضجة اسمها phloème، وهي أنابيب مصفاة (tubes criblés).","img":"fig-seves.svg","p":"ص 59"},
+{"ic":"🧱","fr":"Un tube criblé est une file de cellules vivantes dont les parois transversales sont percées de pores.","ar":"الأنبوب المصفّى: صف خلايا حيّة جدرانها العرضية فيها ثقوب.","tip":"الفرق: أوعية الخشب خلاياها ميتة، وأوعية اللحاء خلاياها حيّة.","p":"ص 59"},
+{"ic":"🎨","fr":"Le carmin aluné colore la cellulose en rose ; le vert d’iode colore la lignine en vert.","ar":"carmin aluné يلوّن السيلولوز بالوردي، وvert d’iode يلوّن الليغنين بالأخضر.","p":"ص 58 و61"}]},
+{"ic":"↕️","fr":"3. Le sens de la conduction","ar":"3. اتجاه الانتقال","cards":[
+{"ic":"✂️","fr":"On enlève un anneau d’écorce sur une tige ; la plante est toujours alimentée en sève brute et la photosynthèse continue.","ar":"ننزعو حلقة من لحاء الساق، والنبتة تتواصل في تلقّي العصارة الخام وتواصل التركيب الضوئي.","p":"ص 60"},
+{"ic":"📦","fr":"Quelques heures plus tard, les substances organiques sont très abondantes au-dessus de la zone décortiquée ; un bourrelet de cicatrisation se forme au-dessus.","ar":"بعد ساعات، تتراكم المواد العضوية فوق الحلقة، وبعد أسابيع يتكوّن انتفاخ التئام فوق الجرح.","img":"fig-annelation.svg","tip":"المواد النازلة من الأوراق توقّفت عند الحلقة.","p":"ص 60"}]},
+{"ic":"🏁","fr":"4. L’utilisation et la mise en réserve","ar":"4. الاستعمال والتخزين","cards":[
+{"ic":"🌱","fr":"La sève élaborée distribue aux cellules des substances simples, comme le glucose, issues de la simplification de l’amidon.","ar":"العصارة الناضجة توزّع على الخلايا مواد بسيطة مثل الغلوكوز، ناتجة عن تبسيط النشا.","p":"ص 60"},
+{"ic":"⚡","fr":"La plante dégrade ces molécules pour produire l’énergie de ses fonctions vitales et pour croître.","ar":"النبتة تفكّك هذه الجزيئات باش تحصل على الطاقة وتنمو.","p":"ص 60"},
+{"ic":"🥔","fr":"Elle fabrique aussi de grosses molécules qu’elle stocke dans des cellules particulières : les amyloplastes du tubercule contiennent l’amidon.","ar":"وتصنع أيضاً جزيئات كبيرة تخزّنها في خلايا خاصة: في درنة البطاطا نكشفو النشا بماء اليود في amyloplastes.","p":"ص 60 و61"}]},
+{"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
+{"ic":"⭐","fr":"Sève élaborée : solution contenant les produits de la photosynthèse.","ar":"العصارة الناضجة: محلول فيه نواتج التركيب الضوئي.","p":"ص 61"},
+{"ic":"⭐","fr":"Phloème : ensemble de vaisseaux conduisant les produits de la photosynthèse vers tous les organes.","ar":"اللحاء: مجموع أوعية تنقل نواتج التركيب الضوئي لكل الأعضاء.","p":"ص 61"},
+{"ic":"⭐","fr":"La sève brute monte ; la sève élaborée distribue les produits de la photosynthèse aux organes.","ar":"العصارة الخام تطلع نحو الأوراق، والناضجة توزّع نواتج التركيب على بقية الأعضاء.","p":"ص 60 و68"}]}
+],
+"quiz":[
+{"q":"Que contient la sève élaborée ? / شنوّة في العصارة الناضجة؟","options":["Les produits de la photosynthèse","Seulement de l’eau","Seulement des sels minéraux"],"answer":0,"explain":"ص 61."},
+{"q":"Le phloème est formé de… / اللحاء مكوّن من…","options":["tubes criblés (cellules vivantes)","cellules mortes lignifiées","stomates"],"answer":0,"explain":"ص 59."},
+{"q":"Après l’anneau d’écorce, les substances organiques s’accumulent… / بعد نزع الحلقة، المواد العضوية تتراكم…","options":["au-dessus de l’anneau","au-dessous de l’anneau","dans la racine seulement"],"answer":0,"explain":"ص 60."},
+{"q":"Quelle couleur donne le vert d’iode à la lignine ? / vert d’iode يلوّن الليغنين بـ…","options":["vert","rose","bleu"],"answer":0,"explain":"ص 61."},
+{"q":"Où l’amidon est-il stocké dans la pomme de terre ? / وين يُخزَّن النشا في البطاطا؟","options":["Dans les amyloplastes du tubercule","Dans les feuilles","Dans les stomates"],"answer":0,"explain":"ص 60 و61."},
+{"q":"Différence xylème / phloème ? / الفرق بين الخشب واللحاء؟","options":["Xylème : cellules mortes ; phloème : cellules vivantes","Les deux sont identiques","Xylème : cellules vivantes"],"answer":0,"explain":"ص 27 و59."}
+]
+}
