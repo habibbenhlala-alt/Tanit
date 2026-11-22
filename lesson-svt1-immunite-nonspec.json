@@ -1,0 +1,30 @@
+{
+"id":"svt1-immunite-nonspec","fr":"L’immunité non spécifique : barrières et inflammation","ar":"المناعة غير النوعية: الحواجز والالتهاب","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 117 إلى 120 وص 129",
+"parts":[
+{"ic":"📚","fr":"Les acquis du collège","ar":"ما تعلمناه","cards":[
+{"ic":"🧴","fr":"La peau est une barrière contre l’introduction des microbes ; le premier secours face à une infection locale est la désinfection de la plaie.","ar":"الجلد حاجز يمنع دخول الميكروبات، والإسعاف الأول للعدوى الموضعية هو تعقيم الجرح.","p":"ص 118"},
+{"ic":"🩸","fr":"Le sang contient des globules rouges, des globules blancs (leucocytes) et du plasma ; les leucocytes participent à la défense, notamment les polynucléaires et les monocytes qui phagocytent les microbes.","ar":"الدم فيه كريات حمراء وكريات بيضاء (leucocytes) وبلازما. والكريات البيضاء تشارك في الدفاع، خاصة polynucléaires وmonocytes اللي تبتلع الميكروبات.","p":"ص 118"}]},
+{"ic":"🛡️","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"⚔️","fr":"Face aux agents pathogènes, l’organisme réagit selon deux modalités : l’immunité non spécifique et l’immunité spécifique.","ar":"الجسم يدافع بطريقتين: مناعة غير نوعية ومناعة نوعية.","p":"ص 117"},
+{"ic":"🌐","fr":"L’immunité non spécifique s’oppose à toute sorte de microbe, sans distinction.","ar":"المناعة غير النوعية تقاوم كل أنواع الميكروبات بلا تمييز.","p":"ص 119"}]},
+{"ic":"🧱","fr":"1. Les barrières naturelles","ar":"1. الحواجز الطبيعية","cards":[
+{"ic":"🖐️","fr":"La peau intacte est une barrière efficace : très peu de micro-organismes la traversent. La couche cornée est une barrière mécanique.","ar":"الجلد السليم حاجز فعّال، قليل جداً من الميكروبات تعبره. والطبقة القرنية حاجز ميكانيكي.","img":"fig-barrieres.svg","p":"ص 119"},
+{"ic":"💧","fr":"Les sécrétions des glandes (larmes, sueur) sont acides et ralentissent le développement de nombreuses bactéries.","ar":"إفرازات الغدد (الدموع والعرق) حمضية وتبطّئ نمو برشا بكتيريا.","p":"ص 119"},
+{"ic":"👃","fr":"Les muqueuses nasale, intestinale et pulmonaire sécrètent beaucoup de mucus qui entraîne une grande partie des micro-organismes vers l’extérieur.","ar":"مخاطية الأنف والأمعاء والرئة تفرز مخاطاً كثيراً يجرف أغلب الميكروبات للخارج.","p":"ص 119"},
+{"ic":"🍽️","fr":"L’acidité du tube digestif empêche aussi la multiplication bactérienne.","ar":"حموضة الجهاز الهضمي تمنع أيضاً تكاثر البكتيريا.","p":"ص 119"}]},
+{"ic":"🔥","fr":"2. La réaction inflammatoire","ar":"2. الالتهاب","cards":[
+{"ic":"🩹","fr":"Un enfant se pique le doigt et néglige de soigner la plaie : quelques jours plus tard, la zone devient rouge, chaude, gonflée et douloureuse, et du pus se forme.","ar":"طفل ينغرز في أصبعه ولا يعالج الجرح: بعد أيام تصير المنطقة حمراء، ساخنة، منتفخة، مؤلمة، ويتكوّن قيح.","img":"fig-inflammation.svg","p":"ص 120"},
+{"ic":"🔬","fr":"Une goutte de pus observée au microscope contient des bactéries et des polynucléaires.","ar":"قطرة قيح بالمجهر فيها بكتيريا وكريات بيضاء polynucléaires.","p":"ص 120"},
+{"ic":"🧲","fr":"Des substances chimiques fabriquées par le tissu infecté attirent les leucocytes (polynucléaires, monocytes, macrophages), qui arrivent en grand nombre dans la zone enflammée.","ar":"مواد كيميائية يصنعها النسيج المصاب تجذب الكريات البيضاء بكثرة نحو المنطقة الملتهبة.","p":"ص 129"},
+{"ic":"📖","fr":"Inflammation : réaction de l’organisme aux lésions des tissus ou aux infections, avec chaleur, gonflement et rougeur.","ar":"Inflammation: ردّ فعل الجسم عند إصابة الأنسجة أو العدوى، مع سخونة وانتفاخ واحمرار.","p":"ص 122"}]}
+],
+"quiz":[
+{"q":"Qu’est-ce que l’immunité non spécifique ? / المناعة غير النوعية…","options":["Elle agit seulement contre un microbe précis","Elle s’oppose à tous les microbes sans distinction","Elle apparaît après un vaccin"],"answer":1,"explain":"ص 119."},
+{"q":"Quelle est une barrière mécanique ? / أي حاجز ميكانيكي؟","options":["La couche cornée de la peau","L’acidité des larmes","Le suc gastrique"],"answer":0,"explain":"ص 119."},
+{"q":"Le mucus des muqueuses sert à… / المخاط يفيد في…","options":["produire du pus","entraîner les microbes vers l’extérieur","fabriquer des vaccins"],"answer":1,"explain":"ص 119."},
+{"q":"Quels sont les signes de l’inflammation ? / علامات الالتهاب؟","options":["Rougeur, chaleur, gonflement, douleur","Toux seulement","Perte d’appétit seulement"],"answer":0,"explain":"ص 122 و129."},
+{"q":"Le pus contient… / القيح فيه…","options":["des bactéries et des polynucléaires","du sel et de l’eau pure","des racines"],"answer":0,"explain":"ص 120."},
+{"q":"Qu’attire les leucocytes vers la plaie ? / ما الذي يجذب الكريات البيضاء للجرح؟","options":["La lumière","Des substances chimiques du tissu infecté","Le froid"],"answer":1,"explain":"ص 129."}
+]
+}
