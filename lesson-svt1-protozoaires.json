@@ -1,0 +1,36 @@
+{
+"id":"svt1-protozoaires","fr":"Le monde microbien et les protozoaires","ar":"عالم الميكروبات والأوليات","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 91 إلى 94 وص 101 و102",
+"parts":[
+{"ic":"📚","fr":"Les acquis du collège","ar":"ما تعلمناه","cards":[
+{"ic":"🔬","fr":"Les microbes sont des êtres microscopiques.","ar":"الميكروبات كائنات ما نشوفوهاش إلا بالمجهر.","p":"ص 91"},
+{"ic":"🧫","fr":"Certains êtres vivants n’ont qu’une seule cellule : l’amibe et la paramécie sont unicellulaires.","ar":"بعض الكائنات خلية واحدة فقط، مثل الأميبا والبراميسيوم.","p":"ص 91"},
+{"ic":"⚖️","fr":"Certains microbes sont pathogènes (virus du SIDA, gonocoque), d’autres utiles (bactérie du yaourt, levure de bière).","ar":"بعض الميكروبات تسبب أمراضاً (pathogènes)، وبعضها مفيد مثل بكتيريا اللبن وخميرة الخبز.","p":"ص 91"}]},
+{"ic":"🌍","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"💧","fr":"Les micro-organismes ne s’observent qu’au microscope ; on les trouve partout : dans l’eau, l’air et le sol.","ar":"الكائنات الدقيقة تُرى بالمجهر فقط، وموجودة في كل مكان: الماء والهواء والتربة.","p":"ص 93"},
+{"ic":"❓","fr":"Quels sont les différents groupes de microbes ? Quelles sont leurs caractéristiques ?","ar":"السؤال: شنوّة مجموعات الميكروبات وصفاتها؟","p":"ص 93"}]},
+{"ic":"4️⃣","fr":"Les quatre groupes","ar":"أربع مجموعات","cards":[
+{"ic":"1️⃣","fr":"Les protozoaires : êtres unicellulaires à noyau entouré d’une membrane.","ar":"الأوليات (protozoaires): كائنات أحادية الخلية نواتها محاطة بغشاء.","img":"fig-microbes.svg","p":"ص 102"},
+{"ic":"2️⃣","fr":"Les bactéries : cellules procaryotes, sans véritable noyau.","ar":"البكتيريا: خلايا بدائية النواة، ما عندهاش نواة حقيقية.","p":"ص 102"},
+{"ic":"3️⃣","fr":"Les champignons microscopiques : végétaux non chlorophylliens (levure, moisissures).","ar":"الفطريات المجهرية: بدون كلوروفيل (خميرة، عفن).","p":"ص 102"},
+{"ic":"4️⃣","fr":"Les virus : particules sans organisation cellulaire, parasites intracellulaires obligatoires.","ar":"الفيروسات: جسيمات ما عندهاش تنظيم خلوي، وتتطفّل داخل خلية حيّة.","p":"ص 102"}]},
+{"ic":"🦠","fr":"1. La paramécie","ar":"1. البراميسيوم","cards":[
+{"ic":"🧪","fr":"On met de l’eau et du foin dans un cristallisoir, à l’abri du soleil, à 25-30 °C ; une semaine plus tard, on observe une goutte au microscope.","ar":"نحطّو ماء وتبن في إناء، في الظلّ وحرارة 25 إلى 30 درجة. بعد أسبوع نشوفو قطرة بالمجهر.","p":"ص 93"},
+{"ic":"💧","fr":"La paramécie est un animal unicellulaire des eaux stagnantes, inoffensif. On y voit : cil vibratile, bouche, vacuole digestive, vacuole pulsatile, noyau.","ar":"البراميسيوم حيوان أحادي الخلية يعيش في المياه الراكدة، وهو غير ضارّ. فيه أهداب، فم، فجوة هضمية، فجوة نابضة، ونواة.","p":"ص 93"}]},
+{"ic":"🚨","fr":"2. L’amibe dysentérique","ar":"2. الأميبا المسبّبة للزحار","cards":[
+{"ic":"🫧","fr":"L’amibe est un animal unicellulaire dont le cytoplasme forme des pseudopodes pour se déplacer et se nourrir.","ar":"الأميبا حيوان أحادي الخلية، تكوّن هيولاها أرجلاً كاذبة (pseudopodes) للحركة والتغذية.","p":"ص 94"},
+{"ic":"🛡️","fr":"Quand les conditions sont défavorables, elle s’enkyste.","ar":"كي تسوء الظروف، تتحوّل إلى كيس (kyste) تحمي بيه نفسها.","p":"ص 94"},
+{"ic":"🥤","fr":"Des kystes ingérés avec de l’eau ou des aliments souillés deviennent des amibes dans l’intestin et causent la dysentérie amibienne : diarrhées, vomissements.","ar":"إذا أكلنا أو شربنا ماء أو غذاء ملوّثاً بالأكياس، تتحوّل إلى أميبا في الأمعاء وتسبب الزحار: إسهال وقيء.","tip":"النظافة وغسل الخضر وشرب ماء سليم يحميان من هذا المرض.","p":"ص 94"}]},
+{"ic":"📖","fr":"3. Définitions","ar":"3. تعريفات","cards":[
+{"ic":"🔬","fr":"Protozoaire : animal unicellulaire.","ar":"Protozoaire: حيوان أحادي الخلية.","p":"ص 101"},
+{"ic":"⚠️","fr":"Pathogène : se dit d’un microbe qui cause une maladie.","ar":"Pathogène: ميكروب يسبب مرضاً.","p":"ص 101"}]}
+],
+"quiz":[
+{"q":"Où trouve-t-on les micro-organismes ? / وين نلقاو الكائنات الدقيقة؟","options":["Seulement dans l’eau","Partout : eau, air, sol","Seulement dans le sol"],"answer":1,"explain":"ص 93."},
+{"q":"La paramécie est… / البراميسيوم…","options":["un virus","une bactérie","un animal unicellulaire inoffensif"],"answer":2,"explain":"ص 93."},
+{"q":"Les pseudopodes servent à… / الأرجل الكاذبة تُستعمل في…","options":["se déplacer et se nourrir","respirer","photosynthèse"],"answer":0,"explain":"ص 94."},
+{"q":"Que fait l’amibe quand les conditions sont défavorables ? / شنوّة تعمل الأميبا كي تسوء الظروف؟","options":["Elle s’enkyste","Elle fait la photosynthèse","Elle disparaît"],"answer":0,"explain":"ص 94."},
+{"q":"Quelle maladie cause l’amibe dysentérique ? / أي مرض تسببه؟","options":["La grippe","La dysentérie amibienne","La rougeole"],"answer":1,"explain":"ص 94."},
+{"q":"Les protozoaires sont… / الأوليات هي…","options":["des cellules procaryotes","des particules sans cellule","des êtres unicellulaires à noyau délimité"],"answer":2,"explain":"ص 102."}
+]
+}
