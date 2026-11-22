@@ -1,0 +1,28 @@
+{
+"id":"svt1-intensite","fr":"L’intensité photosynthétique","ar":"شدّة التركيب الضوئي وعواملها","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 62 و63 و69 و70",
+"parts":[
+{"ic":"📏","fr":"1. Définition","ar":"1. التعريف","cards":[
+{"ic":"📖","fr":"L’intensité photosynthétique (IP) est la quantité de CO2 absorbé ou de O2 rejeté par unité de masse du végétal et par unité de temps.","ar":"شدّة التركيب الضوئي: كمية CO2 الممتصة أو O2 المطروح لكل وحدة كتلة ولكل وحدة زمن.","p":"ص 63"},
+{"ic":"🌍","fr":"Elle dépend de facteurs de l’environnement (lumière, CO2) et de facteurs internes (chlorophylle).","ar":"تتأثر بعوامل البيئة (الضوء وCO2) وبعوامل داخلية (الكلوروفيل).","p":"ص 62"}]},
+{"ic":"☀️","fr":"2. L’intensité lumineuse","ar":"2. شدّة الضوء","cards":[
+{"ic":"🌑","fr":"Éclairement nul : on ne mesure que la respiration (absorption d’oxygène).","ar":"ضوء منعدم: نقيسو التنفس فقط (امتصاص أكسجين).","p":"ص 69"},
+{"ic":"➖","fr":"Éclairement faible : l’IPN est négative car IPN = IPB − IR.","ar":"ضوء ضعيف: IPN سلبية لأن IPN = IPB − IR (التنفس أكبر من التركيب).","p":"ص 69"},
+{"ic":"⚖️","fr":"Quand IPB = IR, tout l’oxygène produit est utilisé par la respiration : c’est le point de compensation.","ar":"كي يتساوى IPB وIR، كامل الأكسجين المنتَج تستهلكه النبتة في التنفس: هذه نقطة التعادل.","img":"fig-lumiere.svg","p":"ص 70"},
+{"ic":"📈","fr":"Au-delà, l’intensité augmente, puis atteint un palier : un autre facteur (température, CO2) limite le phénomène.","ar":"بعدها تزيد الشدّة ثم تستقرّ (palier): عامل آخر مثل الحرارة أو CO2 يحدّ الظاهرة.","p":"ص 70"},
+{"ic":"🌞","fr":"Plantes de soleil (épinard, pomme de terre) et plantes d’ombre (fougère) n’ont pas le même optimum.","ar":"نباتات الشمس (السبانخ والبطاطا) ونباتات الظل (السرخس) ما عندهمش نفس الضوء الأمثل.","p":"ص 70"}]},
+{"ic":"💨","fr":"3. Le dioxyde de carbone","ar":"3. ثاني أكسيد الكربون","cards":[
+{"ic":"📊","fr":"L’IPN augmente avec le taux de CO2 jusqu’à 0,3 %.","ar":"الشدّة تزيد مع تركيز CO2 حتى 0,3 %.","p":"ص 70"},
+{"ic":"☠️","fr":"Au-delà, elle peut baisser : le CO2 devient toxique.","ar":"بعد ذلك ممكن تنقص: CO2 يولّي سام.","p":"ص 70"}]},
+{"ic":"🌡️","fr":"4. La température","ar":"4. الحرارة","cards":[
+{"ic":"🔥","fr":"L’intensité augmente jusqu’à une température optimale voisine de 30-40 °C, puis diminue.","ar":"الشدّة تزيد حتى حرارة مثلى قريبة من 30 إلى 40 درجة ثم تنقص.","p":"ص 70"}]}
+],
+"quiz":[
+{"q":"IPN est égale à… / IPN تساوي…","options":["IPB − IR","IPB + IR","IR − IPB"],"answer":0,"explain":"ص 69."},
+{"q":"Au point de compensation… / عند نقطة التعادل…","options":["IPB = IR","IPB = 0","IR = 0"],"answer":0,"explain":"ص 70."},
+{"q":"Un palier montre que… / الـpalier يعني…","options":["un autre facteur limite le phénomène","la plante est morte","la lumière est nulle"],"answer":0,"explain":"ص 70."},
+{"q":"Quelle plante est une plante d’ombre ? / أي نبتة هي نبتة ظل؟","options":["La fougère","L’épinard","La pomme de terre"],"answer":0,"explain":"ص 70."},
+{"q":"À partir de quel taux le CO2 peut devenir toxique ? / من أي نسبة قد يصبح CO2 ساماً؟","options":["Au-delà de 0,3 %","0,03 %","0 %"],"answer":0,"explain":"ص 70."},
+{"q":"La température optimale est proche de… / الحرارة المثلى قريبة من…","options":["30-40 °C","0 °C","80 °C"],"answer":0,"explain":"ص 70."}
+]
+}
