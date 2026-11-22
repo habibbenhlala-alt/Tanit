@@ -12,23 +12,30 @@
 {"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]}]},
 {"id":"1","fr":"1ère année secondaire","ar":"1 ثانوي","subjects":[
-{"id":"svt","icon":"🧬","fr":"SVT","ar":"علوم الحياة والأرض","lessons":[
+{"id":"svt-mineral","icon":"🌱","fr":"SVT — Nutrition minérale","ar":"النبات: التغذية المعدنية","lessons":[
 {"id":"svt1-absorption","file":"lesson-svt1-absorption.json","fr":"L’absorption d’eau","ar":"امتصاص الماء"},
 {"id":"svt1-transpiration","file":"lesson-svt1-transpiration.json","fr":"La transpiration","ar":"النتح"},
 {"id":"svt1-sels","file":"lesson-svt1-sels.json","fr":"Les besoins en sels minéraux","ar":"حاجيات النبتة من الأملاح المعدنية"},
 {"id":"svt1-conduction","file":"lesson-svt1-conduction.json","fr":"La conduction","ar":"نقل العصارة"},
-{"id":"svt1-amelioration","file":"lesson-svt1-amelioration.json","fr":"L’amélioration de la production végétale","ar":"تحسين الإنتاج النباتي"},
+{"id":"svt1-amelioration","file":"lesson-svt1-amelioration.json","fr":"L’amélioration de la production végétale","ar":"تحسين الإنتاج النباتي"}]},
+{"id":"svt-carbone","icon":"🌿","fr":"SVT — Nutrition carbonée","ar":"النبات: التغذية الكربونية","lessons":[
 {"id":"svt1-matiere-organique","file":"lesson-svt1-matiere-organique.json","fr":"La matière organique dans la plante","ar":"المادة العضوية في النبتة"},
 {"id":"svt1-conditions","file":"lesson-svt1-conditions.json","fr":"Les conditions de la photosynthèse","ar":"شروط التركيب الضوئي"},
 {"id":"svt1-chloroplaste","file":"lesson-svt1-chloroplaste.json","fr":"Le chloroplaste et la chlorophylle","ar":"البلاستيدة والكلوروفيل"},
 {"id":"svt1-oxygene","file":"lesson-svt1-oxygene.json","fr":"L’origine de l’oxygène","ar":"مصدر الأكسجين ومراحل التركيب"},
 {"id":"svt1-seve-elaboree","file":"lesson-svt1-seve-elaboree.json","fr":"La sève élaborée","ar":"العصارة الناضجة"},
 {"id":"svt1-intensite","file":"lesson-svt1-intensite.json","fr":"L’intensité photosynthétique","ar":"شدّة التركيب الضوئي"},
-{"id":"svt1-risques","file":"lesson-svt1-risques.json","fr":"Les risques des engrais et pesticides","ar":"أخطار الأسمدة والمبيدات"},
+{"id":"svt1-risques","file":"lesson-svt1-risques.json","fr":"Les risques des engrais et pesticides","ar":"أخطار الأسمدة والمبيدات"}]},
+{"id":"svt-vegetative","icon":"🌳","fr":"SVT — Multiplication végétative","ar":"النبات: التكاثر الخضري","lessons":[
 {"id":"svt1-bouturage","file":"lesson-svt1-bouturage.json","fr":"Le bouturage","ar":"التعقيل"},
 {"id":"svt1-marcottage-greffage","file":"lesson-svt1-marcottage-greffage.json","fr":"Le marcottage et le greffage","ar":"الترقيد والتطعيم"},
 {"id":"svt1-importance","file":"lesson-svt1-importance.json","fr":"L’importance de la multiplication végétative","ar":"أهمية التكاثر الخضري"},
 {"id":"svt1-in-vitro","file":"lesson-svt1-in-vitro.json","fr":"La culture in vitro","ar":"الزراعة في المخبر"}]},
+{"id":"svt-microbes","icon":"🦠","fr":"SVT — Microbes et santé","ar":"الميكروبات والصحة","lessons":[
+{"id":"svt1-protozoaires","file":"lesson-svt1-protozoaires.json","fr":"Le monde microbien et les protozoaires","ar":"عالم الميكروبات والأوليات"},
+{"id":"svt1-bacteries","file":"lesson-svt1-bacteries.json","fr":"Les bactéries","ar":"البكتيريا"},
+{"id":"svt1-champignons-virus","file":"lesson-svt1-champignons-virus.json","fr":"Champignons, virus et microbes utiles","ar":"الفطريات والفيروسات والميكروبات النافعة"}]},
+{"id":"svt-geologie","icon":"🪨","fr":"SVT — Géologie","ar":"الجيولوجيا","lessons":[]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
 {"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}]}
