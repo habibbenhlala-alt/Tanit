@@ -1,0 +1,27 @@
+{
+"id":"svt1-importance","fr":"L’importance de la multiplication végétative","ar":"أهمية التكاثر الخضري","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 80 و85",
+"parts":[
+{"ic":"⭐","fr":"1. Pourquoi l’utiliser ?","ar":"1. علاش نستعملوه؟","cards":[
+{"ic":"🚀","fr":"La multiplication végétative sert à multiplier rapidement des plantes aux caractères appréciés : rendement élevé, qualité, résistance aux maladies.","ar":"نستعملوه باش نكثّرو بسرعة نباتات فيها صفات مطلوبة: مردودية عالية، جودة، ومقاومة للأمراض.","p":"ص 80"},
+{"ic":"🥔","fr":"Un fragment de tubercule planté en automne donne un pied qui produit 15 à 30 tubercules récoltés au printemps ; une graine met quatre ans.","ar":"قطعة درنة نغرسوها في الخريف تعطي نبتة بـ15 إلى 30 درنة نجنيوها في الربيع. أما البذرة فتحتاج 4 سنوات.","img":"fig-patate.svg","p":"ص 80"}]},
+{"ic":"📖","fr":"2. Les définitions","ar":"2. تعريفات","cards":[
+{"ic":"✂️","fr":"Bouture : portion d’une plante (feuille, tige, rhizome) capable de régénérer les parties manquantes.","ar":"Bouture: جزء من النبتة قادر على تعويض الأجزاء الناقصة وتكوين نبتة كاملة.","p":"ص 80"},
+{"ic":"🌿","fr":"Bouturage : technique qui consiste à réaliser des boutures pour multiplier une plante de manière asexuée.","ar":"Bouturage: تقنية تعقيل لتكثير النبتة بدون جنس.","p":"ص 80"},
+{"ic":"🪴","fr":"Marcottage : mettre en contact avec le sol une tige aérienne qui s’enracine, puis la séparer de la plante mère.","ar":"Marcottage: نلصقو ساقاً هوائية بالتربة فتتجذّر، ثم نفصلوها عن الأم.","p":"ص 80"},
+{"ic":"🍎","fr":"Greffage : insérer sur une plante (sujet) une partie prélevée d’une autre plante (greffon) dont on veut les caractères.","ar":"Greffage: نثبّتو على نبتة (الأصل) جزءاً من نبتة أخرى (الطعم) نحبّو صفاتها.","p":"ص 80"},
+{"ic":"🌱","fr":"Végétal franc : végétal provenant de semis.","ar":"Végétal franc: نبتة جاية من بذرة (semis).","p":"ص 80"}]},
+{"ic":"🧬","fr":"3. Bilan","ar":"3. الخلاصة","cards":[
+{"ic":"🏆","fr":"Les techniques traditionnelles conservent les caractères de la plante mère.","ar":"التقنيات التقليدية تحافظ على صفات النبتة الأم.","p":"ص 85"},
+{"ic":"👯","fr":"Toutes les plantes issues d’une même plante mère par multiplication végétative forment un clone.","ar":"كل النباتات الناتجة عن نفس النبتة الأم بالتكاثر الخضري تكوّن clone.","p":"ص 85"},
+{"ic":"🌟","fr":"Cela est possible grâce à la totipotence des cellules des végétaux chlorophylliens.","ar":"وهذا ممكن بفضل خاصية totipotence: الخلية تنجم تعطي أي جزء من النبتة.","p":"ص 85"}]}
+],
+"quiz":[
+{"q":"Un fragment de tubercule produit… / قطعة درنة تنتج…","options":["15 à 30 tubercules","1 tubercule","aucun tubercule"],"answer":0,"explain":"ص 80."},
+{"q":"Combien d’années pour une graine de pomme de terre ? / كم سنة تحتاج بذرة البطاطا؟","options":["Quatre ans","Un jour","Une semaine"],"answer":0,"explain":"ص 80."},
+{"q":"Un végétal franc provient… / النبتة franc جاية من…","options":["d’un semis","d’un greffon","d’une marcotte"],"answer":0,"explain":"ص 80."},
+{"q":"Un clone est… / الـclone هو…","options":["un ensemble d’individus identiques issus d’un seul individu","une graine","un fruit"],"answer":0,"explain":"ص 85."},
+{"q":"Les techniques traditionnelles conservent… / التقنيات التقليدية تحافظ على…","options":["les caractères de la plante mère","aucun caractère","seulement la couleur"],"answer":0,"explain":"ص 85."},
+{"q":"La totipotence permet à une cellule… / totipotence تسمح للخلية بـ…","options":["de donner n’importe quel organe","de mourir","de rester immobile"],"answer":0,"explain":"ص 85."}
+]
+  }
