@@ -1,0 +1,28 @@
+{
+"id":"svt1-marcottage-greffage","fr":"Le marcottage et le greffage","ar":"الترقيد والتطعيم","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 78 و79",
+"parts":[
+{"ic":"🌿","fr":"1. Le marcottage","ar":"1. الترقيد (marcottage)","cards":[
+{"ic":"🪴","fr":"Principe : on enterre une tige aérienne sans la détacher de la plante. Après quelques semaines, des racines adventives se forment.","ar":"المبدأ: ندفنو ساق هوائية في التربة وهي ما زالت متصلة بالنبتة الأم. بعد أسابيع تتكوّن جذور عرضية.","img":"fig-marcottage.svg","p":"ص 78"},
+{"ic":"✂️","fr":"On isole ensuite la tige enracinée : on obtient une nouvelle plante identique à la plante mère.","ar":"بعدها نفصلو الساق المتجذّرة، ونتحصّلو على نبتة جديدة مطابقة للأم.","tip":"مثال في الكتاب: ياسمين.","p":"ص 78"}]},
+{"ic":"🍎","fr":"2. Le greffage","ar":"2. التطعيم (greffage)","cards":[
+{"ic":"🧩","fr":"Le greffon est un bourgeon ou un jeune rameau, pris sur un végétal choisi pour la qualité de ses fruits ou de ses fleurs.","ar":"الطعم (greffon): برعم أو غصن صغير من نبتة اخترناها لجودة ثمارها أو أزهارها.","p":"ص 78"},
+{"ic":"🌳","fr":"Le porte-greffe est la plante sur laquelle on fixe le greffon.","ar":"الأصل (porte-greffe): النبتة اللي نثبّتو عليها الطعم.","img":"fig-greffe.svg","p":"ص 78"},
+{"ic":"🔗","fr":"Les vaisseaux conducteurs du porte-greffe doivent se raccorder à ceux du greffon.","ar":"لازم أوعية الأصل تتّصل بأوعية الطعم.","tip":"الطعم والأصل من نفس النوع أو من أنواع متقاربة.","p":"ص 78"}]},
+{"ic":"🔪","fr":"3. Les deux techniques","ar":"3. تقنيتان","cards":[
+{"ic":"✂️","fr":"Greffe en fente : le porte-greffe (diamètre au moins 3 cm) est rabattu à 10-20 cm du sol et fendu ; le greffon taillé en biseau y est inséré, puis ligaturé et recouvert de mastic.","ar":"التطعيم بالشق: الأصل (قطره 3 سم على الأقل) نقطعوه على ارتفاع 10 إلى 20 سم، ونشقّوه ونحطّو فيه الطعم المقصوص بشكل مائل، ثم نربطوه ونغطّيوه بمعجون.","p":"ص 78"},
+{"ic":"🛡️","fr":"Greffe en écusson : le greffon est un bourgeon avec une bande d’écorce ; on incise l’écorce du porte-greffe en T, on y insère l’écusson, puis on ligature.","ar":"التطعيم بالدرع (écusson): الطعم برعم مع شريط لحاء. نشقّو لحاء الأصل على شكل حرف T، ندخلو فيه البرعم ونربطوه.","p":"ص 79"}]},
+{"ic":"🎯","fr":"4. Le résultat","ar":"4. النتيجة","cards":[
+{"ic":"🌱","fr":"Le porte-greffe garde ses racines et une partie du tronc.","ar":"الأصل يحتفظ بجذوره وجزء من الجذع.","p":"ص 79"},
+{"ic":"🍑","fr":"Le greffon développe rameaux, feuilles et fruits, sans racines : la nouvelle plante porte les caractères du greffon.","ar":"الطعم يكوّن الأغصان والأوراق والثمار فقط، وبلا جذور. والنبتة الجديدة تحمل صفات الطعم.","p":"ص 79"},
+{"ic":"📅","fr":"Exemples : pommier et poirier en fente (hiver) ; abricotier (mai) et pêcher (juin) en écusson.","ar":"أمثلة: التفاح والإجاص بالشق في الشتاء. والمشمش (ماي) والخوخ (جوان) بالدرع.","p":"ص 79"}]}
+],
+"quiz":[
+{"q":"Dans le marcottage, la tige enterrée est… / في الترقيد الساق المدفونة…","options":["encore attachée à la plante mère","coupée","séchée"],"answer":0,"explain":"ص 78."},
+{"q":"Le greffon est… / الطعم هو…","options":["un bourgeon ou un jeune rameau","la racine","la graine"],"answer":0,"explain":"ص 78."},
+{"q":"Le porte-greffe fournit… / الأصل يوفّر…","options":["les racines et une partie du tronc","les fruits","les feuilles du greffon"],"answer":0,"explain":"ص 79."},
+{"q":"La nouvelle plante porte les caractères… / النبتة الجديدة تحمل صفات…","options":["du greffon","du porte-greffe seulement","d’aucune plante"],"answer":0,"explain":"ص 79."},
+{"q":"La greffe en écusson utilise… / التطعيم بالدرع يستعمل…","options":["un bourgeon avec une bande d’écorce","une graine","un tronc entier"],"answer":0,"explain":"ص 79."},
+{"q":"Quelle incision fait-on dans la greffe en écusson ? / أي شكل شقّ في التطعيم بالدرع؟","options":["En T","Un rond","Aucune"],"answer":0,"explain":"ص 79."}
+]
+}
