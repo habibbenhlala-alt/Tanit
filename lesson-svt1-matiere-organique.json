@@ -1,0 +1,33 @@
+{
+"id":"svt1-matiere-organique","fr":"La matière organique dans la plante verte","ar":"المادة العضوية في النبتة الخضراء","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 45 إلى 47",
+"parts":[
+{"ic":"📚","fr":"Les acquis du collège","ar":"ما تعلمناه في الإعدادي","cards":[
+{"ic":"🌿","fr":"À la lumière, la plante verte absorbe le dioxyde de carbone et rejette de l’oxygène : ce sont les échanges gazeux chlorophylliens.","ar":"في الضوء، النبتة الخضراء تمتص ثاني أكسيد الكربون وتطرح الأكسجين: هذا التبادل الغازي الكلوروفيلي.","p":"ص 45"},
+{"ic":"☀️","fr":"Grâce à la chlorophylle, à partir du dioxyde de carbone et de l’eau, la plante fabrique de l’amidon dans les feuilles : c’est la photosynthèse.","ar":"بفضل الكلوروفيل، ومن ثاني أكسيد الكربون والماء، تصنع النبتة النشا في الأوراق: هذا هو التركيب الضوئي.","p":"ص 45"},
+{"ic":"📦","fr":"Les substances organiques (amidon, huile, sucres) sont mises en réserve dans des organes variés.","ar":"المواد العضوية (النشا والزيت والسكريات) تخزّنها النبتة في أعضاء مختلفة.","p":"ص 45"}]},
+{"ic":"❓","fr":"Introduction","ar":"المشكلة","cards":[
+{"ic":"🤔","fr":"La plante verte se nourrit uniquement de matière minérale, et pourtant elle contient diverses substances organiques.","ar":"النبتة تتغذى بمواد معدنية فقط، ومع ذلك فيها مواد عضوية مختلفة. كيفاش نثبتو وجودها؟","p":"ص 46"},
+{"ic":"🧬","fr":"La matière vivante comporte trois groupes de substances organiques : glucides, protides et lipides.","ar":"المادة الحيّة فيها 3 مجموعات عضوية: سكريات (glucides)، بروتينات (protides)، ودهون (lipides).","p":"ص 46"}]},
+{"ic":"🧪","fr":"1. Rechercher les substances","ar":"1. كيفاش نكشفو المواد العضوية؟","cards":[
+{"ic":"🥔","fr":"Amidon (pomme de terre) : on ajoute de l’eau iodée ; coloration bleu foncé.","ar":"النشا (في البطاطا): نضيفو ماء اليود، فيظهر لون أزرق غامق.","p":"ص 46"},
+{"ic":"🍇","fr":"Glucose (raisin) : liqueur de Fehling, puis on chauffe ; précipité rouge brique.","ar":"الغلوكوز (في العنب): نضيفو liqueur de Fehling ونسخّنو، فيظهر راسب أحمر آجري.","p":"ص 46"},
+{"ic":"🫘","fr":"Protides (gluten des graines) : CuSO4 puis soude NaOH ; coloration violette.","ar":"البروتينات (في الحبوب مثل الفول): نضيفو CuSO4 ثم NaOH، فيظهر لون بنفسجي.","p":"ص 46"},
+{"ic":"🫒","fr":"Huile (olive) : on frotte sur du papier ; tache translucide qui ne disparaît pas à la chaleur.","ar":"الزيت (في الزيتون): نمرّرو الزيتونة على ورقة، فتبقى بقعة شفافة ما تزولش بالتسخين.","p":"ص 46"}]},
+{"ic":"🍃","fr":"2. L’amidon dans une feuille","ar":"2. النشا في الورقة","cards":[
+{"ic":"🌅","fr":"Feuille A : prélevée le matin avant la lumière. Feuille B : prélevée en fin d’après-midi.","ar":"الورقة A نقطفوها الصباح قبل الضوء، والورقة B في آخر النهار.","p":"ص 47"},
+{"ic":"♨️","fr":"Chaque feuille est plongée dans l’eau bouillante, puis dans l’alcool bouillant pour la décolorer, puis traitée à l’eau iodée.","ar":"نغمّسو كل ورقة في ماء يغلي، وبعدها في كحول يغلي لنزيلو اللون، وبعدها نضيفو ماء اليود.","tip":"الكتاب يطلب منك فرضية تفسّر الفرق في اللون بين الورقتين.","p":"ص 47"}]},
+{"ic":"📖","fr":"Les définitions","ar":"تعريفات","cards":[
+{"ic":"🍞","fr":"Amidon : grosse molécule de glucide, formée de nombreuses molécules de glucose.","ar":"النشا: جزيء كبير من السكريات، مكوَّن من جزيئات غلوكوز عديدة.","p":"ص 47"},
+{"ic":"🥩","fr":"Protide : substance organique formée de plusieurs acides aminés.","ar":"Protide: مادة عضوية مكوّنة من عدة أحماض أمينية.","p":"ص 47"},
+{"ic":"🧈","fr":"Lipide : substance organique formée de matière grasse.","ar":"Lipide: مادة عضوية من المادة الدهنية.","p":"ص 47"}]}
+],
+"quiz":[
+{"q":"Quel réactif colore l’amidon en bleu foncé ? / أي كاشف يلوّن النشا بالأزرق الغامق؟","options":["L’eau iodée","La liqueur de Fehling","La soude"],"answer":0,"explain":"ص 46."},
+{"q":"Quel test donne un précipité rouge brique ? / أي كاشف يعطي راسب أحمر آجري؟","options":["Fehling avec chauffage","Eau iodée","Papier"],"answer":0,"explain":"للغلوكوز (ص 46)."},
+{"q":"Les protides donnent une coloration… / البروتينات تعطي لون…","options":["violette","bleu foncé","rouge brique"],"answer":0,"explain":"ص 46."},
+{"q":"L’huile laisse sur le papier… / الزيت يترك على الورقة…","options":["une tache translucide persistante","une tache bleue","aucune trace"],"answer":0,"explain":"ص 46."},
+{"q":"L’amidon est formé de nombreuses molécules de… / النشا مكوّن من جزيئات…","options":["glucose","acides aminés","matière grasse"],"answer":0,"explain":"ص 47."},
+{"q":"Les trois groupes de substances organiques sont… / المجموعات العضوية الثلاث هي…","options":["glucides, protides, lipides","eau, sels, gaz","sable, argile, calcaire"],"answer":0,"explain":"ص 46."}
+]
+}
