@@ -1,0 +1,38 @@
+{
+"id":"svt1-bacteries","fr":"Les bactéries","ar":"البكتيريا","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 94 إلى 97 وص 101 و102 و104",
+"parts":[
+{"ic":"🌾","fr":"1. Le bacille subtil","ar":"1. العصيّة الرقيقة","cards":[
+{"ic":"🧪","fr":"On fait bouillir doucement de l’eau et du foin, on laisse refroidir, on filtre ; après 48 h, un voile se forme à la surface.","ar":"نسخّنو ماء وتبن، ونبرّدوه ونصفّيوه. بعد 48 ساعة يظهر غشاء رقيق على السطح.","p":"ص 94"},
+{"ic":"🔬","fr":"Au microscope : le bacille subtil est une bactérie en forme de bâtonnet.","ar":"بالمجهر نشوفو العصيّة الرقيقة: بكتيريا على شكل عصا.","p":"ص 94"}]},
+{"ic":"🥛","fr":"2. Les bactéries lactiques","ar":"2. بكتيريا اللبن","cards":[
+{"ic":"🎨","fr":"On étale une goutte de liquide de yaourt, on fixe à l’alcool et on colore au bleu de méthylène.","ar":"نمدّو قطرة من لبن الزبادي على شريحة، ونثبّتوها بالكحول ونلوّنوها بـbleu de méthylène.","p":"ص 95"},
+{"ic":"📏","fr":"Il y a deux types : les lactobacilles (bâtonnets) et les streptocoques (grains en chaînettes). Elles transforment le lait en yaourt.","ar":"نوعان: lactobacilles (عصيات) وstreptocoques (حبيبات في سلسلة). وهي اللي تحوّل الحليب إلى زبادي.","p":"ص 95"}]},
+{"ic":"⚫","fr":"3. Les coques","ar":"3. الكرويات","cards":[
+{"ic":"🔢","fr":"Un diplocoque = 2 coques, un streptocoque = une chaîne de coques, un staphylocoque = des coques en grappe.","ar":"Diplocoque: كرويتان. Streptocoque: سلسلة. Staphylocoque: عنقود. المعيار هو شكل تجمّعها.","img":"fig-bacteries.svg","p":"ص 95"},
+{"ic":"🧠","fr":"Parmi les diplocoques : les méningocoques (méningite) et les pneumocoques (pneumonie).","ar":"من الـdiplocoques: méningocoque يسبب التهاب السحايا، وpneumocoque يسبب الالتهاب الرئوي.","p":"ص 95"},
+{"ic":"🩹","fr":"Certains streptocoques causent des abcès, la broncho-pneumonie ou l’angine ; non traitée, l’angine peut se compliquer.","ar":"بعض الـstreptocoques تسبب خراجات والتهاب القصبات والرئة والتهاب اللوزتين. وإذا ما عولجت قد تظهر مضاعفات على المفاصل والقلب.","p":"ص 95"},
+{"ic":"🫧","fr":"Les staphylocoques sont abondants (peau, nez, gorge, intestin) et peuvent infecter l’organisme à la faveur d’une plaie : furoncle, abcès.","ar":"الـstaphylocoques كثيرة (الجلد، الأنف، الحلق، الأمعاء) وتصيب الجسم عبر جرح فتسبب دمّلاً أو خراجاً.","p":"ص 95"}]},
+{"ic":"🧬","fr":"4. Escherichia coli","ar":"4. الإشريكية القولونية (E. coli)","cards":[
+{"ic":"🏠","fr":"E. coli est un bacille qui vit dans l’intestin de l’homme et fait partie de la flore intestinale.","ar":"E. coli عصيّة تعيش في أمعاء الإنسان وهي جزء من النباتات المعوية (flore intestinale).","p":"ص 96"},
+{"ic":"🔬","fr":"Sa structure : paroi, membrane cytoplasmique, cytoplasme et matériel génétique. Elle s’observe au microscope électronique.","ar":"تركيبها: جدار، غشاء هيولي، هيولى، ومادة وراثية. نشوفوها بالمجهر الإلكتروني.","p":"ص 96"},
+{"ic":"✌️","fr":"Elle se multiplie par bipartition : toutes les 20 minutes, une bactérie donne 2 bactéries.","ar":"تتكاثر بالانقسام الثنائي (bipartition): كل 20 دقيقة تعطي بكتيريا اثنتين.","p":"ص 96"},
+{"ic":"🧮","fr":"Après n divisions, il y a 2^n bactéries : après 1 heure (3 divisions), 8 bactéries.","ar":"بعد n انقسامات يصير العدد 2^n. بعد ساعة (3 انقسامات) نلقاو 8 بكتيريا.","tip":"تمرين محلول في الكتاب.","p":"ص 104"}]},
+{"ic":"🌍","fr":"5. Un rôle dans la nature","ar":"5. دورها في الطبيعة","cards":[
+{"ic":"♻️","fr":"Les bactéries du sol décomposent la matière organique des cadavres et déchets en sels minéraux et en dioxyde de carbone : c’est la minéralisation.","ar":"بكتيريا التربة تفكّك المادة العضوية للجثث والفضلات إلى أملاح معدنية وCO2: هذا هو minéralisation.","p":"ص 96"},
+{"ic":"🌱","fr":"Elle restitue au sol les sels minéraux puisés par les plantes.","ar":"وهكذا ترجع للتربة الأملاح اللي امتصتها النباتات.","p":"ص 96"}]},
+{"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
+{"ic":"⭐","fr":"Bactérie : être vivant unicellulaire microscopique, qui se multiplie par bipartition ; son matériel génétique n’est pas délimité par une membrane : c’est un procaryote.","ar":"البكتيريا: كائن أحادي الخلية مجهري، يتكاثر بالانقسام الثنائي، ومادته الوراثية غير محاطة بغشاء: كائن بدائي النواة (procaryote).","p":"ص 101"},
+{"ic":"⭐","fr":"Bacille : bactérie en bâtonnet. Coques : bactéries en granules, isolées, en chapelet ou en grappe.","ar":"Bacille: عصيّة. Coques: كرويات منفردة أو في سلسلة أو عنقود.","p":"ص 101"},
+{"ic":"⭐","fr":"Eucaryote : cellule qui contient un véritable noyau entouré d’une membrane.","ar":"Eucaryote: خلية فيها نواة حقيقية محاطة بغشاء.","p":"ص 101"}]}
+],
+"quiz":[
+{"q":"Quelle forme ont les lactobacilles ? / شكل lactobacilles؟","options":["Grains en grappe","Bâtonnets","Spirales"],"answer":1,"explain":"ص 95."},
+{"q":"Un staphylocoque est un ensemble de coques… / الـstaphylocoque هو كرويات…","options":["en chaîne","par deux","en grappe"],"answer":2,"explain":"ص 95."},
+{"q":"Quelle est la maladie causée par les pneumocoques ? / مرض الـpneumocoque؟","options":["La pneumonie","La teigne","La grippe"],"answer":0,"explain":"ص 95."},
+{"q":"Comment se multiplie E. coli ? / كيف تتكاثر E. coli؟","options":["Par bourgeonnement","Par bipartition","Par graines"],"answer":1,"explain":"ص 96."},
+{"q":"Après 1 heure, une bactérie (division toutes les 20 min) donne… / بعد ساعة، بكتيريا واحدة تعطي…","options":["3 bactéries","6 bactéries","8 bactéries"],"answer":2,"explain":"2 أُس 3 = 8 (ص 104)."},
+{"q":"La minéralisation produit… / الـminéralisation تنتج…","options":["des sels minéraux et du CO2","de l’amidon","de l’oxygène seulement"],"answer":0,"explain":"ص 96."},
+{"q":"Une bactérie est un organisme… / البكتيريا كائن…","options":["eucaryote","procaryote","sans matériel génétique"],"answer":1,"explain":"ص 101."}
+]
+}
