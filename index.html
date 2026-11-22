@@ -80,16 +80,16 @@ iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:12px;margin-top:8px}
 <main id="app"></main><nav id="nav"></nav><div id="wl"></div><div id="ts"></div>
 <script src="firebase-config.js"></script>
 <script>
- const $=s=>document.querySelector(s);
+const $=s=>document.querySelector(s);
 const T={hello:["مرحباً بك في تانيت!","Bienvenue sur TanIT !"],hs:["رحلتك نحو النجاح تبدأ من هنا","Ton chemin vers la réussite"],slogan:["نفهموا، نتعلموا، ونتقدموا مع بعضنا 🇹🇳","Nous comprenons, nous apprenons, nous progressons ensemble 🇹🇳"],
 lv:["المستويات الدراسية","Niveaux scolaires"],ai:["مساعد TanIT الذكي","Assistant TanIT"],ais:["اسأل وراجع دروسك بالاعتماد على الكتاب المدرسي","Révise avec le manuel"],aib:["قريباً","Bientôt"],aisoon:["المساعد الذكي سيُفتح قريباً.","L’assistant ouvrira bientôt."],
 acc:["حسابي","Mon compte"],accs:["أدر حسابك وبياناتك","Gère ton compte"],dict:["المصطلحات","Lexique"],dicts:["معجم شامل للمفاهيم","Glossaire"],done:["دروسي المنجزة","Mes cours"],dones:["تابع تقدمك","Ta progression"],
 c1:["📖 مراجع بالصفحة","📖 Pages citées"],c2:["🇹🇳 مبنية على الكتاب المدرسي","🇹🇳 Basé sur le manuel"],home:["الرئيسية","Accueil"],chat:["الحوار","Chat"],stats:["إحصائياتي","Stats"],more:["المزيد","Plus"],
 back:["رجوع","Retour"],sum:["الملخص","Résumé"],quiz:["اختبر نفسك","Teste-toi"],check:["صحّح إجاباتي","Corriger"],video:["شاهد الفيديو","Voir la vidéo"],search:["ابحث عن مصطلح…","Rechercher…"],none:["لا شيء بعد.","Rien pour l’instant."],
-score:["النتيجة","Score"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."],figs:["رسوم توضيحية","Schémas"],soon:["الدروس قادمة قريباً.","Les cours arrivent bientôt."],
+score:["النتيجة","Score"],lessons:["درس","cours"],noresult:["لا نتيجة.","Aucun résultat."],figs:["رسوم توضيحية","Schémas"],soon:["الدروس قادمة قريباً.","Les cours arrivent bientôt."],soonshort:["قريباً","Bientôt"],axes:["المحاور","Axes du programme"],
 m3:["برافو يا بطل! 🏆","Bravo champion ! 🏆"],m2:["ممتاز، قريب برشا! 💪","Presque parfait ! 💪"],m1:["ما تخافش، عاود اقرا الدرس وجرّب مرة أخرى 🌱","Relis le cours et réessaie 🌱"],
 welcome:["أهلاً بك في TanIT 🇹🇳","Bienvenue 🇹🇳"],wsub:["سجّل الدخول لتشارك في الحوار، أو ادخل كضيف.","Connecte-toi pour discuter, ou entre en invité."],google:["المتابعة مع Google","Continuer avec Google"],facebook:["المتابعة مع Facebook","Continuer avec Facebook"],guest:["الدخول كضيف","Continuer en invité"],
-hello2:["مرحباً","Salut"],guestname:["ضيف","Invité"],logout:["تسجيل الخروج","Se déconnecter"],login:["تسجيل الدخول","Se connecter"],editname:["تعديل الاسم","Modifier le nom"],nameq:["اسمك في الحوار:","Ton nom :"],photo:["تغيير الصورة","Changer la photo"],
+guestname:["ضيف","Invité"],logout:["تسجيل الخروج","Se déconnecter"],login:["تسجيل الدخول","Se connecter"],editname:["تعديل الاسم","Modifier le nom"],nameq:["اسمك في الحوار:","Ton nom :"],photo:["تغيير الصورة","Changer la photo"],
 soonlogin:["تسجيل الدخول سيتفعّل قريباً. ادخل كضيف الآن.","Connexion bientôt disponible."],loginerr:["تعذّر تسجيل الدخول. حاول مرة أخرى.","Connexion impossible."],inapp:["افتح الرابط في Chrome لتسجيل الدخول.","Ouvre le lien dans Chrome pour te connecter."],
 chatsoon:["الحوار سيُفتح قريباً.","Le chat ouvrira bientôt."],rules:["احترم الجميع ولا تشارك معلومات شخصية. الرسائل تُراقَب.","Sois respectueux, aucune info personnelle. Messages modérés."],write:["اكتب رسالتك…","Écris ton message…"],send:["إرسال","Envoyer"],
 needlogin:["سجّل الدخول لتكتب.","Connecte-toi pour écrire."],report:["تبليغ","Signaler"],reported:["تم التبليغ، شكراً.","Signalé, merci."],empty:["لا رسائل بعد. كن الأول! 👋","Aucun message. Sois le premier ! 👋"],
@@ -114,8 +114,9 @@ const app=$('#app'),sk='<div class="sk"></div><div class="sk"></div><div class="
 const inApp=/FBAN|FBAV|FB_IAB|Instagram|Messenger|WhatsApp|TikTok|Snapchat|; wv\)/i.test(navigator.userAgent);
 let unsub=null,lastSend=0,dp=null;
 addEventListener('beforeinstallprompt',e=>{e.preventDefault();dp=e});
+const axLs=a=>a.chapters.flatMap(c=>c.lessons);
+const lsOf=s=>s.axes?s.axes.flatMap(axLs):(s.lessons||[]);
 
-/* الوضع الفاتح/الداكن */
 const TM=['auto','light','dark'],TI={auto:'🌓',light:'☀️',dark:'🌙'};
 const tpref=()=>{let p=localStorage.getItem('tt')||'auto';return TM.includes(p)?p:'auto'};
 function theme(){const p=tpref(),d=p==='dark'||(p==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);
@@ -123,7 +124,6 @@ document.documentElement.dataset.theme=d?'dark':'light';$('#th').textContent=TI[
 function cycleTheme(){const p=TM[(TM.indexOf(tpref())+1)%3];try{localStorage.setItem('tt',p)}catch(e){}theme()}
 $('#th').onclick=cycleTheme;$('#mo').onclick=()=>{location.hash='#/more'};
 
-/* Firebase */
 let FBm=null;
 async function fb(){if(FBm)return FBm;const c=window.FB_CONFIG;if(!c||!c.apiKey)return null;const b='https://www.gstatic.com/firebasejs/10.12.2/';
 const [A,Au,Fs]=await Promise.all([import(b+'firebase-app.js'),import(b+'firebase-auth.js'),import(b+'firebase-firestore.js')]);
@@ -142,7 +142,6 @@ $('#bu').onclick=()=>{ensureU();saveU();w.className='';route()};const c=$('#bc')
 function pickPhoto(){const i=document.createElement('input');i.type='file';i.accept='image/*';i.onchange=()=>{const f=i.files[0];if(!f)return;const im=new Image();
 im.onload=()=>{const c=document.createElement('canvas'),s=160,r=Math.min(im.width,im.height);c.width=c.height=s;c.getContext('2d').drawImage(im,(im.width-r)/2,(im.height-r)/2,r,r,0,0,s,s);ensureU();U.photo=c.toDataURL('image/jpeg',.8);saveU();route()};im.src=URL.createObjectURL(f)};i.click()}
 
-/* التنقل */
 async function route(){
 if(unsub){unsub();unsub=null}
 document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';
@@ -153,7 +152,7 @@ $('#nav').innerHTML=A('','🏠','home',tab==='home')+A('chat','💬','chat',tab=
 app.classList.remove('fi');void app.offsetWidth;app.classList.add('fi');window.scrollTo(0,0);
 const C=await get('content.json');if(!C){app.innerHTML='<div class="empty">⚠️ content.json</div>';return}
 if(v==='home')home(C);else if(v==='lib')app.innerHTML=`<h1>${t('lv')}</h1>`+lvCards(C);
-else if(v==='lv')subjects(C,p[1]);else if(v==='s')lessonsList(C,p[1],p[2]);else if(v==='lesson')await lesson(C,p[1]);
+else if(v==='lv')subjects(C,p[1]);else if(v==='s')lessonsList(C,p[1],p[2],p[3]);else if(v==='lesson')await lesson(C,p[1]);
 else if(v==='chat')await chat();else if(v==='dict')await dict();else if(v==='prog')progress(C);
 else if(v==='more')more();else if(v==='acc')account();else if(v==='news')await news()}
 const lvCards=C=>`<div class="lv">${C.levels.map(l=>`<a class="lc" style="background:linear-gradient(160deg,${LC[l.id]})" href="#/lv/${l.id}"><span style="font-size:1.6rem">${l.id==='1'?'🏛️':'📖'}</span><b>${l.id}</b><em>${lang==='ar'?(l.id==='1'?'ثانوي':'إعدادي'):(l.id==='1'?'secondaire':'collège')}</em><small>${LT[l.id][L()]}</small></a>`).join('')}</div>`;
@@ -163,29 +162,35 @@ function home(C){app.innerHTML=`<div class="hero"><div><h1>${t('hello')} 👋</h
 <div class="sc"><a href="#/acc">${phv('ph')}<b>${t('acc')}</b><small>${t('accs')}</small></a><a href="#/dict"><span class="e">📘</span><b>${t('dict')}</b><small>${t('dicts')}</small></a><a href="#/prog"><span class="e">🏆</span><b>${t('done')}</b><small>${t('dones')}</small></a></div>
 <div class="ch"><span>${t('c1')}</span><span>${t('c2')}</span></div>`;
 $('#ab').onclick=()=>toast(t('aisoon'))}
+const bk=h=>`<a class="back" href="${h}">${lang==='ar'?'→':'←'} ${t('back')}</a>`;
 function subjects(C,id){const l=C.levels.find(x=>x.id===id);if(!l){app.innerHTML='<div class="empty">404</div>';return}
-app.innerHTML=`<a class="back" href="#/lib">${lang==='ar'?'→':'←'} ${t('back')}</a><h1>${pick(l)}</h1><div class="list">${l.subjects.map(s=>`<a class="item" href="#/s/${l.id}/${s.id}"><div class="ic">${s.icon}</div><div><b>${pick(s)}</b><span>${s.lessons.length} ${t('lessons')}</span></div></a>`).join('')}</div>`}
-function lessonsList(C,lid,sid){const l=C.levels.find(x=>x.id===lid),s=l&&l.subjects.find(x=>x.id===sid);if(!s){app.innerHTML='<div class="empty">404</div>';return}
-app.innerHTML=`<a class="back" href="#/lv/${lid}">${lang==='ar'?'→':'←'} ${t('back')}</a><h1>${s.icon} ${pick(s)}</h1>`+(s.lessons.length?`<div class="list">${s.lessons.map(x=>`<a class="item" href="#/lesson/${x.id}"><div class="ic">${prog[x.id]?'✅':'📖'}</div><div><b>${pick(x)}</b>${prog[x.id]?`<span>${t('score')}: ${prog[x.id].score}%</span>`:''}</div></a>`).join('')}</div>`:`<div class="empty">${t('soon')}</div>`)}
-function find(C,id){for(const l of C.levels)for(const s of l.subjects){const x=s.lessons.find(y=>y.id===id);if(x)return{l,s,x}}}
+app.innerHTML=bk('#/lib')+`<h1>${pick(l)}</h1><div class="list">${l.subjects.map(s=>`<a class="item" href="#/s/${l.id}/${s.id}"><div class="ic">${s.icon}</div><div><b>${pick(s)}</b><span>${s.axes?s.axes.length+' '+t('axes'):lsOf(s).length+' '+t('lessons')}</span></div></a>`).join('')}</div>`}
+const lessonItem=x=>`<a class="item" href="#/lesson/${x.id}"><div class="ic">${prog[x.id]?'✅':'📖'}</div><div><b>${pick(x)}</b>${prog[x.id]?`<span>${t('score')}: ${prog[x.id].score}%</span>`:''}</div></a>`;
+function lessonsList(C,lid,sid,aid){const l=C.levels.find(x=>x.id===lid),s=l&&l.subjects.find(x=>x.id===sid);if(!s){app.innerHTML='<div class="empty">404</div>';return}
+if(s.axes&&!aid){app.innerHTML=bk('#/lv/'+lid)+`<h1>${s.icon} ${pick(s)}</h1><h2>${t('axes')}</h2><div class="list">${s.axes.map(a=>{const n=axLs(a).length;return `<a class="item" href="#/s/${lid}/${sid}/${a.id}"><div class="ic">${a.icon}</div><div><b>${pick(a)}</b><span>${n?n+' '+t('lessons'):t('soonshort')}</span></div></a>`}).join('')}</div>`;return}
+if(s.axes){const a=s.axes.find(x=>x.id===aid);if(!a){app.innerHTML='<div class="empty">404</div>';return}
+app.innerHTML=bk(`#/s/${lid}/${sid}`)+`<h1>${a.icon} ${pick(a)}</h1>`+(axLs(a).length?a.chapters.map(c=>`<h2>${pick(c)}</h2><div class="list">${c.lessons.map(lessonItem).join('')}</div>`).join(''):`<div class="empty">${t('soon')}</div>`);return}
+app.innerHTML=bk('#/lv/'+lid)+`<h1>${s.icon} ${pick(s)}</h1>`+(s.lessons.length?`<div class="list">${s.lessons.map(lessonItem).join('')}</div>`:`<div class="empty">${t('soon')}</div>`)}
+function find(C,id){for(const l of C.levels)for(const s of l.subjects){if(s.axes){for(const a of s.axes){const x=axLs(a).find(y=>y.id===id);if(x)return{l,s,a,x}}}else{const x=(s.lessons||[]).find(y=>y.id===id);if(x)return{l,s,x}}}}
 const card=c=>`<div class="card"><div class="big">${c.ic||'📘'}</div><div class="cf" lang="fr">${esc(c.fr)}</div><div class="ca">${esc(c.ar)}</div>${c.img?`<img src="${esc(c.img)}" alt="${esc(c.fr)}" loading="lazy">`:''}${c.tip?`<div class="tip">💡 ${esc(c.tip)}</div>`:''}${c.p?`<div class="src">📖 ${esc(c.p)}</div>`:''}</div>`;
 const parts=a=>(a||[]).map(p=>`<div class="part"><div class="pi">${p.ic||'📘'}</div><div><b lang="fr">${esc(p.fr)}</b><span>${esc(p.ar)}</span></div></div>`+(p.cards||[]).map(card).join('')).join('');
 const blk=a=>(a||[]).map(b=>`<div class="fr" lang="fr">${esc(b.fr)}</div><div class="ar">${esc(b.ar)}</div>`).join('');
 const figs=a=>(a&&a.length)?`<h2>🖼️ ${t('figs')}</h2>`+a.map(f=>`<figure><img src="${esc(f.src)}" alt="${esc(f.fr)}" loading="lazy"><div class="ar">${esc(f.fr)}<br>${esc(f.ar)}</div></figure>`).join(''):'';
 async function lesson(C,id){const f=find(C,id);if(!f){app.innerHTML='<div class="empty">404</div>';return}
 app.innerHTML=sk;const d=await get(f.x.file);if(!d){app.innerHTML=`<div class="empty">⚠️ ${esc(f.x.file)}</div>`;return}
-app.innerHTML=`<a class="back" href="#/s/${f.l.id}/${f.s.id}">${lang==='ar'?'→':'←'} ${t('back')}</a><h1>${esc(f.x.fr)}<br><small>${esc(f.x.ar)}</small></h1>`+(d.src?`<div class="src">📖 ${t('ref')}: ${esc(d.src)}</div>`:'')+
+const quiz=(d.quiz||[]).map((q,i)=>{const ord=q.options.map((_,j)=>j);if(ord.length>2)ord.sort(()=>Math.random()-.5);return `<div class="q"><b>${esc(q.q)}</b>${ord.map(j=>`<label data-i="${j}"><input type="radio" name="q${i}" value="${j}"> ${esc(q.options[j])}</label>`).join('')}</div>`}).join('');
+app.innerHTML=bk(`#/s/${f.l.id}/${f.s.id}${f.a?'/'+f.a.id:''}`)+`<h1>${esc(f.x.fr)}<br><small>${esc(f.x.ar)}</small></h1>`+(d.src?`<div class="src">📖 ${t('ref')}: ${esc(d.src)}</div>`:'')+
 (d.video?`<h2>🎬 ${t('video')}</h2><div id="vid"><button class="btn alt" id="pv">▶ ${t('video')}</button></div>`:'')+parts(d.parts)+blk(d.sections)+figs(d.figs)+(d.summary&&d.summary.length?`<h2>📝 ${t('sum')}</h2>`+blk(d.summary):'')+
-(d.quiz&&d.quiz.length?`<div class="part"><div class="pi">✍️</div><div><b>${T.quiz[1]}</b><span>${T.quiz[0]}</span></div></div><div id="qz">${d.quiz.map((q,i)=>`<div class="q"><b>${esc(q.q)}</b>${q.options.map((o,j)=>`<label><input type="radio" name="q${i}" value="${j}"> ${esc(o)}</label>`).join('')}</div>`).join('')}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
+(quiz?`<div class="part"><div class="pi">✍️</div><div><b>${T.quiz[1]}</b><span>${T.quiz[0]}</span></div></div><div id="qz">${quiz}</div><button class="btn" id="ck">${t('check')}</button><div id="res"></div>`:'');
 const pv=$('#pv');if(pv)pv.onclick=()=>{$('#vid').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.video)}" allowfullscreen loading="lazy"></iframe>`};
-const ck=$('#ck');if(ck)ck.onclick=()=>{let ok=0;d.quiz.forEach((q,i)=>{const box=document.querySelectorAll('#qz .q')[i],sel=box.querySelector('input:checked'),ls=box.querySelectorAll('label');
-ls.forEach(x=>x.classList.remove('ok','no'));ls[q.answer].classList.add('ok');if(sel&&+sel.value===q.answer)ok++;else if(sel)ls[+sel.value].classList.add('no');
+const ck=$('#ck');if(ck)ck.onclick=()=>{let ok=0;d.quiz.forEach((q,i)=>{const box=document.querySelectorAll('#qz .q')[i],sel=box.querySelector('input:checked'),L2=n=>box.querySelector('label[data-i="'+n+'"]');
+box.querySelectorAll('label').forEach(x=>x.classList.remove('ok','no'));L2(q.answer).classList.add('ok');
+if(sel&&+sel.value===q.answer)ok++;else if(sel)L2(sel.value).classList.add('no');
 if(q.explain&&!box.querySelector('em'))box.insertAdjacentHTML('beforeend',`<em>💡 ${esc(q.explain)}</em>`)});
 const sc=Math.round(ok/d.quiz.length*100);prog[id]={score:Math.max(sc,(prog[id]||{}).score||0),date:Date.now()};save();
 $('#res').innerHTML=`<div class="empty" style="margin-top:12px"><b>${t('score')}: ${ok}/${d.quiz.length} (${sc}%)</b><br>${sc===100?t('m3'):sc>=60?t('m2'):t('m1')}</div>`}}
 
-/* الحوار: غرفة واحدة */
- async function chat(){app.innerHTML=`<h1>💬 ${t('chat')}</h1><div class="tip2">⚠️ ${t('rules')}</div><div id="ms" class="ms">${sk}</div><div class="cb"><input id="mi" maxlength="300" placeholder="${t('write')}"><button class="btn" id="sd">${t('send')}</button></div>`;
+async function chat(){app.innerHTML=`<h1>💬 ${t('chat')}</h1><div class="tip2">⚠️ ${t('rules')}</div><div id="ms" class="ms">${sk}</div><div class="cb"><input id="mi" maxlength="300" placeholder="${t('write')}"><button class="btn" id="sd">${t('send')}</button></div>`;
 let f=null;try{f=await fb()}catch(e){}
 if(!f){$('#ms').innerHTML=`<div class="empty">${t('chatsoon')}</div>`}
 else{const q=f.Fs.query(f.Fs.collection(f.db,'rooms','general','messages'),f.Fs.orderBy('ts','desc'),f.Fs.limit(50)),mine=U&&U.uid;
@@ -203,7 +208,7 @@ const draw=q=>{q=q.trim().toLowerCase();const r=D.filter(x=>!q||x.fr.toLowerCase
 $('#dl').innerHTML=r.length?r.map(x=>`<div class="item"><div style="flex:1"><b dir="ltr" lang="fr">${esc(x.fr)}</b><span dir="rtl" style="display:block">${esc(x.ar)}</span></div></div>`).join(''):`<div class="empty">${D.length?t('noresult'):t('soon')}</div>`};
 draw('');$('#sq').oninput=e=>draw(e.target.value)}
 async function news(){const N=await get('news.json')||[];app.innerHTML=`<h1>📰 ${t('news')}</h1>`+(N.length?`<div class="list">${N.map(n=>`<div class="item"><div><b>${esc(pick(n.title||n))}</b><span>${esc(n.date||'')}</span>${n.text?`<p>${esc(pick(n.text))}</p>`:''}</div></div>`).join('')}</div>`:`<div class="empty">${t('none')}</div>`)}
-function progress(C){let tot=0;C.levels.forEach(l=>l.subjects.forEach(s=>tot+=s.lessons.length));const ks=Object.keys(prog).filter(k=>find(C,k)),d=ks.length,pc=tot?Math.round(d/tot*100):0;
+function progress(C){let tot=0;C.levels.forEach(l=>l.subjects.forEach(s=>tot+=lsOf(s).length));const ks=Object.keys(prog).filter(k=>find(C,k)),d=ks.length,pc=tot?Math.round(d/tot*100):0;
 app.innerHTML=`<h1>📊 ${t('stats')}</h1><div class="item" style="display:block"><b>${t('pct')}: ${pc}% (${d}/${tot})</b><div class="bar" style="margin-top:8px"><i style="width:${pc}%"></i></div></div>`+
 (d?`<h2>🏆 ${t('done')}</h2><div class="list">${ks.map(k=>{const f=find(C,k);return `<a class="item" href="#/lesson/${k}"><div class="ic">✅</div><div><b>${pick(f.x)}</b><span>${prog[k].score}%</span></div></a>`}).join('')}</div>`:`<div class="empty" style="margin-top:12px">${t('none')}</div>`)}
 function account(){const g=!(U&&U.mode==='user');app.innerHTML=`<div class="pf">${phv('big')}<button class="btn alt" id="pp">📷 ${t('photo')}</button><h1>${esc(nm()||t('guestname'))}</h1><div class="src">${g?'':esc((U&&U.email)||'')}</div><div class="avs">${AV.map(a=>`<button data-a="${a}">${a}</button>`).join('')}</div><button class="item" id="en">✏️ ${t('editname')}</button>${g?`<button class="item" id="lg" style="margin-top:8px">🔑 ${t('login')}</button>`:`<button class="item" id="lo" style="margin-top:8px">🚪 ${t('logout')}</button>`}</div>`;
