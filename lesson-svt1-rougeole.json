@@ -1,0 +1,30 @@
+{
+"id":"svt1-rougeole","fr":"La rougeole","ar":"الحصبة","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 111 و113",
+"parts":[
+{"ic":"🔴","fr":"1. Les symptômes","ar":"1. الأعراض","cards":[
+{"ic":"📅","fr":"Les 10 premiers jours : aucun signe, c’est la phase d’incubation silencieuse.","ar":"أول 10 أيام: ما فماش أعراض، وهذه مرحلة الحضانة الصامتة (incubation).","img":"fig-rougeole.svg","p":"ص 111"},
+{"ic":"🤒","fr":"Pendant environ 3 jours : fièvre, écoulement du nez, yeux larmoyants, visage gonflé, diarrhée, perte d’appétit.","ar":"حوالي 3 أيام: حرارة، سيلان الأنف، دموع، انتفاخ الوجه، إسهال، فقدان شهية.","p":"ص 111"},
+{"ic":"🔴","fr":"Les 3 jours suivants : éruption de la peau, avec des taches rouges sur tout le corps.","ar":"3 أيام بعدها: طفح جلدي ببقع حمراء على كامل الجسم.","p":"ص 111"},
+{"ic":"🩹","fr":"Les 3 jours suivants : desquamation de la peau.","ar":"3 أيام أخرى: تقشّر الجلد (desquamation).","p":"ص 111"}]},
+{"ic":"🦠","fr":"2. L’agent et la contagion","ar":"2. المسبّب والعدوى","cards":[
+{"ic":"🧬","fr":"L’agent pathogène est le virus de la rougeole ; la contagion se fait par l’air.","ar":"المسبّب فيروس الحصبة، وينتقل بالهواء.","p":"ص 111"},
+{"ic":"👶","fr":"La rougeole est une maladie virale des yeux et du nez, puis de la peau ; elle attaque surtout les enfants.","ar":"الحصبة مرض فيروسي يصيب العين والأنف ثم الجلد، ويصيب خاصة الأطفال.","p":"ص 113"}]},
+{"ic":"🔬","fr":"3. L’effet du virus","ar":"3. تأثير الفيروس","cards":[
+{"ic":"🫁","fr":"Les virus entrent par les voies respiratoires, passent dans le sang et envahissent les tissus lymphoïdes.","ar":"يدخل الفيروس عبر الجهاز التنفسي، ثم ينتقل للدم ويغزو الأنسجة اللمفاوية.","p":"ص 111"},
+{"ic":"🧠","fr":"Ils agissent sur le système nerveux central, la peau, les poumons, les yeux et les reins : cela provoque les symptômes.","ar":"يؤثر على الجهاز العصبي المركزي والجلد والرئتين والعينين والكلى، وهذا يسبب الأعراض.","p":"ص 111"},
+{"ic":"⚠️","fr":"Les complications ne sont pas dues au virus, mais à des infections par d’autres microbes.","ar":"المضاعفات ما سببهاش الفيروس نفسه، بل عدوى بميكروبات أخرى (تنفسية، هضمية، عصبية، حسّية).","p":"ص 111"}]},
+{"ic":"🛡️","fr":"4. La prévention et les soins","ar":"4. الوقاية والعناية","cards":[
+{"ic":"💉","fr":"Prévention : vacciner contre la rougeole dès le jeune âge.","ar":"الوقاية: تلقيح الطفل ضد الحصبة منذ سنّ مبكّرة.","p":"ص 111"},
+{"ic":"🧼","fr":"En cas d’infection : propreté du corps et du linge du malade, désinfection du nez, des oreilles et des yeux avec des médicaments appropriés, protection contre le refroidissement, eau de riz en cas de diarrhée.","ar":"إذا أصيب: نظافة الجسم والملابس، تطهير الأنف والأذنين والعينين بالأدوية المناسبة، الوقاية من البرد، وماء الأرز في حالة الإسهال.","p":"ص 111"},
+{"ic":"🏥","fr":"En cas de complication : amener le malade à l’hôpital.","ar":"إذا ظهرت مضاعفات: نوصّلو المريض للمستشفى.","p":"ص 111"}]}
+],
+"quiz":[
+{"q":"Quelle est la phase des 10 premiers jours ? / ماذا نسمي أول 10 أيام؟","options":["La desquamation","L’incubation silencieuse","L’éruption"],"answer":1,"explain":"ص 111."},
+{"q":"Quel est l’agent de la rougeole ? / مسبّب الحصبة؟","options":["Un virus","Une bactérie","Un champignon"],"answer":0,"explain":"ص 111."},
+{"q":"Comment se transmet-elle ? / كيف تنتقل؟","options":["Par l’air","Par une piqûre de moustique","Par la terre"],"answer":0,"explain":"ص 111."},
+{"q":"Les complications sont dues à… / المضاعفات سببها…","options":["d’autres microbes","le soleil","la vaccination"],"answer":0,"explain":"ص 111."},
+{"q":"Quelle mesure préventive est citée ? / ما الإجراء الوقائي؟","options":["Vacciner dès le jeune âge","Éviter l’eau","Rester dans le noir"],"answer":0,"explain":"ص 111."},
+{"q":"Ordre des phases / ترتيب المراحل","options":["Éruption → incubation → fièvre → desquamation","Incubation → fièvre → éruption → desquamation","Fièvre → desquamation → éruption → incubation"],"answer":1,"explain":"ص 111."}
+]
+}
