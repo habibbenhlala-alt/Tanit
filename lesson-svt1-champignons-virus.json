@@ -1,0 +1,33 @@
+{
+"id":"svt1-champignons-virus","fr":"Les champignons microscopiques, les virus et les microbes utiles","ar":"الفطريات المجهرية والفيروسات والميكروبات النافعة","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 97 إلى 103",
+"parts":[
+{"ic":"🍞","fr":"1. Les champignons microscopiques","ar":"1. الفطريات المجهرية","cards":[
+{"ic":"🍺","fr":"La levure de bière : cellules sphériques ou ovoïdes de 6 à 10 μm, qui se multiplient par bourgeonnement. Elle sert à fabriquer le pain.","ar":"خميرة الجعة: خلايا كروية أو بيضاوية، حجمها بين 6 و10 ميكرومتر، تتكاثر بالتبرعم (bourgeonnement). وتُستعمل في صنع الخبز.","img":"fig-levure-virus.svg","p":"ص 97"},
+{"ic":"🧫","fr":"La moisissure du pain : sur du pain humide à 25-30 °C, un duvet blanc apparaît en deux jours ; au microscope on voit le mycélium et des sporanges.","ar":"عفن الخبز: خبز رطب في 25 إلى 30 درجة، بعد يومين يظهر زغب أبيض. وبالمجهر نشوفو الفطيرات (mycélium) وأكياس البوغ (sporanges).","p":"ص 98"},
+{"ic":"💊","fr":"Penicillium notatum : moisissure verte qui sert à fabriquer la pénicilline, un antibiotique.","ar":"Penicillium notatum: عفن أخضر يُصنع منه الـpénicilline، وهو مضاد حيوي (antibiotique).","p":"ص 98"},
+{"ic":"🧑‍🦲","fr":"Trichophyton : champignon filamenteux qui infecte la peau et les cheveux ; il cause la teigne (chute de cheveux).","ar":"Trichophyton: فطر خيطي يصيب الجلد والشعر ويسبب الـteigne (تساقط الشعر).","p":"ص 98"},
+{"ic":"🍅","fr":"Phytophthora : champignon filamenteux, agent du mildiou, qui attaque la tomate, la pomme de terre et la vigne.","ar":"Phytophthora: فطر خيطي يسبب مرض الـmildiou عند الطماطم والبطاطا والكرمة.","p":"ص 99"}]},
+{"ic":"🧬","fr":"2. Les virus","ar":"2. الفيروسات","cards":[
+{"ic":"🔭","fr":"Un virus est une particule très petite, visible seulement au microscope électronique ; il est inerte dans le milieu extérieur.","ar":"الفيروس جسيم صغير جداً ما نشوفوهش إلا بالمجهر الإلكتروني، وهو خامل خارج الخلية: ما يتنفّسش وما يتكاثرش.","p":"ص 100"},
+{"ic":"🏠","fr":"Il ne se multiplie qu’à l’intérieur d’une cellule vivante appelée cellule hôte : c’est un parasite intracellulaire obligatoire.","ar":"ما يتكاثر إلا داخل خلية حيّة تسمى الخلية المضيفة: متطفّل داخلي إجباري.","p":"ص 100 و102"},
+{"ic":"🤧","fr":"Le virus de la grippe (150 nm) : inflammations respiratoires. Le VIH (100 nm) se transmet par le sperme, les sécrétions vaginales et le sang, et attaque les cellules du système immunitaire.","ar":"فيروس الأنفلونزا (150 نانومتر) يسبب التهابات تنفسية. وفيروس VIH (100 نانومتر) ينتقل بالمني والإفرازات المهبلية والدم، ويهاجم خلايا المناعة.","p":"ص 100"},
+{"ic":"🦠","fr":"Les bactériophages (200 nm) sont des virus qui infectent les bactéries ; le virus de la variole (240 nm) provoque des pustules sur la peau.","ar":"Bactériophages: فيروسات تصيب البكتيريا. وفيروس الجدري يسبب بثوراً في الجلد.","p":"ص 100"}]},
+{"ic":"💚","fr":"3. Les microbes utiles","ar":"3. الميكروبات النافعة","cards":[
+{"ic":"🧀","fr":"Des bactéries servent à fabriquer fromages, yaourts et vinaigres, ainsi que des médicaments, des antibiotiques, des vaccins et des hormones.","ar":"بعض البكتيريا تُستعمل في صنع الأجبان والزبادي والخل، وأيضاً أدوية ومضادات حيوية ولقاحات وهرمونات.","p":"ص 102"},
+{"ic":"🍷","fr":"La levure sert à fabriquer le pain, le vin, la bière et le cidre ; le pénicille produit la pénicilline.","ar":"الخميرة تُستعمل في الخبز والنبيذ والجعة والعصير المخمّر، والبنسيليوم ينتج البنسلين.","p":"ص 102"}]},
+{"ic":"🚨","fr":"4. Les microbes pathogènes","ar":"4. الميكروبات المسبّبة للأمراض","cards":[
+{"ic":"🦟","fr":"Protozoaires : hématozoaire (paludisme), amibe dysentérique (amibiase), trypanosome (maladie du sommeil).","ar":"الأوليات: hématozoaire (الملاريا)، amibe (الزحار الأميبي)، trypanosome (مرض النوم).","p":"ص 103"},
+{"ic":"💉","fr":"Bactéries : bacille de Koch (tuberculose), vibrion (choléra), bacille diphtérique (diphtérie), bacille tétanique (tétanos).","ar":"البكتيريا: عصيّة كوخ (السلّ)، vibrion (الكوليرا)، bacille diphtérique (الدفتيريا)، bacille tétanique (التيتانوس).","p":"ص 103"},
+{"ic":"🧬","fr":"Moisissures : trichophyton (teigne), Candida albicans (candidose). Virus : rougeole, rage, variole, poliomyélite, grippe, SIDA.","ar":"الفطريات: trichophyton (الثعلبة)، Candida (الفطار). الفيروسات: الحصبة، الكَلَب، الجدري، شلل الأطفال، الأنفلونزا، السيدا.","p":"ص 103"}]}
+],
+"quiz":[
+{"q":"La levure se multiplie par… / الخميرة تتكاثر بـ…","options":["bipartition","bourgeonnement","graines"],"answer":1,"explain":"ص 97."},
+{"q":"Penicillium notatum sert à fabriquer… / Penicillium يُستعمل لصنع…","options":["la pénicilline","le sucre","le sel"],"answer":0,"explain":"ص 98."},
+{"q":"Quel champignon cause la teigne ? / أي فطر يسبب الثعلبة؟","options":["Phytophthora","Trichophyton","La levure"],"answer":1,"explain":"ص 98."},
+{"q":"Un virus ne se multiplie que… / الفيروس لا يتكاثر إلا…","options":["dans l’eau pure","dans une cellule hôte vivante","dans le sol sec"],"answer":1,"explain":"ص 100."},
+{"q":"Quelle maladie est causée par le bacille de Koch ? / أي مرض يسببه bacille de Koch؟","options":["Le choléra","Le tétanos","La tuberculose"],"answer":2,"explain":"ص 103."},
+{"q":"Le mildiou touche surtout… / الـmildiou يصيب خاصة…","options":["la tomate, la pomme de terre et la vigne","les poissons","les cheveux"],"answer":0,"explain":"ص 99."},
+{"q":"Les bactériophages infectent… / Bactériophages تصيب…","options":["les bactéries","les plantes seulement","les roches"],"answer":0,"explain":"ص 100."}
+]
+}
