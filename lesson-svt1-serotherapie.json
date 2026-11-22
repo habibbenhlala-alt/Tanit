@@ -1,0 +1,32 @@
+{
+"id":"svt1-serotherapie","fr":"La sérothérapie","ar":"العلاج بالمصل (sérothérapie)","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 126 إلى 128 وص 130 و131 و134",
+"parts":[
+{"ic":"🔁","fr":"1. Le transfert de l’immunité","ar":"1. نقل المناعة","cards":[
+{"ic":"🐭","fr":"Souris D : injection d’anatoxine puis, 3 semaines plus tard, prélèvement de sérum. Ce sérum est injecté à la souris E, avant la toxine tétanique : elle survit.","ar":"الفأر D حُقن بـanatoxine وبعد 3 أسابيع أخذوا منه المصل. ثم حُقن المصل للفأر E قبل سمّ التيتانوس: فعاش.","p":"ص 126"},
+{"ic":"🧪","fr":"Expérience témoin : le sérum d’une souris T non immunisée, injecté à la souris F, ne la protège pas : elle meurt.","ar":"التجربة الشاهدة: مصل فأر T غير محصّن حُقن للفأر F ولم يحمه، ومات.","p":"ص 126"},
+{"ic":"✅","fr":"L’immunité est donc transférable par le sérum, qui contient des anticorps neutralisant l’antigène.","ar":"إذن المناعة تُنقل بالمصل، لأنه فيه أجسام مضادة تبطل مفعول antigène.","p":"ص 130"}]},
+{"ic":"🐴","fr":"2. La découverte de la sérothérapie","ar":"2. اكتشاف العلاج بالمصل","cards":[
+{"ic":"👨‍🔬","fr":"En 1890, Von Behring cherche un médicament contre le bacille diphtérique et pense à des substances antidiphtériques dans le sang des animaux guéris.","ar":"في 1890 كان Von Behring يبحث عن دواء للدفتيريا، وفكّر في مواد مضادة في دم الحيوانات المتعافية.","p":"ص 127"},
+{"ic":"🐴","fr":"En 1894, Roux vaccine un cheval avec des doses croissantes et répétées de toxine diphtérique : le sang du cheval contient de grandes quantités d’anticorps.","ar":"في 1894 لقّح Roux حصاناً بجرعات متزايدة ومتكررة من سمّ الدفتيريا، فظهرت في دمه كمية كبيرة من الأجسام المضادة.","p":"ص 127"},
+{"ic":"💉","fr":"Il transfère le sérum du cheval hyper-immunisé à des malades de la diphtérie : ils guérissent. La sérothérapie était née.","ar":"نقل مصل الحصان إلى مرضى الدفتيريا فتعافوا. هكذا وُلد العلاج بالمصل.","p":"ص 127"}]},
+{"ic":"📖","fr":"3. Les définitions","ar":"3. تعريفات","cards":[
+{"ic":"🧴","fr":"Sérothérapie : méthode curative fondée sur l’injection de sérums contenant des anticorps destinés à neutraliser un agent pathogène donné.","ar":"العلاج بالمصل: طريقة علاجية بحقن أمصال فيها أجسام مضادة تبطل مفعول ميكروب معيّن.","p":"ص 128"},
+{"ic":"🩸","fr":"Sérum : partie liquide, contenant des anticorps, libérée lors de la coagulation du sang.","ar":"المصل (sérum): الجزء السائل الذي فيه الأجسام المضادة ويتحرّر عند تخثّر الدم.","p":"ص 128"},
+{"ic":"🦂","fr":"On l’utilise notamment contre le venin du scorpion et la toxine tétanique ; le sérum vient souvent du sang d’un cheval hyper-immunisé.","ar":"يُستعمل خاصة ضد سمّ العقرب وسمّ التيتانوس، والمصل يأتي غالباً من دم حصان محصَّن بشدّة.","p":"ص 130"}]},
+{"ic":"⚖️","fr":"4. Vaccination ou sérothérapie ?","ar":"4. التلقيح أم العلاج بالمصل؟","cards":[
+{"ic":"💉","fr":"Vaccination : préventive, sur des personnes saines ; immunité active ; action tardive et de longue durée.","ar":"التلقيح: وقائي لأشخاص أصحاء، مناعة نشطة (الجسم يصنع الأجسام المضادة)، مفعوله بطيء وطويل.","img":"fig-vaccin-serum.svg","p":"ص 130"},
+{"ic":"🧪","fr":"Sérothérapie : curative, sur des organismes atteints ou menacés ; immunité passive ; action immédiate et de courte durée.","ar":"العلاج بالمصل: علاجي لمصابين أو مهدّدين، مناعة سلبية (أجسام مضادة جاهزة من كائن آخر)، مفعوله فوري وقصير.","p":"ص 130"}]},
+{"ic":"🧠","fr":"5. Un exemple de raisonnement","ar":"5. مثال من الكتاب","cards":[
+{"ic":"🔬","fr":"On injecte d’abord un microbe A atténué, puis le même microbe virulent. La réponse à la 2e injection est plus rapide, plus durable et produit plus d’anticorps.","ar":"نحقن ميكروب A مضعّفاً ثم نحقن نفس الميكروب الشرس. الاستجابة الثانية أسرع وأدوم وتنتج أجساماً مضادة أكثر.","tip":"هذه هي الذاكرة المناعية.","p":"ص 131"},
+{"ic":"🔁","fr":"Ramon (1923) prépare une anatoxine diphtérique avec du formol et de la chaleur ; après trois injections espacées de 15 jours et un rappel un an plus tard, l’immunité dure plus de 5 ans.","ar":"في 1923 حضّر Ramon anatoxine للدفتيريا بالفورمول والحرارة. بعد ثلاث حقن بينها 15 يوماً وتذكير بعد سنة، تدوم المناعة أكثر من 5 سنوات.","p":"ص 134"}]}
+],
+"quiz":[
+{"q":"Que contient le sérum d’un animal immunisé ? / ماذا في مصل حيوان محصّن؟","options":["Des anticorps","Des antibiotiques","Des engrais"],"answer":0,"explain":"ص 130."},
+{"q":"La sérothérapie est… / العلاج بالمصل…","options":["préventive","curative","inutile"],"answer":1,"explain":"ص 130."},
+{"q":"La vaccination agit… / التلقيح يعمل…","options":["tardivement et longtemps","immédiatement mais brièvement","sans effet"],"answer":0,"explain":"ص 130."},
+{"q":"Avec la sérothérapie, les anticorps sont fabriqués par… / في العلاج بالمصل، الأجسام المضادة يصنعها…","options":["l’organisme malade","un autre organisme immunisé","les racines"],"answer":1,"explain":"ص 130."},
+{"q":"Qui a eu l’idée d’utiliser le sérum de cheval ? / من فكّر في مصل الحصان؟","options":["Roux","Jenner","Koch"],"answer":0,"explain":"ص 127."},
+{"q":"Pourquoi faire une expérience témoin avec la souris T ? / لماذا التجربة الشاهدة بالفأر T؟","options":["Pour vérifier que seul le sérum d’une souris immunisée protège","Pour tuer la souris","Pour changer l’alimentation"],"answer":0,"explain":"ص 126."}
+]
+}
