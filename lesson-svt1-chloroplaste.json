@@ -1,0 +1,30 @@
+{
+"id":"svt1-chloroplaste","fr":"Le chloroplaste, la chlorophylle et les gaz","ar":"البلاستيدة الخضراء والكلوروفيل والغازات","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 51 إلى 54",
+"parts":[
+{"ic":"🔬","fr":"1. Le siège de la photosynthèse","ar":"1. مكان التركيب الضوئي","cards":[
+{"ic":"🌿","fr":"On prend des plantes d’élodée ou des algues vertes filamenteuses : un lot reste à l’obscurité, un lot est éclairé 24 heures.","ar":"نأخذو نباتات مائية (élodée): مجموعة نخلّيوها في الظلام، وأخرى في الضوء 24 ساعة.","p":"ص 51"},
+{"ic":"🧫","fr":"On monte une jeune feuille de chaque lot dans de l’eau iodée et on observe au microscope.","ar":"نركّبو ورقة صغيرة من كل مجموعة في ماء اليود ونشوفوها بالمجهر.","tip":"الكتاب يطلب منك فرضية حول المستوى الخلوي لعمل الضوء.","p":"ص 51"},
+{"ic":"⭐","fr":"Chloroplaste : organite de la cellule végétale où se déroule la photosynthèse.","ar":"البلاستيدة الخضراء (chloroplaste): عُضيّة في الخلية النباتية، فيها يصير التركيب الضوئي.","p":"ص 53"}]},
+{"ic":"🥬","fr":"2. Extraire la chlorophylle","ar":"2. كيفاش نستخرجو الكلوروفيل؟","cards":[
+{"ic":"🥣","fr":"On broie des feuilles fraîches (épinard, pélargonium) avec un peu de sable fin, on ajoute de l’alcool à 90°, puis on filtre.","ar":"نطحنو أوراق خضراء طرية مع قليل رمل ناعم، ونضيفو كحول 90°، وبعدها نصفّيو. نتحصّلو على محلول كلوروفيل خام.","p":"ص 51"}]},
+{"ic":"🌈","fr":"3. Le rôle de la chlorophylle","ar":"3. دور الكلوروفيل","cards":[
+{"ic":"🔦","fr":"Avec un prisme, on décompose la lumière blanche en un spectre sur un écran.","ar":"بمنشور (prisme) نفكّكو الضوء الأبيض إلى طيف على شاشة.","p":"ص 52"},
+{"ic":"🟢","fr":"On place la solution de chlorophylle brute sur le trajet de la lumière : des bandes d’absorption apparaissent dans le spectre.","ar":"نحطّو محلول الكلوروفيل في طريق الضوء، فتظهر أشرطة امتصاص في الطيف.","tip":"قارن الطيفين (الأبيض ثم المار على الكلوروفيل).","p":"ص 52"},
+{"ic":"📜","fr":"Spectre d’absorption : variation de l’absorption de la lumière selon la longueur d’onde.","ar":"طيف الامتصاص: تغيّر امتصاص الضوء حسب الطول الموجي.","p":"ص 53"},
+{"ic":"📈","fr":"Spectre d’action : variation de l’intensité photosynthétique selon la longueur d’onde.","ar":"طيف الفعل: تغيّر شدّة التركيب الضوئي حسب الطول الموجي.","tip":"الكتاب يطلب منك ربط المنحنيين 7.a و7.b.","p":"ص 53"},
+{"ic":"🌤️","fr":"Spectre de la lumière blanche : ensemble des radiations élémentaires issues de sa décomposition.","ar":"طيف الضوء الأبيض: مجموع الإشعاعات الناتجة عن تفكيكه.","p":"ص 53"}]},
+{"ic":"💨","fr":"4. Le carbone et l’oxygène","ar":"4. الكربون والأكسجين","cards":[
+{"ic":"🧬","fr":"Le dioxyde de carbone est un aliment pour la plante : d’où le nom de nutrition carbonée.","ar":"ثاني أكسيد الكربون غذاء للنبتة، ولهذا نسمّيها التغذية الكربونية.","p":"ص 54"},
+{"ic":"☢️","fr":"On fournit à des chlorelles de l’eau enrichie en CO2 contenant du carbone radioactif : les glucides fabriqués sont radioactifs.","ar":"نعطيو لطحالب chlorelles ماء فيه CO2 بكربون مشعّ، فتصير السكريات المصنوعة مشعّة. إذن كربون المادة العضوية جاي من CO2.","p":"ص 54"},
+{"ic":"🫧","fr":"Une tige d’élodée éclairée dégage des bulles de gaz ; ce gaz ravive une allumette n’ayant qu’un point incandescent : c’est l’oxygène.","ar":"ساق إيلوديا مضاءة تخرج منها فقاعات غاز، وهذا الغاز يُشعل عود ثقاب جمرته باقية: هو الأكسجين.","p":"ص 54"}]}
+],
+"quiz":[
+{"q":"Où se déroule la photosynthèse ? / وين يصير التركيب الضوئي؟","options":["Dans le chloroplaste","Dans le noyau","Dans la paroi"],"answer":0,"explain":"في البلاستيدة الخضراء (ص 53)."},
+{"q":"Pour extraire la chlorophylle, on utilise… / لاستخراج الكلوروفيل نستعمل…","options":["de l’alcool à 90°","de l’eau seulement","de l’huile"],"answer":0,"explain":"ص 51."},
+{"q":"Le prisme sert à… / المنشور يستعمل لـ…","options":["décomposer la lumière blanche","fabriquer de l’amidon","absorber l’eau"],"answer":0,"explain":"ص 52."},
+{"q":"Le spectre d’action représente… / طيف الفعل يمثّل…","options":["l’intensité photosynthétique selon la longueur d’onde","la température","la masse de la plante"],"answer":0,"explain":"ص 53."},
+{"q":"Le carbone radioactif donné aux chlorelles se retrouve dans… / الكربون المشعّ يظهر في…","options":["les glucides fabriqués","l’eau du sol","les racines seulement"],"answer":0,"explain":"إذن CO2 هو مصدر الكربون (ص 54)."},
+{"q":"Quel gaz ravive l’allumette ? / أي غاز يشعل عود الثقاب؟","options":["L’oxygène","Le dioxyde de carbone","L’azote"],"answer":0,"explain":"ص 54."}
+]
+}
