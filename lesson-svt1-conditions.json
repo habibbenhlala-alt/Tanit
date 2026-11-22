@@ -1,0 +1,34 @@
+{
+"id":"svt1-conditions","fr":"Les conditions de la photosynthèse","ar":"شروط التركيب الضوئي","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 48 إلى 50",
+"parts":[
+{"ic":"❓","fr":"Introduction","ar":"المشكلة","cards":[
+{"ic":"☀️","fr":"À la lumière, la plante verte produit de l’amidon dans ses feuilles : c’est la photosynthèse.","ar":"في الضوء، النبتة الخضراء تصنع النشا في أوراقها: هذا التركيب الضوئي.","p":"ص 48"},
+{"ic":"❓","fr":"Quelles sont les conditions de la photosynthèse ?","ar":"شنوّة الشروط اللي يتطلبها؟","p":"ص 48"}]},
+{"ic":"🌑","fr":"1. Sans lumière, pas de photosynthèse","ar":"1. بلا ضوء، ما فمّاش تركيب ضوئي","cards":[
+{"ic":"🧪","fr":"On place un cache opaque sur une partie d’une feuille de pélargonium, puis on laisse la plante à la lumière quelques heures.","ar":"نحطّو غطاء معتم على جزء من ورقة pélargonium ونخلّيوها في الضوء ساعات.","p":"ص 48"},
+{"ic":"♨️","fr":"On plonge la feuille dans l’eau bouillante, puis dans l’alcool bouillant, puis dans l’eau iodée.","ar":"نغمّسو الورقة في ماء يغلي ثم كحول يغلي ثم ماء اليود.","p":"ص 48"},
+{"ic":"✅","fr":"Conclusion : l’absence de lumière empêche la photosynthèse.","ar":"الخلاصة: غياب الضوء يمنع التركيب الضوئي. الجزء المغطّى ما يتكوّنش فيه نشا.","tip":"قارن مع الصورة 1.b في كتابك.","p":"ص 48"}]},
+{"ic":"🍀","fr":"2. Sans chlorophylle, pas de photosynthèse","ar":"2. بلا كلوروفيل، ما فمّاش تركيب ضوئي","cards":[
+{"ic":"🧪","fr":"On applique la technique de l’amidon sur une feuille panachée de pélargonium (ou de lierre) exposée à la lumière.","ar":"نطبّقو تقنية كشف النشا على ورقة مبرقشة (فيها أجزاء خضراء وأجزاء غير خضراء) معرّضة للضوء.","p":"ص 48"},
+{"ic":"✅","fr":"Conclusion : sans chlorophylle, la photosynthèse n’a pas lieu.","ar":"الخلاصة: من غير كلوروفيل ما يصيرش التركيب الضوئي.","tip":"قارن مع الصورة 2.b في كتابك.","p":"ص 48"}]},
+{"ic":"💨","fr":"3. Le rôle du dioxyde de carbone","ar":"3. دور ثاني أكسيد الكربون","cards":[
+{"ic":"🧪","fr":"Sac n°1 : témoin. Sac n°2 : air privé de CO2 grâce à la potasse puis à l’eau de chaux. La plante est éclairée pendant une journée.","ar":"الكيس 1 شاهد. الكيس 2 يدخله هواء من غير CO2 (يمرّ على potasse ثم eau de chaux). والنبتة مضاءة يوماً كاملاً.","p":"ص 49"},
+{"ic":"🔍","fr":"On recherche l’amidon dans la feuille a (sac 1) et la feuille b (sac 2).","ar":"نكشفو عن النشا في الورقة a من الكيس 1 والورقة b من الكيس 2، ونستنتجو الشروط.","tip":"الكتاب يطلب منك استنتاج الشروط الضرورية لتكوين النشا من الوثائق 1 و2 و3.","p":"ص 49"},
+{"ic":"📖","fr":"Photosynthèse : formation de matière organique, qui nécessite de l’énergie lumineuse.","ar":"التركيب الضوئي: تكوين المادة العضوية، ويحتاج الطاقة الضوئية.","p":"ص 49"},
+{"ic":"🟢","fr":"Chlorophylle : pigment responsable de la couleur verte et nécessaire à la photosynthèse.","ar":"الكلوروفيل: الصبغة المسؤولة عن اللون الأخضر، وضرورية للتركيب الضوئي.","p":"ص 49"}]},
+{"ic":"📈","fr":"4. Rôle de la lumière sur la production","ar":"4. تأثير الضوء على الإنتاج","cards":[
+{"ic":"⚖️","fr":"Six lots de jeunes plantes reçoivent des intensités lumineuses de 1000 à 10 000 lux ; on mesure la matière sèche un mois plus tard.","ar":"6 مجموعات نباتات في شدّة ضوء من 1000 إلى 10 000 لوكس، ونقيسو الكتلة الجافة بعد شهر.","p":"ص 50"},
+{"ic":"📊","fr":"Matière sèche : 2,5 g à 1000 lux ; 5 g à 2000 ; 12,5 g à 4000 ; 17,5 g à 6000 ; 20 g à 8000 ; 20,5 g à 10 000.","ar":"الكتلة الجافة: 2,5 غ عند 1000 لوكس، 5 غ عند 2000، 12,5 عند 4000، 17,5 عند 6000، 20 عند 8000، و20,5 عند 10 000.","tip":"تزيد مع الضوء ثم تستقرّ تقريبًا: حلّلها بنفسك.","p":"ص 50"}]},
+{"ic":"🔬","fr":"5. La cellule chlorophyllienne","ar":"5. الخلية الكلوروفيلية","cards":[
+{"ic":"🔬","fr":"On observe au microscope des feuilles d’élodée, de mousse ou d’algues vertes filamenteuses : paroi pectocellulosique, cytoplasme et chloroplastes.","ar":"نشوفو بالمجهر أوراق الإيلوديا أو الطحالب: جدار بكتوسيلولوزي، وهيولى، وبلاستيدات خضراء (chloroplastes).","p":"ص 50"}]}
+],
+"quiz":[
+{"q":"Quelle partie de la feuille couverte d’un cache opaque produit de l’amidon ? / هل الجزء المغطّى بغطاء معتم يصنع النشا؟","options":["Non","Oui, beaucoup","Oui, un peu"],"answer":0,"explain":"غياب الضوء يمنع التركيب الضوئي (ص 48)."},
+{"q":"Pourquoi utilise-t-on une feuille panachée ? / لماذا نستعمل ورقة مبرقشة؟","options":["Pour comparer parties vertes et non vertes","Pour avoir plus de lumière","Pour retirer l’eau"],"answer":0,"explain":"لنقارن بين الأجزاء الخضراء وغير الخضراء (ص 48)."},
+{"q":"Dans le sac n°2, on enlève… / في الكيس 2 نزيلو…","options":["le dioxyde de carbone","l’oxygène","l’eau"],"answer":0,"explain":"بواسطة potasse وeau de chaux (ص 49)."},
+{"q":"La chlorophylle est… / الكلوروفيل هو…","options":["un pigment vert nécessaire à la photosynthèse","un gaz","un sel minéral"],"answer":0,"explain":"ص 49."},
+{"q":"La photosynthèse nécessite… / التركيب الضوئي يحتاج…","options":["de l’énergie lumineuse","du froid seulement","de l’obscurité"],"answer":0,"explain":"ص 49."},
+{"q":"Quelle est la limite de l’effet de la lumière sur la matière sèche ? / كيف تتطور الكتلة الجافة مع الضوء؟","options":["Elle augmente puis tend à se stabiliser","Elle diminue toujours","Elle ne change jamais"],"answer":0,"explain":"من 2,5 غ إلى حوالي 20 غ ثم تستقرّ تقريبًا (ص 50)."}
+]
+}
