@@ -1,0 +1,33 @@
+{
+"id":"svt1-grippe","fr":"La grippe et les maladies infectieuses","ar":"الأنفلونزا والأمراض المعدية","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 107 إلى 109 وص 113 و115",
+"parts":[
+{"ic":"📚","fr":"Les acquis du collège","ar":"ما تعلمناه","cards":[
+{"ic":"🦠","fr":"Les microbes pathogènes sont à l’origine des maladies infectieuses.","ar":"الميكروبات الممرضة هي سبب الأمراض المعدية (infectieuses).","p":"ص 108"},
+{"ic":"↔️","fr":"Beaucoup de maladies infectieuses sont contagieuses.","ar":"برشا أمراض معدية تنتقل من شخص إلى آخر.","p":"ص 108"}]},
+{"ic":"❓","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"❓","fr":"Quels agents pathogènes causent ces maladies ? Quels sont leurs signes ? Comment les éviter ?","ar":"3 أسئلة: أي ميكروب يسبب المرض؟ شنوّة أعراضه؟ وكيفاش نتفاداوه؟","p":"ص 107"},
+{"ic":"📋","fr":"La grippe, la tuberculose, le tétanos, la rougeole, le trachome, le SIDA sont des maladies infectieuses.","ar":"الأنفلونزا والسل والتيتانوس والحصبة والتراخوما والسيدا كلها أمراض معدية.","p":"ص 109"}]},
+{"ic":"🤧","fr":"1. La grippe","ar":"1. الأنفلونزا","cards":[
+{"ic":"🌡️","fr":"Symptômes : fièvre, courbatures, fatigue (asthénie), écoulement du nez, éternuements, mal de gorge.","ar":"الأعراض: حرارة، أوجاع في الجسم، تعب، سيلان الأنف، عطس، وجع في الحلق.","p":"ص 109"},
+{"ic":"🦠","fr":"L’agent pathogène : le virus de la grippe.","ar":"المسبّب: فيروس الأنفلونزا.","p":"ص 109"},
+{"ic":"💨","fr":"Contagion par voie aérienne : le malade qui tousse libère de fines gouttelettes de salive contenant le virus, qui entrent dans les voies respiratoires d’un autre sujet.","ar":"العدوى بالهواء: المريض كي يسعل يطلّع قطرات لعاب صغيرة فيها الفيروس، فيدخل لجهاز التنفس عند شخص آخر.","img":"fig-gouttelettes.svg","p":"ص 109"},
+{"ic":"🔬","fr":"Les virus se fixent sur les muqueuses du nez, de la gorge et des bronches et causent des lésions cellulaires locales, ce qui favorise la surinfection bactérienne (angines, bronchites).","ar":"الفيروسات تلتصق بمخاطية الأنف والحلق والقصبات وتتلف خلايا موضعيًا، وهذا يسهّل عدوى بكتيرية ثانية (التهاب اللوزتين والقصبات)، خاصة عند الضعفاء وكبار السن.","p":"ص 109"},
+{"ic":"💉","fr":"Prévention : limiter les contacts avec les malades et se faire vacciner. Traitement : médicaments pour aider l’organisme, et antibiotiques en cas de surinfection bactérienne.","ar":"الوقاية: نقلّلو الاحتكاك بالمرضى ونتلقّحو. العلاج: أدوية تساعد الجسم، ومضادات حيوية إذا صارت عدوى بكتيرية ثانية.","tip":"المضاد الحيوي ما يقتلش الفيروس، وهو للبكتيريا فقط.","p":"ص 109"}]},
+{"ic":"📖","fr":"2. Définitions","ar":"2. تعريفات","cards":[
+{"ic":"🦠","fr":"Infection : pénétration et développement dans un organisme de micro-organismes pathogènes, produisant des troubles d’intensité variable.","ar":"العدوى (infection): دخول ميكروبات ممرضة للجسم وتكاثرها فيه، فتسبب اضطرابات متفاوتة الشدّة.","p":"ص 113"},
+{"ic":"↔️","fr":"Contagion : transmission d’une maladie d’un individu atteint à un individu non porteur.","ar":"الانتقال (contagion): انتقال المرض من شخص مصاب إلى شخص سليم.","p":"ص 113"},
+{"ic":"❄️","fr":"La grippe est une maladie virale ; ses épidémies sont saisonnières, pendant la saison froide et humide.","ar":"الأنفلونزا مرض فيروسي، وأوبئتها موسمية في الفصل البارد والرطب.","p":"ص 113"}]},
+{"ic":"✈️","fr":"3. Un exemple : l’avion","ar":"3. مثال: في الطائرة","cards":[
+{"ic":"🧳","fr":"En 1977, un avion reste 3 heures au sol avec 54 passagers. Une passagère malade tousse ; 38 passagers (72 %) sont malades dans les 48 heures.","ar":"سنة 1977 بقيت طائرة 3 ساعات على الأرض بـ54 مسافراً. مسافرة مريضة كانت تسعل، فمرض 38 مسافراً (72 %) في 48 ساعة.","p":"ص 115"},
+{"ic":"🌬️","fr":"Cause : un milieu fermé et mal ventilé, où l’atmosphère n’est pas renouvelée, a favorisé la contagion.","ar":"السبب: مكان مغلق وسيّئ التهوية، الهواء ما يتجدّدش، فسهّل انتقال العدوى.","tip":"فتح النوافذ وتهوية الأقسام تحمي من العدوى.","p":"ص 115"}]}
+],
+"quiz":[
+{"q":"Quel est l’agent de la grippe ? / مسبّب الأنفلونزا؟","options":["Une bactérie","Un virus","Un champignon"],"answer":1,"explain":"فيروس الأنفلونزا (ص 109)."},
+{"q":"Comment se fait la contagion de la grippe ? / كيف تنتقل؟","options":["Par voie aérienne","Par le sang","Par le sol"],"answer":0,"explain":"ص 109."},
+{"q":"La contagion, c’est… / الـcontagion هي…","options":["la naissance d’un microbe","la transmission d’un malade à un sujet sain","la guérison"],"answer":1,"explain":"ص 113."},
+{"q":"Pourquoi les épidémies de grippe sont-elles saisonnières ? / الأوبئة موسمية في…","options":["l’été chaud","la saison froide et humide","toute l’année sans différence"],"answer":1,"explain":"ص 113."},
+{"q":"Quels médicaments en cas de surinfection bactérienne ? / ما الدواء إذا حدثت عدوى بكتيرية ثانية؟","options":["Des antibiotiques","De l’eau iodée","Des engrais"],"answer":0,"explain":"ص 109."},
+{"q":"Pourquoi l’avion a-t-il favorisé la contagion ? / لماذا سهّلت الطائرة العدوى؟","options":["Milieu ouvert très frais","Air non renouvelé dans un espace fermé","Manque de lumière"],"answer":1,"explain":"ص 115."}
+]
+}
