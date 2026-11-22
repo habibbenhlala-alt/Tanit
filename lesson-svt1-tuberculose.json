@@ -1,0 +1,30 @@
+{
+"id":"svt1-tuberculose","fr":"La tuberculose pulmonaire","ar":"السل الرئوي","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 110 و113",
+"parts":[
+{"ic":"🫁","fr":"1. La maladie","ar":"1. المرض","cards":[
+{"ic":"🤒","fr":"Symptômes : toux avec crachats parfois mêlés de sang, fièvre, sueurs nocturnes, douleurs à la poitrine, amaigrissement et perte d’appétit.","ar":"الأعراض: سعال وبصاق قد يخالطه دم، حرارة، عرق ليلي، وجع في الصدر، نحافة وفقدان شهية.","p":"ص 110"},
+{"ic":"🦠","fr":"L’agent de la maladie est le bacille de Koch (BK).","ar":"المسبّب: عصيّة كوخ (BK).","p":"ص 110"},
+{"ic":"☀️","fr":"Ce microbe est répandu dans les endroits humides, mal aérés et mal ensoleillés ; il est tué par le soleil en quelques heures et ne résiste pas aux températures élevées.","ar":"هذا الميكروب منتشر في الأماكن الرطبة وسيّئة التهوية وقليلة الشمس، والشمس تقتله في ساعات وما يقاومش الحرارة العالية.","p":"ص 110"}]},
+{"ic":"↔️","fr":"2. La contagion","ar":"2. انتقال العدوى","cards":[
+{"ic":"😷","fr":"Contagion directe : le BK passe dans les gouttelettes projetées en toussant, éternuant et même en parlant ; on les inhale.","ar":"عدوى مباشرة: عصيّة كوخ تخرج مع قطرات تنتشر في الهواء عند السعال والعطس وحتى الكلام، ونستنشقها.","p":"ص 110"},
+{"ic":"🍴","fr":"Contagion indirecte : par les crachats, les mouchoirs et les couverts utilisés par un malade.","ar":"عدوى غير مباشرة: بالبصاق والمناديل والأدوات اللي استعملها المريض.","p":"ص 110"},
+{"ic":"⚠️","fr":"Les personnes affaiblies, mal nourries, fatiguées ou qui consomment alcool et drogues sont plus exposées.","ar":"الأشخاص الضعفاء أو سيئو التغذية أو المرهقون أو من يتعاطى الكحول والمخدرات هم الأكثر عرضة.","p":"ص 110"},
+{"ic":"🫁","fr":"Les bacilles se multiplient dans les poumons jusqu’à les détruire.","ar":"العصيّات تتكاثر في الرئتين حتى تتلفها.","p":"ص 110"}]},
+{"ic":"👥","fr":"3. Les personnes à risque","ar":"3. الأشخاص الأكثر عرضة","cards":[
+{"ic":"📋","fr":"Diabétiques, insuffisants rénaux chroniques, alcooliques, personnes âgées (surtout en institution), détenus, malades à défenses immunitaires faibles.","ar":"مرضى السكري، والمصابون بقصور كلوي مزمن، ومدمنو الكحول، وكبار السن (خاصة في المؤسسات)، والسجناء، ومن مناعتهم ضعيفة.","p":"ص 110"}]},
+{"ic":"🛡️","fr":"4. La prévention","ar":"4. الوقاية","cards":[
+{"ic":"🔍","fr":"Découverte précoce des cas : examiner les personnes qui ont les signes, celles qui vivent avec les malades et celles qui ont des facteurs de risque.","ar":"الاكتشاف المبكر: نفحصو من ظهرت عليهم الأعراض ومن يعيشون مع المرضى ومن عندهم عوامل خطر.","p":"ص 110"},
+{"ic":"💊","fr":"Traitement régulier et contrôlé jusqu’à la guérison avec des médicaments antituberculeux.","ar":"علاج منتظم ومراقب حتى الشفاء بأدوية السل.","p":"ص 110"},
+{"ic":"💉","fr":"Vaccination des enfants par le BCG.","ar":"تلقيح الأطفال بـBCG.","p":"ص 110"},
+{"ic":"📖","fr":"Tuberculose : maladie causée par le bacille de Koch.","ar":"السل: مرض يسببه عصيّة كوخ.","p":"ص 113"}]}
+],
+"quiz":[
+{"q":"Quel est l’agent de la tuberculose ? / مسبّب السل؟","options":["Le bacille tétanique","Le bacille de Koch","Le virus de la grippe"],"answer":1,"explain":"ص 110."},
+{"q":"Qu’est-ce qui tue le BK en quelques heures ? / ما الذي يقتل BK في ساعات؟","options":["Le froid","Le soleil","L’obscurité"],"answer":1,"explain":"ص 110."},
+{"q":"La contagion indirecte se fait par… / العدوى غير المباشرة تكون بـ…","options":["les crachats et les objets du malade","l’eau iodée","la lumière"],"answer":0,"explain":"ص 110."},
+{"q":"Quel vaccin protège contre la tuberculose ? / أي تلقيح يحمي من السل؟","options":["Le tétanos","Le BCG","Le sérum"],"answer":1,"explain":"ص 110."},
+{"q":"Où se multiplient les BK ? / وين تتكاثر العصيّات؟","options":["Dans les poumons","Dans les racines","Dans l’eau seulement"],"answer":0,"explain":"ص 110."},
+{"q":"Quelle personne est plus exposée ? / أي شخص أكثر عرضة؟","options":["Une personne affaiblie ou mal nourrie","Une personne en pleine forme","Personne"],"answer":0,"explain":"ص 110."}
+]
+}
