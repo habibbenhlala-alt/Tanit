@@ -1,0 +1,35 @@
+{
+"id":"svt1-in-vitro","fr":"La culture in vitro","ar":"الزراعة في المخبر (in vitro)","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 81 إلى 85",
+"parts":[
+{"ic":"🔬","fr":"1. Pourquoi in vitro ?","ar":"1. علاش الزراعة in vitro؟","cards":[
+{"ic":"🐢","fr":"Les techniques traditionnelles multiplient vite les plantes, mais en petit nombre.","ar":"التقنيات التقليدية تكثّر النباتات بسرعة لكن بعدد قليل.","p":"ص 81"},
+{"ic":"🚀","fr":"La culture in vitro produit plus de plantes performantes en moins de temps.","ar":"الزراعة in vitro تنتج نباتات أكثر وفي وقت أقصر.","p":"ص 81"}]},
+{"ic":"🌿","fr":"2. Le microbouturage","ar":"2. التعقيل الدقيق","cards":[
+{"ic":"🌱","fr":"On prélève une microbouture avec un bourgeon, qui contient des cellules embryonnaires totipotentes : elles peuvent donner n’importe quelle partie de la plante.","ar":"ناخذو قطعة صغيرة فيها برعم، والبرعم فيه خلايا جنينية totipotentes: تنجم تعطي أي جزء من النبتة.","p":"ص 81"},
+{"ic":"🧼","fr":"Cette technique exige des conditions d’asepsie (milieu stérile).","ar":"تحتاج ظروف معقّمة تمامًا (asepsie).","p":"ص 81"},
+{"ic":"🫒","fr":"En un an, on obtient 400 000 oliviers identiques, contre une vingtaine par bouturage traditionnel.","ar":"في سنة واحدة نتحصّلو على 400 000 زيتونة متطابقة، مقابل عشرين تقريبًا بالتعقيل التقليدي.","p":"ص 81"},
+{"ic":"👯","fr":"Les plantes identiques obtenues forment un clone.","ar":"النباتات المتطابقة الناتجة تكوّن clone.","p":"ص 81"}]},
+{"ic":"🧪","fr":"3. Les étapes chez l’olivier","ar":"3. مراحل الزراعة عند الزيتون","cards":[
+{"ic":"🪜","fr":"Microboutures → milieu nutritif stérile → vitro-pousses (3 mois) → fragmentation et remise en culture (plusieurs fois) → enracinement → mise en pot → plantation au champ.","ar":"قطع صغيرة، ثم وسط مغذٍّ معقّم، ثم vitro-pousses (حوالي 3 أشهر)، ثم تقسيم وإعادة الزراعة (تتكرّر)، ثم التجذير، ثم الغرس في أصيص، ثم الحقل.","img":"fig-invitro.svg","p":"ص 81"}]},
+{"ic":"🧫","fr":"4. Les cellules méristématiques","ar":"4. الخلايا المرستيمية","cards":[
+{"ic":"📍","fr":"À l’extrémité du bourgeon terminal se trouvent des cellules méristématiques qui permettent la croissance et la formation des organes.","ar":"في طرف البرعم الطرفي توجد خلايا مرستيمية تسمح بالنمو وتكوين الأعضاء.","p":"ص 83"},
+{"ic":"🌱","fr":"Isolées et cultivées in vitro, elles donnent un grand nombre d’individus identiques à la plante de départ : un clone.","ar":"كي نعزلوها ونزرعوها in vitro، تعطي عددًا كبيرًا من النباتات المطابقة للنبتة الأصلية.","p":"ص 83"}]},
+{"ic":"💡","fr":"5. L’importance","ar":"5. الأهمية","cards":[
+{"ic":"🦠","fr":"Les maladies à virus font perdre 15 % de la production de pomme de terre ; la culture de méristèmes permet de reconstituer des clones sains.","ar":"أمراض الفيروس تتسبب في فقدان 15 % من إنتاج البطاطا. وزراعة المرستيم تمكّن من إعادة إنتاج نباتات سليمة.","p":"ص 84"},
+{"ic":"🌹","fr":"Elle permet de conserver des plantes en voie de disparition (pommier ancien, rosier ancien).","ar":"تحافظ على نباتات مهدّدة بالانقراض مثل التفاح القديم والورد القديم.","p":"ص 84"},
+{"ic":"🏠","fr":"Un local de 9 m² remplace 25 500 m² de serres.","ar":"قاعة مساحتها 9 م² تعوّض 25 500 م² من البيوت المحمية.","p":"ص 84"},
+{"ic":"💐","fr":"Un exportateur d’œillets obtient en deux ans ce qu’il produisait en quatre.","ar":"مصدّر قرنفل ينتج في سنتين ما كان ينتجه في أربع.","p":"ص 84"}]},
+{"ic":"🧠","fr":"À retenir","ar":"شنوّة نحفظو؟","cards":[
+{"ic":"⭐","fr":"Culture in vitro : multiplication des cellules d’un tissu végétal sur un milieu nutritif adapté pour obtenir de nouvelles plantes identiques.","ar":"الزراعة in vitro: تكثير خلايا نسيج نباتي على وسط مغذٍّ ملائم لنحصل على نباتات جديدة مماثلة.","p":"ص 84"},
+{"ic":"⭐","fr":"Clone : ensemble d’individus aux mêmes caractères, issus d’un seul individu par multiplication végétative.","ar":"Clone: مجموعة أفراد بنفس الصفات من فرد واحد بالتكاثر الخضري.","p":"ص 84"}]}
+],
+"quiz":[
+{"q":"Les cellules totipotentes peuvent donner… / الخلايا totipotentes تعطي…","options":["n’importe quelle partie de la plante","seulement des racines","rien"],"answer":0,"explain":"ص 81."},
+{"q":"La culture in vitro exige… / الزراعة in vitro تتطلب…","options":["des conditions d’asepsie","l’obscurité totale","un champ"],"answer":0,"explain":"ص 81."},
+{"q":"Combien d’oliviers obtient-on en un an par microbouturage ? / كم زيتونة في سنة؟","options":["400 000","20","2"],"answer":0,"explain":"ص 81."},
+{"q":"Les cellules méristématiques se trouvent… / الخلايا المرستيمية توجد…","options":["à l’extrémité du bourgeon terminal","dans la racine seule","dans le fruit"],"answer":0,"explain":"ص 83."},
+{"q":"La culture de méristèmes permet de reconstituer… / زراعة المرستيم تمكّن من إعادة…","options":["des clones sains","des plantes malades","des graines"],"answer":0,"explain":"ص 84."},
+{"q":"Quelle surface de serres remplace un local in vitro de 9 m² ? / أي مساحة بيوت محمية تعوّضها قاعة 9 م²؟","options":["25 500 m²","90 m²","900 m²"],"answer":0,"explain":"ص 84."}
+]
+}
