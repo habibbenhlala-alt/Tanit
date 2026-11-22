@@ -1,0 +1,29 @@
+{
+"id":"svt1-phagocytose","fr":"La phagocytose","ar":"البلعمة (phagocytose)","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 121 و122 و129",
+"parts":[
+{"ic":"⚔️","fr":"1. Une lutte au foyer de l’infection","ar":"1. المعركة في مكان العدوى","cards":[
+{"ic":"🥊","fr":"Au foyer de l’infection, quelle que soit la nature de l’agent pathogène, une lutte pour la survie s’engage entre les polynucléaires et les micro-organismes.","ar":"في مكان العدوى، مهما كان نوع الميكروب، تبدأ معركة بين الكريات البيضاء polynucléaires والميكروبات.","p":"ص 121"},
+{"ic":"🍽️","fr":"Le polynucléaire englobe et ingère le microbe : c’est la phagocytose.","ar":"الكرية البيضاء تحيط بالميكروب وتبتلعه: هذه هي البلعمة.","p":"ص 121"}]},
+{"ic":"3️⃣","fr":"2. Les étapes","ar":"2. المراحل","cards":[
+{"ic":"🧲","fr":"Adhésion : le polynucléaire se colle au microbe.","ar":"الالتصاق (adhésion): الكرية البيضاء تلتصق بالميكروب.","img":"fig-phagocytose.svg","p":"ص 121"},
+{"ic":"🫧","fr":"Absorption (ingestion) : le microbe entre dans la cellule, enfermé dans un phagosome.","ar":"الابتلاع (ingestion): يدخل الميكروب للخلية داخل فقاعة اسمها phagosome.","p":"ص 121"},
+{"ic":"🧪","fr":"Digestion : les vésicules digestives détruisent le microbe.","ar":"الهضم: الحويصلات الهاضمة تدمّر الميكروب.","p":"ص 121"}]},
+{"ic":"⚠️","fr":"3. Une phagocytose réussie ou non","ar":"3. نجاح البلعمة","cards":[
+{"ic":"✅","fr":"Si elle réussit, les bactéries deviennent rapidement méconnaissables : elles sont digérées dans le phagocyte.","ar":"إذا نجحت، البكتيريا تتحلل بسرعة وتُهضم داخل الكرية.","p":"ص 121"},
+{"ic":"🚨","fr":"Parfois, les bactéries se multiplient très vite et résistent : elles peuvent envahir l’organisme, c’est l’infection généralisée appelée septicémie.","ar":"أحياناً تتكاثر البكتيريا بسرعة وتقاوم البلعمة، فتغزو الجسم: عدوى معممة اسمها septicémie.","tip":"لهذا نعالج الجرح بسرعة ولا نهمله.","p":"ص 121"}]},
+{"ic":"🧠","fr":"4. Le bilan de l’immunité non spécifique","ar":"4. الخلاصة","cards":[
+{"ic":"1️⃣","fr":"Première ligne : les barrières naturelles (la peau et les muqueuses) empêchent les microbes d’entrer.","ar":"الخط الأول: الحواجز الطبيعية (الجلد والمخاطيات) تمنع دخول الميكروبات.","p":"ص 129"},
+{"ic":"2️⃣","fr":"Deuxième ligne : la réaction inflammatoire et la phagocytose.","ar":"الخط الثاني: الالتهاب والبلعمة.","p":"ص 129"},
+{"ic":"➡️","fr":"Diapédèse : migration des leucocytes, à travers la paroi des vaisseaux sanguins, vers le foyer d’infection.","ar":"Diapédèse: خروج الكريات البيضاء من جدار الأوعية الدموية نحو مكان العدوى.","p":"ص 122"},
+{"ic":"📖","fr":"Immunité naturelle : défense non spécifique assurée par la peau, les muqueuses, l’inflammation et la phagocytose.","ar":"المناعة الطبيعية: دفاع غير نوعي تقوم به الحواجز والالتهاب والبلعمة.","p":"ص 122"}]}
+],
+"quiz":[
+{"q":"Quel mot désigne l’ingestion d’un microbe par un globule blanc ? / كلمة ابتلاع الميكروب؟","options":["La phagocytose","La diapédèse","La coagulation"],"answer":0,"explain":"ص 121."},
+{"q":"Ordre des étapes / ترتيب المراحل","options":["Digestion → adhésion → ingestion","Adhésion → ingestion → digestion","Ingestion → digestion → adhésion"],"answer":1,"explain":"ص 121."},
+{"q":"Si la phagocytose échoue et que les bactéries envahissent l’organisme : / إذا فشلت البلعمة وانتشرت البكتيريا:","options":["septicémie","turgescence","clone"],"answer":0,"explain":"ص 121."},
+{"q":"La diapédèse est… / الـdiapédèse هي…","options":["la sortie des leucocytes des vaisseaux vers le foyer","la digestion","la formation du pus"],"answer":0,"explain":"ص 122."},
+{"q":"La 2e ligne de défense non spécifique comprend… / الخط الثاني يشمل…","options":["peau et muqueuses","inflammation et phagocytose","vaccins et sérums"],"answer":1,"explain":"ص 129."},
+{"q":"La phagocytose est une défense non spécifique car… / هي غير نوعية لأنها…","options":["elle vise un seul microbe","elle agit contre tout microbe","elle exige un vaccin"],"answer":1,"explain":"ص 121."}
+]
+}
