@@ -42,7 +42,12 @@
 {"id":"svt1-grippe","file":"lesson-svt1-grippe.json","fr":"La grippe et les maladies infectieuses","ar":"الأنفلونزا والأمراض المعدية"},
 {"id":"svt1-tuberculose","file":"lesson-svt1-tuberculose.json","fr":"La tuberculose pulmonaire","ar":"السل الرئوي"},
 {"id":"svt1-rougeole","file":"lesson-svt1-rougeole.json","fr":"La rougeole","ar":"الحصبة"},
-{"id":"svt1-tetanos","file":"lesson-svt1-tetanos.json","fr":"Le tétanos et la prévention","ar":"التيتانوس والوقاية"}]}]},
+{"id":"svt1-tetanos","file":"lesson-svt1-tetanos.json","fr":"Le tétanos et la prévention","ar":"التيتانوس والوقاية"}]},
+{"fr":"La défense de l’organisme","ar":"الفصل 3: دفاع الجسم","lessons":[
+{"id":"svt1-immunite-nonspec","file":"lesson-svt1-immunite-nonspec.json","fr":"L’immunité non spécifique","ar":"المناعة غير النوعية: الحواجز والالتهاب"},
+{"id":"svt1-phagocytose","file":"lesson-svt1-phagocytose.json","fr":"La phagocytose","ar":"البلعمة"},
+{"id":"svt1-vaccination","file":"lesson-svt1-vaccination.json","fr":"La vaccination et l’immunité acquise","ar":"التلقيح والمناعة المكتسبة"},
+{"id":"svt1-serotherapie","file":"lesson-svt1-serotherapie.json","fr":"La sérothérapie","ar":"العلاج بالمصل"}]}]},
 {"id":"geologie","icon":"🪨","fr":"Géologie","ar":"الجيولوجيا","chapters":[]}]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
