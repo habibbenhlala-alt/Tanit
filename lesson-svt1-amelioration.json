@@ -1,0 +1,38 @@
+{
+"id":"svt1-amelioration","fr":"L’amélioration de la production végétale","ar":"تحسين الإنتاج النباتي","video":"",
+"src":"كتاب SVT للسنة الأولى ثانوي (المركز الوطني البيداغوجي) — ص 28 إلى 32 وص 35",
+"parts":[
+{"ic":"🌾","fr":"Introduction","ar":"مقدمة","cards":[
+{"ic":"🚜","fr":"L’agriculture moderne vise à améliorer la qualité et la quantité des productions végétales.","ar":"الفلاحة الحديثة تهدف إلى تحسين جودة الإنتاج النباتي وكميته.","p":"ص 28"},
+{"ic":"❓","fr":"Comment faire ?","ar":"السؤال: كيفاش نحسّنو الإنتاج؟","p":"ص 28"}]},
+{"ic":"💦","fr":"1. L’irrigation complémentaire","ar":"1. السقي التكميلي","cards":[
+{"ic":"🌊","fr":"Trop d’eau est coûteux, assèche les nappes et peut asphyxier les racines, ce qui réduit l’eau absorbée.","ar":"الزيادة في الماء غالية، وتستنزف المائدة المائية، وتخنق الجذور فتنقص كمية الماء الممتصة.","p":"ص 28"},
+{"ic":"🏜️","fr":"Le manque d’eau dépend de l’espèce et du stade : le tournesol le supporte, le maïs est plus affecté. La reproduction est la période la plus sensible.","ar":"تأثير نقص الماء يختلف حسب النبتة والمرحلة: عباد الشمس يتحمله، والذرة تتأثر أكثر. وفترة التكاثر هي الأكثر حساسية.","p":"ص 28"},
+{"ic":"🎯","fr":"L’irrigation rationnelle répond à trois questions : quel système, quand irriguer, quel volume d’eau.","ar":"السقي المعقلن يجاوب على 3 أسئلة: أي نظام؟ وقتاش نسقيو؟ وشحال من ماء؟","tip":"الكتاب يعرّف السقي التكميلي: إضافة الماء للزراعة بتقنيات مختلفة.","p":"ص 28 و32"}]},
+{"ic":"🧂","fr":"2. La fertilisation du sol","ar":"2. تسميد التربة","cards":[
+{"ic":"🧪","fr":"Fertilisation minérale : on épand des engrais chimiques qui contiennent surtout de l’azote, du phosphore et du potassium.","ar":"التسميد المعدني: نرشّو أسمدة كيميائية فيها خاصة الأزوت والفوسفور والبوتاسيوم.","p":"ص 29 و35"},
+{"ic":"🔢","fr":"Les engrais simples contiennent un seul élément ; les engrais composés en contiennent plusieurs.","ar":"السماد البسيط فيه عنصر واحد، والمركّب فيه عدة عناصر.","p":"ص 35"},
+{"ic":"🐄","fr":"Fertilisation organique : on apporte du fumier, des déchets ou un engrais vert, décomposés par les micro-organismes.","ar":"التسميد العضوي: نضيفو للتربة سماد حيواني أو فضلات أو سماد أخضر، والكائنات الدقيقة تحلّلها تدريجيًا.","p":"ص 29"},
+{"ic":"🍀","fr":"Engrais vert : on sème du trèfle ou de la luzerne, puis on les enfouit par labour ; ils libèrent des nitrates pour la culture suivante.","ar":"السماد الأخضر: نزرعو برسيم أو فصّة، وبعد نموّها نحرثو الأرض ونطمروها، فتحرّر النترات للزراعة الجاية.","p":"ص 29"},
+{"ic":"📏","fr":"Une fertilisation rationnelle choisit le bon engrais, la bonne dose et le bon moment.","ar":"التسميد المعقلن: السماد المناسب، بالجرعة المناسبة، في الوقت المناسب.","p":"ص 29 و35"}]},
+{"ic":"🌽","fr":"3. Le choix des semences","ar":"3. اختيار البذور","cards":[
+{"ic":"🏅","fr":"Le choix des semences repose sur la qualité, le rendement et la résistance à l’aridité et aux maladies.","ar":"اختيار البذور يعتمد على الجودة والمردودية ومقاومة الجفاف والأمراض.","p":"ص 30"},
+{"ic":"🇲🇽","fr":"En 1943, les agronomes mexicains ont trouvé une variété de blé résistante à la rouille de la tige : le Mexique est devenu autosuffisant en blé.","ar":"في 1943 لقى المهندسون الفلاحيون في المكسيك صنف قمح يقاوم مرض rouille de la tige، فأصبحت المكسيك تكتفي ذاتيًا من القمح.","p":"ص 30"}]},
+{"ic":"🏡","fr":"4. Les serres et la culture hors sol","ar":"4. البيوت المحمية والزراعة بدون تربة","cards":[
+{"ic":"🏡","fr":"Les serres sont des lieux de culture aux conditions climatiques, hydriques et thermiques contrôlées, surtout pour les légumes et les fleurs.","ar":"البيوت المحمية أماكن زراعة نتحكم فيها في المناخ والماء والحرارة، خاصة للخضر والزهور.","p":"ص 30 و32"},
+{"ic":"📅","fr":"On cultive souvent de façon décalée par rapport à la saison naturelle.","ar":"نزرعو في وقت مختلف على الموسم الطبيعي.","p":"ص 30"},
+{"ic":"🍅","fr":"En culture hors sol, les tomates poussent sur une solution nutritive d’eau et de sels minéraux dosés ; la production est aussi bonne, voire meilleure.","ar":"في الزراعة بدون تربة، الطماطم تنمو على محلول مغذّي (ماء + أملاح بجرعات مضبوطة)، والإنتاج جيد، وحتى أفضل من الزراعة التقليدية.","p":"ص 31"}]},
+{"ic":"🌿","fr":"5. Les mauvaises herbes et les produits de traitement","ar":"5. الأعشاب الضارة ومواد المقاومة","cards":[
+{"ic":"⚔️","fr":"Les mauvaises herbes entrent en compétition avec les cultures pour l’eau et les sels minéraux.","ar":"الأعشاب الضارة تنافس الزراعة في الماء والأملاح.","p":"ص 35"},
+{"ic":"🧴","fr":"Pesticide : détruit les parasites. Désherbant : élimine les plantes indésirables.","ar":"Pesticide يقتل الطفيليات، وDésherbant يقضي على الأعشاب غير المرغوبة.","p":"ص 32"},
+{"ic":"🍄","fr":"Fongicide : combat les champignons. Insecticide : élimine les insectes.","ar":"Fongicide يقاوم الفطريات، وInsecticide يقضي على الحشرات.","p":"ص 32"}]}
+],
+"quiz":[
+{"q":"Un excès d’eau peut… / الزيادة في الماء ممكن…","options":["asphyxier les racines","augmenter toujours l’absorption","remplacer les engrais"],"answer":0,"explain":"تخنق الجذور وتنقص الماء الممتص (ص 28)."},
+{"q":"Quelle période est la plus sensible au manque d’eau ? / أي فترة أكثر حساسية لنقص الماء؟","options":["La reproduction","La germination des graines sèches","Le stockage"],"answer":0,"explain":"ص 28."},
+{"q":"Un engrais vert est… / السماد الأخضر هو…","options":["du trèfle ou de la luzerne enfouis dans le sol","un engrais chimique coloré","un pesticide"],"answer":0,"explain":"ص 29."},
+{"q":"Un engrais composé contient… / السماد المركّب فيه…","options":["plusieurs éléments fertilisants","un seul élément","aucun élément"],"answer":0,"explain":"ص 35."},
+{"q":"Sur quoi repose le choix des semences ? / على ماذا يعتمد اختيار البذور؟","options":["Qualité, rendement, résistance","La couleur seulement","Le prix seulement"],"answer":0,"explain":"ص 30."},
+{"q":"Quel produit combat les champignons ? / أي مادة تقاوم الفطريات؟","options":["Le fongicide","L’insecticide","Le désherbant"],"answer":0,"explain":"ص 32."}
+]
+}
