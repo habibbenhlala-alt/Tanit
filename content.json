@@ -20,7 +20,11 @@
 {"id":"svt1-amelioration","file":"lesson-svt1-amelioration.json","fr":"L’amélioration de la production végétale","ar":"تحسين الإنتاج النباتي"},
 {"id":"svt1-matiere-organique","file":"lesson-svt1-matiere-organique.json","fr":"La matière organique dans la plante","ar":"المادة العضوية في النبتة"},
 {"id":"svt1-conditions","file":"lesson-svt1-conditions.json","fr":"Les conditions de la photosynthèse","ar":"شروط التركيب الضوئي"},
-{"id":"svt1-chloroplaste","file":"lesson-svt1-chloroplaste.json","fr":"Le chloroplaste et la chlorophylle","ar":"البلاستيدة والكلوروفيل"}]},
+{"id":"svt1-chloroplaste","file":"lesson-svt1-chloroplaste.json","fr":"Le chloroplaste et la chlorophylle","ar":"البلاستيدة والكلوروفيل"},
+{"id":"svt1-oxygene","file":"lesson-svt1-oxygene.json","fr":"L’origine de l’oxygène","ar":"مصدر الأكسجين ومراحل التركيب"},
+{"id":"svt1-seve-elaboree","file":"lesson-svt1-seve-elaboree.json","fr":"La sève élaborée","ar":"العصارة الناضجة"},
+{"id":"svt1-intensite","file":"lesson-svt1-intensite.json","fr":"L’intensité photosynthétique","ar":"شدّة التركيب الضوئي"},
+{"id":"svt1-risques","file":"lesson-svt1-risques.json","fr":"Les risques des engrais et pesticides","ar":"أخطار الأسمدة والمبيدات"}]},
 {"id":"math","icon":"📐","fr":"Mathématiques","ar":"الرياضيات","lessons":[]},
 {"id":"phys","icon":"⚡","fr":"Physique","ar":"الفيزياء","lessons":[]},
 {"id":"chim","icon":"🧪","fr":"Chimie","ar":"الكيمياء","lessons":[]}]}
